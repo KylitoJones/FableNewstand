@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-23T09:55:14-06:00",
+ "generated": "2026-07-23T16:37:31-06:00",
  "date": "2026-07-23",
- "count": 433,
+ "count": 442,
  "papers": [
   {
    "uid": "fp:forbes",
@@ -1004,10 +1004,40 @@
    "img": null
   },
   {
+   "uid": "kk:fr/courrierpicard",
+   "source": "kk",
+   "id": "fr/courrierpicard",
+   "name": "Courrier Picard",
+   "country": "France",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:l-equipe",
    "source": "fp",
    "id": "l-equipe",
    "name": "L'Equipe",
+   "country": "France",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:fr/l_express",
+   "source": "kk",
+   "id": "fr/l_express",
+   "name": "L'Express",
+   "country": "France",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:fr/lyonnerepublicaine",
+   "source": "kk",
+   "id": "fr/lyonnerepublicaine",
+   "name": "L'Yonne-R\u00e9publicaine",
    "country": "France",
    "state": null,
    "region": "weurope",
@@ -1024,10 +1054,50 @@
    "img": null
   },
   {
+   "uid": "kk:fr/depeche",
+   "source": "kk",
+   "id": "fr/depeche",
+   "name": "La D\u00e9p\u00eache du Midi",
+   "country": "France",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:fr/republiquepyrenees",
+   "source": "kk",
+   "id": "fr/republiquepyrenees",
+   "name": "La R\u00e9publique des Pyr\u00e9n\u00e9es",
+   "country": "France",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:la-tribune",
    "source": "fp",
    "id": "la-tribune",
    "name": "La Tribune",
+   "country": "France",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:fr/voixdunord",
+   "source": "kk",
+   "id": "fr/voixdunord",
+   "name": "La Voix du Nord",
+   "country": "France",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:fr/dauphine",
+   "source": "kk",
+   "id": "fr/dauphine",
+   "name": "Le Dauphin\u00e9 Lib\u00e9r\u00e9",
    "country": "France",
    "state": null,
    "region": "weurope",
@@ -1138,6 +1208,16 @@
    "source": "fp",
    "id": "ouest-france",
    "name": "Ouest France",
+   "country": "France",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:fr/sudouest",
+   "source": "kk",
+   "id": "fr/sudouest",
+   "name": "Sud Ouest",
    "country": "France",
    "state": null,
    "region": "weurope",
@@ -2548,6 +2628,16 @@
    "source": "fp",
    "id": "derby-telegraph",
    "name": "Derby Telegraph",
+   "country": "United Kingdom",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:uk/evening_standard",
+   "source": "kk",
+   "id": "uk/evening_standard",
+   "name": "Evening Standard",
    "country": "United Kingdom",
    "state": null,
    "region": "weurope",
