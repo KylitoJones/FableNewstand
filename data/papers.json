@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-22T23:34:21-06:00",
- "date": "2026-07-22",
- "count": 407,
+ "generated": "2026-07-23T09:55:14-06:00",
+ "date": "2026-07-23",
+ "count": 433,
  "papers": [
   {
    "uid": "fp:forbes",
@@ -38,6 +38,16 @@
    "source": "fp",
    "id": "rolling-stone-usa",
    "name": "Rolling Stone",
+   "country": "United States",
+   "state": null,
+   "region": "us",
+   "img": null
+  },
+  {
+   "uid": "kk:us/mercure_news",
+   "source": "kk",
+   "id": "us/mercure_news",
+   "name": "San Jose Mercury News",
    "country": "United States",
    "state": null,
    "region": "us",
@@ -1674,6 +1684,16 @@
    "img": null
   },
   {
+   "uid": "kk:nl/ad",
+   "source": "kk",
+   "id": "nl/ad",
+   "name": "Ad",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:ad-sportwereld",
    "source": "fp",
    "id": "ad-sportwereld",
@@ -1994,10 +2014,30 @@
    "img": null
   },
   {
+   "uid": "kk:es/as",
+   "source": "kk",
+   "id": "es/as",
+   "name": "As",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:as",
    "source": "fp",
    "id": "as",
    "name": "AS | Madrid",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/5dias",
+   "source": "kk",
+   "id": "es/5dias",
+   "name": "Cinco D\u00edas",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -2064,10 +2104,30 @@
    "img": null
   },
   {
+   "uid": "kk:es/mundodeportivo",
+   "source": "kk",
+   "id": "es/mundodeportivo",
+   "name": "El Mundo Deportivo",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:el-pais",
    "source": "fp",
    "id": "el-pais",
    "name": "El Pa\u00eds",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/elperiodico",
+   "source": "kk",
+   "id": "es/elperiodico",
+   "name": "El Peri\u00f3dico",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -2094,10 +2154,30 @@
    "img": null
   },
   {
+   "uid": "kk:es/heraldo_aragon",
+   "source": "kk",
+   "id": "es/heraldo_aragon",
+   "name": "Heraldo de Arag\u00f3n",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:l-esportiu",
    "source": "fp",
    "id": "l-esportiu",
    "name": "L'Esportiu",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/lanuevaespana",
+   "source": "kk",
+   "id": "es/lanuevaespana",
+   "name": "La Nueva Espa\u00f1a",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -2124,6 +2204,16 @@
    "img": null
   },
   {
+   "uid": "kk:es/vozgalicia",
+   "source": "kk",
+   "id": "es/vozgalicia",
+   "name": "La Voz de Galicia",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:marca",
    "source": "fp",
    "id": "marca",
@@ -2138,6 +2228,16 @@
    "source": "fp",
    "id": "mundo-deportivo",
    "name": "Mundo Deportivo",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/sport",
+   "source": "kk",
+   "id": "es/sport",
+   "name": "Sport",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -2224,6 +2324,16 @@
    "img": null
   },
   {
+   "uid": "kk:ch/24_heures",
+   "source": "kk",
+   "id": "ch/24_heures",
+   "name": "24 Heures",
+   "country": "Switzerland",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:blick",
    "source": "fp",
    "id": "blick",
@@ -2244,10 +2354,30 @@
    "img": null
   },
   {
+   "uid": "kk:ch/tribune_geneve",
+   "source": "kk",
+   "id": "ch/tribune_geneve",
+   "name": "La Tribune de Gen\u00e8ve",
+   "country": "Switzerland",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:la-regione-svizzera",
    "source": "fp",
    "id": "la-regione-svizzera",
    "name": "laRegione",
+   "country": "Switzerland",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:ch/le_matin",
+   "source": "kk",
+   "id": "ch/le_matin",
+   "name": "Le Matin",
    "country": "Switzerland",
    "state": null,
    "region": "weurope",
@@ -2264,10 +2394,30 @@
    "img": null
   },
   {
+   "uid": "kk:ch/neue_zurcher_zeitung",
+   "source": "kk",
+   "id": "ch/neue_zurcher_zeitung",
+   "name": "Neue Z\u00fcrcher Zeitung",
+   "country": "Switzerland",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:neue-zurcher-zeitung",
    "source": "fp",
    "id": "neue-zurcher-zeitung",
    "name": "NZZ | Neue Z\u00fcrcher Zeitung",
+   "country": "Switzerland",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:ch/tages_anzeiger",
+   "source": "kk",
+   "id": "ch/tages_anzeiger",
+   "name": "Tages-Anzeiger",
    "country": "Switzerland",
    "state": null,
    "region": "weurope",
@@ -2624,6 +2774,66 @@
    "img": null
   },
   {
+   "uid": "kk:ar/ar_sureno",
+   "source": "kk",
+   "id": "ar/ar_sureno",
+   "name": "Diario El Sure\u00f1o",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/la_capital",
+   "source": "kk",
+   "id": "ar/la_capital",
+   "name": "Diario La Capital - Mar del Plata",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/ar_ancasti",
+   "source": "kk",
+   "id": "ar/ar_ancasti",
+   "name": "El Ancasti",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/ar_chubut",
+   "source": "kk",
+   "id": "ar/ar_chubut",
+   "name": "El Chubut",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/ar_cronista",
+   "source": "kk",
+   "id": "ar/ar_cronista",
+   "name": "El Cronista Comercial",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/ar_capital_rosario",
+   "source": "kk",
+   "id": "ar/ar_capital_rosario",
+   "name": "La Capital - Rosario",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:la-nacion",
    "source": "fp",
    "id": "la-nacion",
@@ -2634,10 +2844,40 @@
    "img": null
   },
   {
+   "uid": "kk:ar/voz_chaco",
+   "source": "kk",
+   "id": "ar/voz_chaco",
+   "name": "La Voz del Chaco",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/ar_voz_interior",
+   "source": "kk",
+   "id": "ar/ar_voz_interior",
+   "name": "La Voz del Interior",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:ole-ar",
    "source": "fp",
    "id": "ole-ar",
    "name": "Ol\u00e9",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/ar_rio_negro",
+   "source": "kk",
+   "id": "ar/ar_rio_negro",
+   "name": "Rio Negro",
    "country": "Argentina",
    "state": null,
    "region": "world",
@@ -3124,6 +3364,16 @@
    "img": null
   },
   {
+   "uid": "kk:in/new_indian_express",
+   "source": "kk",
+   "id": "in/new_indian_express",
+   "name": "New Indian Express",
+   "country": "India",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:sportstar",
    "source": "fp",
    "id": "sportstar",
@@ -3148,6 +3398,16 @@
    "source": "fp",
    "id": "the-hindu",
    "name": "The Hindu",
+   "country": "India",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:in/statesman",
+   "source": "kk",
+   "id": "in/statesman",
+   "name": "The Statesman",
    "country": "India",
    "state": null,
    "region": "world",
