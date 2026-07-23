@@ -1,13 +1,53 @@
 {
- "generated": "2026-07-23T16:37:31-06:00",
+ "generated": "2026-07-23T17:19:24-06:00",
  "date": "2026-07-23",
- "count": 442,
+ "count": 824,
  "papers": [
+  {
+   "uid": "kk:us/arizona_daily_star",
+   "source": "kk",
+   "id": "us/arizona_daily_star",
+   "name": "Arizona Daily Star",
+   "country": "United States",
+   "state": null,
+   "region": "us",
+   "img": null
+  },
+  {
+   "uid": "kk:us/arizona_republic",
+   "source": "kk",
+   "id": "us/arizona_republic",
+   "name": "Arizona Republic News",
+   "country": "United States",
+   "state": null,
+   "region": "us",
+   "img": null
+  },
+  {
+   "uid": "kk:us/ny_daily_news",
+   "source": "kk",
+   "id": "us/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "United States",
+   "state": null,
+   "region": "us",
+   "img": null
+  },
   {
    "uid": "fp:forbes",
    "source": "fp",
    "id": "forbes",
    "name": "Forbes",
+   "country": "United States",
+   "state": null,
+   "region": "us",
+   "img": null
+  },
+  {
+   "uid": "kk:us/ca_journal_montreal",
+   "source": "kk",
+   "id": "us/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
    "country": "United States",
    "state": null,
    "region": "us",
@@ -74,10 +114,60 @@
    "img": null
   },
   {
+   "uid": "kk:us/gazette",
+   "source": "kk",
+   "id": "us/gazette",
+   "name": "The Gazette",
+   "country": "United States",
+   "state": null,
+   "region": "us",
+   "img": null
+  },
+  {
    "uid": "fp:the-new-yorker",
    "source": "fp",
    "id": "the-new-yorker",
    "name": "The New Yorker",
+   "country": "United States",
+   "state": null,
+   "region": "us",
+   "img": null
+  },
+  {
+   "uid": "kk:us/ca_province",
+   "source": "kk",
+   "id": "us/ca_province",
+   "name": "The Province",
+   "country": "United States",
+   "state": null,
+   "region": "us",
+   "img": null
+  },
+  {
+   "uid": "kk:us/ca_toronto_star",
+   "source": "kk",
+   "id": "us/ca_toronto_star",
+   "name": "The Toronto Star",
+   "country": "United States",
+   "state": null,
+   "region": "us",
+   "img": null
+  },
+  {
+   "uid": "kk:us/ca_toronto_sun",
+   "source": "kk",
+   "id": "us/ca_toronto_sun",
+   "name": "The Toronto Sun",
+   "country": "United States",
+   "state": null,
+   "region": "us",
+   "img": null
+  },
+  {
+   "uid": "kk:us/ca_vancouver_sun",
+   "source": "kk",
+   "id": "us/ca_vancouver_sun",
+   "name": "The Vancouver Sun",
    "country": "United States",
    "state": null,
    "region": "us",
@@ -118,6 +208,16 @@
    "source": "fp",
    "id": "vanity-fair",
    "name": "Vanity Fair | US",
+   "country": "United States",
+   "state": null,
+   "region": "us",
+   "img": null
+  },
+  {
+   "uid": "kk:us/winnipeg_free_press",
+   "source": "kk",
+   "id": "us/winnipeg_free_press",
+   "name": "Winnipeg Free Press",
    "country": "United States",
    "state": null,
    "region": "us",
@@ -238,6 +338,16 @@
    "source": "fp",
    "id": "el-nuevo-herald",
    "name": "El Nuevo Herald",
+   "country": "United States",
+   "state": "Florida",
+   "region": "us",
+   "img": null
+  },
+  {
+   "uid": "kk:us/tampa_bay_times",
+   "source": "kk",
+   "id": "us/tampa_bay_times",
+   "name": "Tampa Bay Times",
    "country": "United States",
    "state": "Florida",
    "region": "us",
@@ -544,6 +654,26 @@
    "img": null
   },
   {
+   "uid": "kk:ca/chicago_sun_times",
+   "source": "kk",
+   "id": "ca/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/chicago_tribune",
+   "source": "kk",
+   "id": "ca/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
    "uid": "fp:corriere-canadese",
    "source": "fp",
    "id": "corriere-canadese",
@@ -554,10 +684,50 @@
    "img": null
   },
   {
+   "uid": "kk:ca/ny_daily_news",
+   "source": "kk",
+   "id": "ca/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
    "uid": "fp:edmonton-journal",
    "source": "fp",
    "id": "edmonton-journal",
    "name": "Edmonton Journal",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/eldiario",
+   "source": "kk",
+   "id": "ca/eldiario",
+   "name": "El Diario NY",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/houston_chronicle",
+   "source": "kk",
+   "id": "ca/houston_chronicle",
+   "name": "Houston Chronicle",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/laopinion",
+   "source": "kk",
+   "id": "ca/laopinion",
+   "name": "La Opini\u00f3n",
    "country": "Canada",
    "state": null,
    "region": "canada",
@@ -584,6 +754,16 @@
    "img": null
   },
   {
+   "uid": "kk:ca/latimes",
+   "source": "kk",
+   "id": "ca/latimes",
+   "name": "Los Angeles Times",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
    "uid": "fp:national-post",
    "source": "fp",
    "id": "national-post",
@@ -594,10 +774,90 @@
    "img": null
   },
   {
+   "uid": "kk:ca/newyork_times",
+   "source": "kk",
+   "id": "ca/newyork_times",
+   "name": "New York Times",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/newsday",
+   "source": "kk",
+   "id": "ca/newsday",
+   "name": "Newsday",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
    "uid": "fp:ottawa-citizen",
    "source": "fp",
    "id": "ottawa-citizen",
    "name": "Ottawa Citizen",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/philadelphia_inquirer",
+   "source": "kk",
+   "id": "ca/philadelphia_inquirer",
+   "name": "Philadelphia Inquirer",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/pittsburgh_post_gazette",
+   "source": "kk",
+   "id": "ca/pittsburgh_post_gazette",
+   "name": "Pittsburgh Post-Gazette",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/sf_chronicle",
+   "source": "kk",
+   "id": "ca/sf_chronicle",
+   "name": "San Francisco Chronicle",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/mercure_news",
+   "source": "kk",
+   "id": "ca/mercure_news",
+   "name": "San Jose Mercury News",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/starledger",
+   "source": "kk",
+   "id": "ca/starledger",
+   "name": "Star-Ledger",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/tampa_bay_times",
+   "source": "kk",
+   "id": "ca/tampa_bay_times",
+   "name": "Tampa Bay Times",
    "country": "Canada",
    "state": null,
    "region": "canada",
@@ -654,10 +914,40 @@
    "img": null
   },
   {
+   "uid": "kk:ca/orange_register",
+   "source": "kk",
+   "id": "ca/orange_register",
+   "name": "The Orange County Register",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
    "uid": "fp:the-province",
    "source": "fp",
    "id": "the-province",
    "name": "The Province",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/sacramento_bee",
+   "source": "kk",
+   "id": "ca/sacramento_bee",
+   "name": "The Sacramento Bee",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/washington_post",
+   "source": "kk",
+   "id": "ca/washington_post",
+   "name": "The Washington Post",
    "country": "Canada",
    "state": null,
    "region": "canada",
@@ -684,10 +974,30 @@
    "img": null
   },
   {
+   "uid": "kk:ca/tribune_review",
+   "source": "kk",
+   "id": "ca/tribune_review",
+   "name": "Tribune-Review",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
    "uid": "fp:vancouver-sun",
    "source": "fp",
    "id": "vancouver-sun",
    "name": "Vancouver Sun",
+   "country": "Canada",
+   "state": null,
+   "region": "canada",
+   "img": null
+  },
+  {
+   "uid": "kk:ca/wsj",
+   "source": "kk",
+   "id": "ca/wsj",
+   "name": "Wall Street Journal",
    "country": "Canada",
    "state": null,
    "region": "canada",
@@ -708,6 +1018,16 @@
    "source": "kk",
    "id": "mx/mx_am",
    "name": "Al D\u00eda A.M",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/boston_globe",
+   "source": "kk",
+   "id": "mx/boston_globe",
+   "name": "Boston Globe",
    "country": "Mexico",
    "state": null,
    "region": "mexico",
@@ -774,6 +1094,16 @@
    "img": null
   },
   {
+   "uid": "kk:mx/mx_sol_durango",
+   "source": "kk",
+   "id": "mx/mx_sol_durango",
+   "name": "El Sol de Durango",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
    "uid": "fp:el-sol-de-mexico",
    "source": "fp",
    "id": "el-sol-de-mexico",
@@ -824,10 +1154,30 @@
    "img": null
   },
   {
+   "uid": "kk:mx/houston_chronicle",
+   "source": "kk",
+   "id": "mx/houston_chronicle",
+   "name": "Houston Chronicle",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
    "uid": "fp:la-jornada",
    "source": "fp",
    "id": "la-jornada",
    "name": "La Jornada",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/laopinion",
+   "source": "kk",
+   "id": "mx/laopinion",
+   "name": "La Opini\u00f3n",
    "country": "Mexico",
    "state": null,
    "region": "mexico",
@@ -844,10 +1194,50 @@
    "img": null
   },
   {
+   "uid": "kk:mx/latimes",
+   "source": "kk",
+   "id": "mx/latimes",
+   "name": "Los Angeles Times",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
    "uid": "fp:milenio",
    "source": "fp",
    "id": "milenio",
    "name": "Milenio",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/mx_milenio_jalisco",
+   "source": "kk",
+   "id": "mx/mx_milenio_jalisco",
+   "name": "Milenio - Jalisco",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/mx_milenio_laguna",
+   "source": "kk",
+   "id": "mx/mx_milenio_laguna",
+   "name": "Milenio - Laguna",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/mx_milenio_hidalgo",
+   "source": "kk",
+   "id": "mx/mx_milenio_hidalgo",
+   "name": "Milenio de Hidalgo",
    "country": "Mexico",
    "state": null,
    "region": "mexico",
@@ -884,10 +1274,110 @@
    "img": null
   },
   {
+   "uid": "kk:mx/sf_chronicle",
+   "source": "kk",
+   "id": "mx/sf_chronicle",
+   "name": "San Francisco Chronicle",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/mercure_news",
+   "source": "kk",
+   "id": "mx/mercure_news",
+   "name": "San Jose Mercury News",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/st_louis_post",
+   "source": "kk",
+   "id": "mx/st_louis_post",
+   "name": "St. Louis Post-Dispatch",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/starledger",
+   "source": "kk",
+   "id": "mx/starledger",
+   "name": "Star-Ledger",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/tampa_bay_times",
+   "source": "kk",
+   "id": "mx/tampa_bay_times",
+   "name": "Tampa Bay Times",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
    "uid": "fp:ermometro-economico",
    "source": "fp",
    "id": "ermometro-economico",
    "name": "Term\u00f3metro Econ\u00f3mico (El Economista)",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/atlanta_journal_conts",
+   "source": "kk",
+   "id": "mx/atlanta_journal_conts",
+   "name": "The Atlanta Journal-Constitution",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/gazette",
+   "source": "kk",
+   "id": "mx/gazette",
+   "name": "The Gazette",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/orange_register",
+   "source": "kk",
+   "id": "mx/orange_register",
+   "name": "The Orange County Register",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/oregonian",
+   "source": "kk",
+   "id": "mx/oregonian",
+   "name": "The Oregonian",
+   "country": "Mexico",
+   "state": null,
+   "region": "mexico",
+   "img": null
+  },
+  {
+   "uid": "kk:mx/sacramento_bee",
+   "source": "kk",
+   "id": "mx/sacramento_bee",
+   "name": "The Sacramento Bee",
    "country": "Mexico",
    "state": null,
    "region": "mexico",
@@ -944,6 +1434,66 @@
    "img": null
   },
   {
+   "uid": "kk:be/arizona_daily_star",
+   "source": "kk",
+   "id": "be/arizona_daily_star",
+   "name": "Arizona Daily Star",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/arizona_republic",
+   "source": "kk",
+   "id": "be/arizona_republic",
+   "name": "Arizona Republic News",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/boston_globe",
+   "source": "kk",
+   "id": "be/boston_globe",
+   "name": "Boston Globe",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/chicago_sun_times",
+   "source": "kk",
+   "id": "be/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/chicago_tribune",
+   "source": "kk",
+   "id": "be/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/ny_daily_news",
+   "source": "kk",
+   "id": "be/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "kk:be/morgen",
    "source": "kk",
    "id": "be/morgen",
@@ -954,10 +1504,120 @@
    "img": null
   },
   {
+   "uid": "kk:be/eldiario",
+   "source": "kk",
+   "id": "be/eldiario",
+   "name": "El Diario NY",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/ca_journal_montreal",
+   "source": "kk",
+   "id": "be/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:le-soir",
    "source": "fp",
    "id": "le-soir",
    "name": "Le Soir",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/newyork_times",
+   "source": "kk",
+   "id": "be/newyork_times",
+   "name": "New York Times",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/newsday",
+   "source": "kk",
+   "id": "be/newsday",
+   "name": "Newsday",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/philadelphia_inquirer",
+   "source": "kk",
+   "id": "be/philadelphia_inquirer",
+   "name": "Philadelphia Inquirer",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/pittsburgh_post_gazette",
+   "source": "kk",
+   "id": "be/pittsburgh_post_gazette",
+   "name": "Pittsburgh Post-Gazette",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/ca_montreal_gazette",
+   "source": "kk",
+   "id": "be/ca_montreal_gazette",
+   "name": "The Gazette",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/ca_toronto_star",
+   "source": "kk",
+   "id": "be/ca_toronto_star",
+   "name": "The Toronto Star",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/ca_toronto_sun",
+   "source": "kk",
+   "id": "be/ca_toronto_sun",
+   "name": "The Toronto Sun",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/tribune_review",
+   "source": "kk",
+   "id": "be/tribune_review",
+   "name": "Tribune-Review",
+   "country": "Belgium",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:be/wsj",
+   "source": "kk",
+   "id": "be/wsj",
+   "name": "Wall Street Journal",
    "country": "Belgium",
    "state": null,
    "region": "weurope",
@@ -1494,6 +2154,36 @@
    "img": null
   },
   {
+   "uid": "kk:it/arizona_daily_star",
+   "source": "kk",
+   "id": "it/arizona_daily_star",
+   "name": "Arizona Daily Star",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/arizona_republic",
+   "source": "kk",
+   "id": "it/arizona_republic",
+   "name": "Arizona Republic News",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/boston_globe",
+   "source": "kk",
+   "id": "it/boston_globe",
+   "name": "Boston Globe",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "kk:it/corriere_della_sera",
    "source": "kk",
    "id": "it/corriere_della_sera",
@@ -1508,6 +2198,26 @@
    "source": "kk",
    "id": "it/corriere_sport",
    "name": "Corriere dello Sport",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/ny_daily_news",
+   "source": "kk",
+   "id": "it/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/eldiario",
+   "source": "kk",
+   "id": "it/eldiario",
+   "name": "El Diario NY",
    "country": "Italy",
    "state": null,
    "region": "weurope",
@@ -1574,6 +2284,16 @@
    "img": null
   },
   {
+   "uid": "kk:it/ca_journal_montreal",
+   "source": "kk",
+   "id": "it/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:quotidiani-lombardia",
    "source": "fp",
    "id": "quotidiani-lombardia",
@@ -1588,6 +2308,26 @@
    "source": "kk",
    "id": "it/milano_finanza",
    "name": "Milano Finanza",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/newyork_times",
+   "source": "kk",
+   "id": "it/newyork_times",
+   "name": "New York Times",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/newsday",
+   "source": "kk",
+   "id": "it/newsday",
+   "name": "Newsday",
    "country": "Italy",
    "state": null,
    "region": "weurope",
@@ -1684,6 +2424,66 @@
    "img": null
   },
   {
+   "uid": "kk:it/tampa_bay_times",
+   "source": "kk",
+   "id": "it/tampa_bay_times",
+   "name": "Tampa Bay Times",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/atlanta_journal_conts",
+   "source": "kk",
+   "id": "it/atlanta_journal_conts",
+   "name": "The Atlanta Journal-Constitution",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/ca_montreal_gazette",
+   "source": "kk",
+   "id": "it/ca_montreal_gazette",
+   "name": "The Gazette",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/oregonian",
+   "source": "kk",
+   "id": "it/oregonian",
+   "name": "The Oregonian",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/ca_toronto_star",
+   "source": "kk",
+   "id": "it/ca_toronto_star",
+   "name": "The Toronto Star",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/ca_toronto_sun",
+   "source": "kk",
+   "id": "it/ca_toronto_sun",
+   "name": "The Toronto Sun",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "kk:it/tuttosport",
    "source": "kk",
    "id": "it/tuttosport",
@@ -1698,6 +2498,16 @@
    "source": "fp",
    "id": "ultimi-aggiornamenti",
    "name": "ULTIMI Aggiornamenti",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:it/wsj",
+   "source": "kk",
+   "id": "it/wsj",
+   "name": "Wall Street Journal",
    "country": "Italy",
    "state": null,
    "region": "weurope",
@@ -1794,6 +2604,36 @@
    "img": null
   },
   {
+   "uid": "kk:nl/chicago_sun_times",
+   "source": "kk",
+   "id": "nl/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/chicago_tribune",
+   "source": "kk",
+   "id": "nl/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/ny_daily_news",
+   "source": "kk",
+   "id": "nl/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:de-telegraaf",
    "source": "fp",
    "id": "de-telegraaf",
@@ -1808,6 +2648,16 @@
    "source": "fp",
    "id": "de-volkskrant",
    "name": "de Volkskrant",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/eldiario",
+   "source": "kk",
+   "id": "nl/eldiario",
+   "name": "El Diario NY",
    "country": "Netherlands",
    "state": null,
    "region": "weurope",
@@ -1834,6 +2684,26 @@
    "img": null
   },
   {
+   "uid": "kk:nl/newyork_times",
+   "source": "kk",
+   "id": "nl/newyork_times",
+   "name": "New York Times",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/newsday",
+   "source": "kk",
+   "id": "nl/newsday",
+   "name": "Newsday",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:nrc-handelsblad",
    "source": "fp",
    "id": "nrc-handelsblad",
@@ -1844,10 +2714,120 @@
    "img": null
   },
   {
+   "uid": "kk:nl/philadelphia_inquirer",
+   "source": "kk",
+   "id": "nl/philadelphia_inquirer",
+   "name": "Philadelphia Inquirer",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/pittsburgh_post_gazette",
+   "source": "kk",
+   "id": "nl/pittsburgh_post_gazette",
+   "name": "Pittsburgh Post-Gazette",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/starledger",
+   "source": "kk",
+   "id": "nl/starledger",
+   "name": "Star-Ledger",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/tampa_bay_times",
+   "source": "kk",
+   "id": "nl/tampa_bay_times",
+   "name": "Tampa Bay Times",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/gazette",
+   "source": "kk",
+   "id": "nl/gazette",
+   "name": "The Gazette",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/oregonian",
+   "source": "kk",
+   "id": "nl/oregonian",
+   "name": "The Oregonian",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/plain_dealer",
+   "source": "kk",
+   "id": "nl/plain_dealer",
+   "name": "The Plain Dealer",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/ca_toronto_star",
+   "source": "kk",
+   "id": "nl/ca_toronto_star",
+   "name": "The Toronto Star",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/ca_toronto_sun",
+   "source": "kk",
+   "id": "nl/ca_toronto_sun",
+   "name": "The Toronto Sun",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/tribune_review",
+   "source": "kk",
+   "id": "nl/tribune_review",
+   "name": "Tribune-Review",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:trouw",
    "source": "fp",
    "id": "trouw",
    "name": "Trouw",
+   "country": "Netherlands",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:nl/wsj",
+   "source": "kk",
+   "id": "nl/wsj",
+   "name": "Wall Street Journal",
    "country": "Netherlands",
    "state": null,
    "region": "weurope",
@@ -1874,10 +2854,50 @@
    "img": null
   },
   {
+   "uid": "kk:no/arizona_daily_star",
+   "source": "kk",
+   "id": "no/arizona_daily_star",
+   "name": "Arizona Daily Star",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/arizona_republic",
+   "source": "kk",
+   "id": "no/arizona_republic",
+   "name": "Arizona Republic News",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:bergens-tidende",
    "source": "fp",
    "id": "bergens-tidende",
    "name": "Bergens Tidende",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/chicago_sun_times",
+   "source": "kk",
+   "id": "no/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/chicago_tribune",
+   "source": "kk",
+   "id": "no/chicago_tribune",
+   "name": "Chicago Tribune",
    "country": "Norway",
    "state": null,
    "region": "weurope",
@@ -1914,10 +2934,40 @@
    "img": null
   },
   {
+   "uid": "kk:no/ny_daily_news",
+   "source": "kk",
+   "id": "no/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/eldiario",
+   "source": "kk",
+   "id": "no/eldiario",
+   "name": "El Diario NY",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:faedrelandsvennen",
    "source": "fp",
    "id": "faedrelandsvennen",
    "name": "F\u00e6drelandsvennen",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/houston_chronicle",
+   "source": "kk",
+   "id": "no/houston_chronicle",
+   "name": "Houston Chronicle",
    "country": "Norway",
    "state": null,
    "region": "weurope",
@@ -1934,10 +2984,90 @@
    "img": null
   },
   {
+   "uid": "kk:no/newyork_times",
+   "source": "kk",
+   "id": "no/newyork_times",
+   "name": "New York Times",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/newsday",
+   "source": "kk",
+   "id": "no/newsday",
+   "name": "Newsday",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/starledger",
+   "source": "kk",
+   "id": "no/starledger",
+   "name": "Star-Ledger",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:stavanger-aftenblad",
    "source": "fp",
    "id": "stavanger-aftenblad",
    "name": "Stavanger Aftenblad",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/atlanta_journal_conts",
+   "source": "kk",
+   "id": "no/atlanta_journal_conts",
+   "name": "The Atlanta Journal-Constitution",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/oregonian",
+   "source": "kk",
+   "id": "no/oregonian",
+   "name": "The Oregonian",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/plain_dealer",
+   "source": "kk",
+   "id": "no/plain_dealer",
+   "name": "The Plain Dealer",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/ca_toronto_star",
+   "source": "kk",
+   "id": "no/ca_toronto_star",
+   "name": "The Toronto Star",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:no/ca_toronto_sun",
+   "source": "kk",
+   "id": "no/ca_toronto_sun",
+   "name": "The Toronto Sun",
    "country": "Norway",
    "state": null,
    "region": "weurope",
@@ -1954,10 +3084,60 @@
    "img": null
   },
   {
+   "uid": "kk:no/wsj",
+   "source": "kk",
+   "id": "no/wsj",
+   "name": "Wall Street Journal",
+   "country": "Norway",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:a-bola",
    "source": "fp",
    "id": "a-bola",
    "name": "A Bola",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/arizona_daily_star",
+   "source": "kk",
+   "id": "pt/arizona_daily_star",
+   "name": "Arizona Daily Star",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/arizona_republic",
+   "source": "kk",
+   "id": "pt/arizona_republic",
+   "name": "Arizona Republic News",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/chicago_sun_times",
+   "source": "kk",
+   "id": "pt/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/chicago_tribune",
+   "source": "kk",
+   "id": "pt/chicago_tribune",
+   "name": "Chicago Tribune",
    "country": "Portugal",
    "state": null,
    "region": "weurope",
@@ -1998,6 +3178,36 @@
    "source": "fp",
    "id": "jornal-de-noticias",
    "name": "Jornal de Not\u00edcias",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/laopinion",
+   "source": "kk",
+   "id": "pt/laopinion",
+   "name": "La Opini\u00f3n",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/ca_journal_montreal",
+   "source": "kk",
+   "id": "pt/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/latimes",
+   "source": "kk",
+   "id": "pt/latimes",
+   "name": "Los Angeles Times",
    "country": "Portugal",
    "state": null,
    "region": "weurope",
@@ -2054,6 +3264,126 @@
    "img": null
   },
   {
+   "uid": "kk:pt/sf_chronicle",
+   "source": "kk",
+   "id": "pt/sf_chronicle",
+   "name": "San Francisco Chronicle",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/mercure_news",
+   "source": "kk",
+   "id": "pt/mercure_news",
+   "name": "San Jose Mercury News",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/starledger",
+   "source": "kk",
+   "id": "pt/starledger",
+   "name": "Star-Ledger",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/tampa_bay_times",
+   "source": "kk",
+   "id": "pt/tampa_bay_times",
+   "name": "Tampa Bay Times",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/atlanta_journal_conts",
+   "source": "kk",
+   "id": "pt/atlanta_journal_conts",
+   "name": "The Atlanta Journal-Constitution",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/gazette",
+   "source": "kk",
+   "id": "pt/gazette",
+   "name": "The Gazette",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/orange_register",
+   "source": "kk",
+   "id": "pt/orange_register",
+   "name": "The Orange County Register",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/oregonian",
+   "source": "kk",
+   "id": "pt/oregonian",
+   "name": "The Oregonian",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/ca_province",
+   "source": "kk",
+   "id": "pt/ca_province",
+   "name": "The Province",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/sacramento_bee",
+   "source": "kk",
+   "id": "pt/sacramento_bee",
+   "name": "The Sacramento Bee",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/ca_vancouver_sun",
+   "source": "kk",
+   "id": "pt/ca_vancouver_sun",
+   "name": "The Vancouver Sun",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:pt/washington_post",
+   "source": "kk",
+   "id": "pt/washington_post",
+   "name": "The Washington Post",
+   "country": "Portugal",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:l-informazione-di-san-marino",
    "source": "fp",
    "id": "l-informazione-di-san-marino",
@@ -2094,6 +3424,36 @@
    "img": null
   },
   {
+   "uid": "kk:es/ara",
+   "source": "kk",
+   "id": "es/ara",
+   "name": "Ara",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/arizona_daily_star",
+   "source": "kk",
+   "id": "es/arizona_daily_star",
+   "name": "Arizona Daily Star",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/arizona_republic",
+   "source": "kk",
+   "id": "es/arizona_republic",
+   "name": "Arizona Republic News",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "kk:es/as",
    "source": "kk",
    "id": "es/as",
@@ -2114,10 +3474,80 @@
    "img": null
   },
   {
+   "uid": "kk:es/chicago_sun_times",
+   "source": "kk",
+   "id": "es/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/chicago_tribune",
+   "source": "kk",
+   "id": "es/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "kk:es/5dias",
    "source": "kk",
    "id": "es/5dias",
    "name": "Cinco D\u00edas",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/ny_daily_news",
+   "source": "kk",
+   "id": "es/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/deia",
+   "source": "kk",
+   "id": "es/deia",
+   "name": "Deia",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/diari_girona",
+   "source": "kk",
+   "id": "es/diari_girona",
+   "name": "Diari de Girona",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/diari_tarragona",
+   "source": "kk",
+   "id": "es/diari_tarragona",
+   "name": "Diari de Tarragona",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/diario_burgos",
+   "source": "kk",
+   "id": "es/diario_burgos",
+   "name": "Diario de Burgos",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -2134,10 +3564,90 @@
    "img": null
   },
   {
+   "uid": "kk:es/diario_leon",
+   "source": "kk",
+   "id": "es/diario_leon",
+   "name": "Diario de Le\u00f3n",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/diario_mallorca",
+   "source": "kk",
+   "id": "es/diario_mallorca",
+   "name": "Diario de Mallorca",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/diario_avila",
+   "source": "kk",
+   "id": "es/diario_avila",
+   "name": "Diario de \u00c1vila",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/diario_palentino",
+   "source": "kk",
+   "id": "es/diario_palentino",
+   "name": "Diario Palentino",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:diario-sur",
    "source": "fp",
    "id": "diario-sur",
    "name": "Diario SUR",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/diario_vasco",
+   "source": "kk",
+   "id": "es/diario_vasco",
+   "name": "Diario Vasco",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/adelantado_segovia",
+   "source": "kk",
+   "id": "es/adelantado_segovia",
+   "name": "El Adelantado de Segovia",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/elcomercio_aviles",
+   "source": "kk",
+   "id": "es/elcomercio_aviles",
+   "name": "El Comercio - Avil\u00e9s",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/elcomercio_gijon",
+   "source": "kk",
+   "id": "es/elcomercio_gijon",
+   "name": "El Comercio - Gij\u00f3n",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -2154,10 +3664,60 @@
    "img": null
   },
   {
+   "uid": "kk:es/elcorreo_guipuzcoa",
+   "source": "kk",
+   "id": "es/elcorreo_guipuzcoa",
+   "name": "El Correo - Guipuzcoa",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/elcorreo_alava",
+   "source": "kk",
+   "id": "es/elcorreo_alava",
+   "name": "El Correo - \u00c1lava",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/eldiario",
+   "source": "kk",
+   "id": "es/eldiario",
+   "name": "El Diario NY",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:el-diario-vasco",
    "source": "fp",
    "id": "el-diario-vasco",
    "name": "El Diario Vasco",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/eldia_soria",
+   "source": "kk",
+   "id": "es/eldia_soria",
+   "name": "El D\u00eda de Soria",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/eldia_valladolid",
+   "source": "kk",
+   "id": "es/eldia_valladolid",
+   "name": "El D\u00eda de Valladolid",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -2224,10 +3784,30 @@
    "img": null
   },
   {
+   "uid": "kk:es/elpunt_avui",
+   "source": "kk",
+   "id": "es/elpunt_avui",
+   "name": "El Punt Avui",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:expansion",
    "source": "fp",
    "id": "expansion",
    "name": "Expansi\u00f3n",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/gara",
+   "source": "kk",
+   "id": "es/gara",
+   "name": "Gara",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -2254,10 +3834,40 @@
    "img": null
   },
   {
+   "uid": "kk:es/nueva_cronica",
+   "source": "kk",
+   "id": "es/nueva_cronica",
+   "name": "La Nueva Cr\u00f3nica",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "kk:es/lanuevaespana",
    "source": "kk",
    "id": "es/lanuevaespana",
    "name": "La Nueva Espa\u00f1a",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/laopinion",
+   "source": "kk",
+   "id": "es/laopinion",
+   "name": "La Opini\u00f3n",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/opinion_zamora",
+   "source": "kk",
+   "id": "es/opinion_zamora",
+   "name": "La Opini\u00f3n - El Correo de Zamora",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -2294,6 +3904,26 @@
    "img": null
   },
   {
+   "uid": "kk:es/ca_journal_montreal",
+   "source": "kk",
+   "id": "es/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/latimes",
+   "source": "kk",
+   "id": "es/latimes",
+   "name": "Los Angeles Times",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:marca",
    "source": "fp",
    "id": "marca",
@@ -2304,10 +3934,140 @@
    "img": null
   },
   {
+   "uid": "kk:es/diario_menorca",
+   "source": "kk",
+   "id": "es/diario_menorca",
+   "name": "Menorca - Diario Insular",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:mundo-deportivo",
    "source": "fp",
    "id": "mundo-deportivo",
    "name": "Mundo Deportivo",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/mundodeportivo_bizkaia",
+   "source": "kk",
+   "id": "es/mundodeportivo_bizkaia",
+   "name": "Mundo Deportivo Bizkaia",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/mundodeportivo_gipuzkoa",
+   "source": "kk",
+   "id": "es/mundodeportivo_gipuzkoa",
+   "name": "Mundo Deportivo Gipuzkoa",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/newyork_times",
+   "source": "kk",
+   "id": "es/newyork_times",
+   "name": "New York Times",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/newsday",
+   "source": "kk",
+   "id": "es/newsday",
+   "name": "Newsday",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/nortecastilla_palencia",
+   "source": "kk",
+   "id": "es/nortecastilla_palencia",
+   "name": "Norte de Castilla - Palencia",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/nortecastilla_segovia",
+   "source": "kk",
+   "id": "es/nortecastilla_segovia",
+   "name": "Norte de Castilla - Segovia",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/nortecastilla_valladolid",
+   "source": "kk",
+   "id": "es/nortecastilla_valladolid",
+   "name": "Norte de Castilla - Valladolid",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/periodico_ibiza",
+   "source": "kk",
+   "id": "es/periodico_ibiza",
+   "name": "Peri\u00f3dico de Ibiza",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/regio7",
+   "source": "kk",
+   "id": "es/regio7",
+   "name": "Regio7",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/sf_chronicle",
+   "source": "kk",
+   "id": "es/sf_chronicle",
+   "name": "San Francisco Chronicle",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/mercure_news",
+   "source": "kk",
+   "id": "es/mercure_news",
+   "name": "San Jose Mercury News",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/segre",
+   "source": "kk",
+   "id": "es/segre",
+   "name": "Segre",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -2334,6 +4094,16 @@
    "img": null
   },
   {
+   "uid": "kk:es/starledger",
+   "source": "kk",
+   "id": "es/starledger",
+   "name": "Star-Ledger",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:superdeporte",
    "source": "fp",
    "id": "superdeporte",
@@ -2344,10 +4114,180 @@
    "img": null
   },
   {
+   "uid": "kk:es/tampa_bay_times",
+   "source": "kk",
+   "id": "es/tampa_bay_times",
+   "name": "Tampa Bay Times",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/atlanta_journal_conts",
+   "source": "kk",
+   "id": "es/atlanta_journal_conts",
+   "name": "The Atlanta Journal-Constitution",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/gazette",
+   "source": "kk",
+   "id": "es/gazette",
+   "name": "The Gazette",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/orange_register",
+   "source": "kk",
+   "id": "es/orange_register",
+   "name": "The Orange County Register",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/plain_dealer",
+   "source": "kk",
+   "id": "es/plain_dealer",
+   "name": "The Plain Dealer",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/ca_province",
+   "source": "kk",
+   "id": "es/ca_province",
+   "name": "The Province",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/sacramento_bee",
+   "source": "kk",
+   "id": "es/sacramento_bee",
+   "name": "The Sacramento Bee",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/ca_toronto_star",
+   "source": "kk",
+   "id": "es/ca_toronto_star",
+   "name": "The Toronto Star",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/ca_toronto_sun",
+   "source": "kk",
+   "id": "es/ca_toronto_sun",
+   "name": "The Toronto Sun",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/ca_vancouver_sun",
+   "source": "kk",
+   "id": "es/ca_vancouver_sun",
+   "name": "The Vancouver Sun",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/wsj",
+   "source": "kk",
+   "id": "es/wsj",
+   "name": "Wall Street Journal",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:es/ultima_hora",
+   "source": "kk",
+   "id": "es/ultima_hora",
+   "name": "\u00daltima Hora",
+   "country": "Spain",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:aftonbladet",
    "source": "fp",
    "id": "aftonbladet",
    "name": "Aftonbladet",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/arizona_daily_star",
+   "source": "kk",
+   "id": "se/arizona_daily_star",
+   "name": "Arizona Daily Star",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/arizona_republic",
+   "source": "kk",
+   "id": "se/arizona_republic",
+   "name": "Arizona Republic News",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/boston_globe",
+   "source": "kk",
+   "id": "se/boston_globe",
+   "name": "Boston Globe",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/chicago_sun_times",
+   "source": "kk",
+   "id": "se/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/chicago_tribune",
+   "source": "kk",
+   "id": "se/chicago_tribune",
+   "name": "Chicago Tribune",
    "country": "Sweden",
    "state": null,
    "region": "weurope",
@@ -2374,10 +4314,30 @@
    "img": null
   },
   {
+   "uid": "kk:se/ca_journal_montreal",
+   "source": "kk",
+   "id": "se/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:sportbladet",
    "source": "fp",
    "id": "sportbladet",
    "name": "Sportbladet",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/st_louis_post",
+   "source": "kk",
+   "id": "se/st_louis_post",
+   "name": "St. Louis Post-Dispatch",
    "country": "Sweden",
    "state": null,
    "region": "weurope",
@@ -2398,6 +4358,66 @@
    "source": "fp",
    "id": "svenska-dagbladet",
    "name": "Svenska Dagbladet",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/tampa_bay_times",
+   "source": "kk",
+   "id": "se/tampa_bay_times",
+   "name": "Tampa Bay Times",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/ca_montreal_gazette",
+   "source": "kk",
+   "id": "se/ca_montreal_gazette",
+   "name": "The Gazette",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/oregonian",
+   "source": "kk",
+   "id": "se/oregonian",
+   "name": "The Oregonian",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/ca_province",
+   "source": "kk",
+   "id": "se/ca_province",
+   "name": "The Province",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/ca_vancouver_sun",
+   "source": "kk",
+   "id": "se/ca_vancouver_sun",
+   "name": "The Vancouver Sun",
+   "country": "Sweden",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "kk:se/winnipeg_free_press",
+   "source": "kk",
+   "id": "se/winnipeg_free_press",
+   "name": "Winnipeg Free Press",
    "country": "Sweden",
    "state": null,
    "region": "weurope",
@@ -2914,6 +4934,16 @@
    "img": null
   },
   {
+   "uid": "kk:ar/houston_chronicle",
+   "source": "kk",
+   "id": "ar/houston_chronicle",
+   "name": "Houston Chronicle",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "kk:ar/ar_capital_rosario",
    "source": "kk",
    "id": "ar/ar_capital_rosario",
@@ -2954,6 +4984,16 @@
    "img": null
   },
   {
+   "uid": "kk:ar/ca_journal_montreal",
+   "source": "kk",
+   "id": "ar/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:ole-ar",
    "source": "fp",
    "id": "ole-ar",
@@ -2969,6 +5009,116 @@
    "id": "ar/ar_rio_negro",
    "name": "Rio Negro",
    "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/tampa_bay_times",
+   "source": "kk",
+   "id": "ar/tampa_bay_times",
+   "name": "Tampa Bay Times",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/atlanta_journal_conts",
+   "source": "kk",
+   "id": "ar/atlanta_journal_conts",
+   "name": "The Atlanta Journal-Constitution",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/gazette",
+   "source": "kk",
+   "id": "ar/gazette",
+   "name": "The Gazette",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/oregonian",
+   "source": "kk",
+   "id": "ar/oregonian",
+   "name": "The Oregonian",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/plain_dealer",
+   "source": "kk",
+   "id": "ar/plain_dealer",
+   "name": "The Plain Dealer",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/ca_province",
+   "source": "kk",
+   "id": "ar/ca_province",
+   "name": "The Province",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/ca_vancouver_sun",
+   "source": "kk",
+   "id": "ar/ca_vancouver_sun",
+   "name": "The Vancouver Sun",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ar/winnipeg_free_press",
+   "source": "kk",
+   "id": "ar/winnipeg_free_press",
+   "name": "Winnipeg Free Press",
+   "country": "Argentina",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:au/boston_globe",
+   "source": "kk",
+   "id": "au/boston_globe",
+   "name": "Boston Globe",
+   "country": "Australia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:au/chicago_sun_times",
+   "source": "kk",
+   "id": "au/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Australia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:au/chicago_tribune",
+   "source": "kk",
+   "id": "au/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "Australia",
    "state": null,
    "region": "world",
    "img": null
@@ -2994,6 +5144,36 @@
    "img": null
   },
   {
+   "uid": "kk:au/ca_journal_montreal",
+   "source": "kk",
+   "id": "au/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "Australia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:au/starledger",
+   "source": "kk",
+   "id": "au/starledger",
+   "name": "Star-Ledger",
+   "country": "Australia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:au/tampa_bay_times",
+   "source": "kk",
+   "id": "au/tampa_bay_times",
+   "name": "Tampa Bay Times",
+   "country": "Australia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:the-advertiser",
    "source": "fp",
    "id": "the-advertiser",
@@ -3008,6 +5188,16 @@
    "source": "fp",
    "id": "the-age",
    "name": "The Age",
+   "country": "Australia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:au/atlanta_journal_conts",
+   "source": "kk",
+   "id": "au/atlanta_journal_conts",
+   "name": "The Atlanta Journal-Constitution",
    "country": "Australia",
    "state": null,
    "region": "world",
@@ -3058,6 +5248,16 @@
    "source": "fp",
    "id": "the-daily-telegraph-sydney",
    "name": "The Daily Telegraph | Sydney",
+   "country": "Australia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:au/ca_montreal_gazette",
+   "source": "kk",
+   "id": "au/ca_montreal_gazette",
+   "name": "The Gazette",
    "country": "Australia",
    "state": null,
    "region": "world",
@@ -3154,6 +5354,256 @@
    "img": null
   },
   {
+   "uid": "kk:bo/arizona_daily_star",
+   "source": "kk",
+   "id": "bo/arizona_daily_star",
+   "name": "Arizona Daily Star",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/arizona_republic",
+   "source": "kk",
+   "id": "bo/arizona_republic",
+   "name": "Arizona Republic News",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/boston_globe",
+   "source": "kk",
+   "id": "bo/boston_globe",
+   "name": "Boston Globe",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/chicago_sun_times",
+   "source": "kk",
+   "id": "bo/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/chicago_tribune",
+   "source": "kk",
+   "id": "bo/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/ny_daily_news",
+   "source": "kk",
+   "id": "bo/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/eldiario",
+   "source": "kk",
+   "id": "bo/eldiario",
+   "name": "El Diario NY",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/ca_journal_montreal",
+   "source": "kk",
+   "id": "bo/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/newyork_times",
+   "source": "kk",
+   "id": "bo/newyork_times",
+   "name": "New York Times",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/newsday",
+   "source": "kk",
+   "id": "bo/newsday",
+   "name": "Newsday",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/philadelphia_inquirer",
+   "source": "kk",
+   "id": "bo/philadelphia_inquirer",
+   "name": "Philadelphia Inquirer",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/pittsburgh_post_gazette",
+   "source": "kk",
+   "id": "bo/pittsburgh_post_gazette",
+   "name": "Pittsburgh Post-Gazette",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/st_louis_post",
+   "source": "kk",
+   "id": "bo/st_louis_post",
+   "name": "St. Louis Post-Dispatch",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/starledger",
+   "source": "kk",
+   "id": "bo/starledger",
+   "name": "Star-Ledger",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/tampa_bay_times",
+   "source": "kk",
+   "id": "bo/tampa_bay_times",
+   "name": "Tampa Bay Times",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/ca_montreal_gazette",
+   "source": "kk",
+   "id": "bo/ca_montreal_gazette",
+   "name": "The Gazette",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/oregonian",
+   "source": "kk",
+   "id": "bo/oregonian",
+   "name": "The Oregonian",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/plain_dealer",
+   "source": "kk",
+   "id": "bo/plain_dealer",
+   "name": "The Plain Dealer",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/ca_province",
+   "source": "kk",
+   "id": "bo/ca_province",
+   "name": "The Province",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/ca_vancouver_sun",
+   "source": "kk",
+   "id": "bo/ca_vancouver_sun",
+   "name": "The Vancouver Sun",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/tribune_review",
+   "source": "kk",
+   "id": "bo/tribune_review",
+   "name": "Tribune-Review",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/wsj",
+   "source": "kk",
+   "id": "bo/wsj",
+   "name": "Wall Street Journal",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:bo/winnipeg_free_press",
+   "source": "kk",
+   "id": "bo/winnipeg_free_press",
+   "name": "Winnipeg Free Press",
+   "country": "Bolivia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/chicago_sun_times",
+   "source": "kk",
+   "id": "br/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/chicago_tribune",
+   "source": "kk",
+   "id": "br/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "kk:br/correio_braziliense",
    "source": "kk",
    "id": "br/correio_braziliense",
@@ -3174,10 +5624,30 @@
    "img": null
   },
   {
+   "uid": "kk:br/ny_daily_news",
+   "source": "kk",
+   "id": "br/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "kk:br/br_atarde",
    "source": "kk",
    "id": "br/br_atarde",
    "name": "Di\u00e1rio A Tarde",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/eldiario",
+   "source": "kk",
+   "id": "br/eldiario",
+   "name": "El Diario NY",
    "country": "Brazil",
    "state": null,
    "region": "world",
@@ -3198,6 +5668,36 @@
    "source": "kk",
    "id": "br/br_folha_spaulo",
    "name": "Folha de S\u00e3o Paulo",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/houston_chronicle",
+   "source": "kk",
+   "id": "br/houston_chronicle",
+   "name": "Houston Chronicle",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/newyork_times",
+   "source": "kk",
+   "id": "br/newyork_times",
+   "name": "New York Times",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/newsday",
+   "source": "kk",
+   "id": "br/newsday",
+   "name": "Newsday",
    "country": "Brazil",
    "state": null,
    "region": "world",
@@ -3244,11 +5744,151 @@
    "img": null
   },
   {
+   "uid": "kk:br/philadelphia_inquirer",
+   "source": "kk",
+   "id": "br/philadelphia_inquirer",
+   "name": "Philadelphia Inquirer",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/pittsburgh_post_gazette",
+   "source": "kk",
+   "id": "br/pittsburgh_post_gazette",
+   "name": "Pittsburgh Post-Gazette",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/gazette",
+   "source": "kk",
+   "id": "br/gazette",
+   "name": "The Gazette",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/oregonian",
+   "source": "kk",
+   "id": "br/oregonian",
+   "name": "The Oregonian",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/plain_dealer",
+   "source": "kk",
+   "id": "br/plain_dealer",
+   "name": "The Plain Dealer",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/ca_toronto_star",
+   "source": "kk",
+   "id": "br/ca_toronto_star",
+   "name": "The Toronto Star",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/ca_toronto_sun",
+   "source": "kk",
+   "id": "br/ca_toronto_sun",
+   "name": "The Toronto Sun",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/washington_post",
+   "source": "kk",
+   "id": "br/washington_post",
+   "name": "The Washington Post",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/tribune_review",
+   "source": "kk",
+   "id": "br/tribune_review",
+   "name": "Tribune-Review",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:valor-economico",
    "source": "fp",
    "id": "valor-economico",
    "name": "Valor Econ\u00f4mico",
    "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/wsj",
+   "source": "kk",
+   "id": "br/wsj",
+   "name": "Wall Street Journal",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:br/winnipeg_free_press",
+   "source": "kk",
+   "id": "br/winnipeg_free_press",
+   "name": "Winnipeg Free Press",
+   "country": "Brazil",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/chicago_sun_times",
+   "source": "kk",
+   "id": "cl/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/chicago_tribune",
+   "source": "kk",
+   "id": "cl/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/ny_daily_news",
+   "source": "kk",
+   "id": "cl/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Chile",
    "state": null,
    "region": "world",
    "img": null
@@ -3268,6 +5908,16 @@
    "source": "kk",
    "id": "cl/diario_concepcion",
    "name": "Diario de Concepci\u00f3n",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/eldiario",
+   "source": "kk",
+   "id": "cl/eldiario",
+   "name": "El Diario NY",
    "country": "Chile",
    "state": null,
    "region": "world",
@@ -3294,10 +5944,230 @@
    "img": null
   },
   {
+   "uid": "kk:cl/houston_chronicle",
+   "source": "kk",
+   "id": "cl/houston_chronicle",
+   "name": "Houston Chronicle",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/laopinion",
+   "source": "kk",
+   "id": "cl/laopinion",
+   "name": "La Opini\u00f3n",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "kk:cl/cl_tercera",
    "source": "kk",
    "id": "cl/cl_tercera",
    "name": "La Tercera",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/ca_journal_montreal",
+   "source": "kk",
+   "id": "cl/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/latimes",
+   "source": "kk",
+   "id": "cl/latimes",
+   "name": "Los Angeles Times",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/newyork_times",
+   "source": "kk",
+   "id": "cl/newyork_times",
+   "name": "New York Times",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/newsday",
+   "source": "kk",
+   "id": "cl/newsday",
+   "name": "Newsday",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/philadelphia_inquirer",
+   "source": "kk",
+   "id": "cl/philadelphia_inquirer",
+   "name": "Philadelphia Inquirer",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/pittsburgh_post_gazette",
+   "source": "kk",
+   "id": "cl/pittsburgh_post_gazette",
+   "name": "Pittsburgh Post-Gazette",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/sf_chronicle",
+   "source": "kk",
+   "id": "cl/sf_chronicle",
+   "name": "San Francisco Chronicle",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/mercure_news",
+   "source": "kk",
+   "id": "cl/mercure_news",
+   "name": "San Jose Mercury News",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/starledger",
+   "source": "kk",
+   "id": "cl/starledger",
+   "name": "Star-Ledger",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/tampa_bay_times",
+   "source": "kk",
+   "id": "cl/tampa_bay_times",
+   "name": "Tampa Bay Times",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/ca_montreal_gazette",
+   "source": "kk",
+   "id": "cl/ca_montreal_gazette",
+   "name": "The Gazette",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/orange_register",
+   "source": "kk",
+   "id": "cl/orange_register",
+   "name": "The Orange County Register",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/oregonian",
+   "source": "kk",
+   "id": "cl/oregonian",
+   "name": "The Oregonian",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/sacramento_bee",
+   "source": "kk",
+   "id": "cl/sacramento_bee",
+   "name": "The Sacramento Bee",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/ca_toronto_star",
+   "source": "kk",
+   "id": "cl/ca_toronto_star",
+   "name": "The Toronto Star",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/ca_toronto_sun",
+   "source": "kk",
+   "id": "cl/ca_toronto_sun",
+   "name": "The Toronto Sun",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/washington_post",
+   "source": "kk",
+   "id": "cl/washington_post",
+   "name": "The Washington Post",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/tribune_review",
+   "source": "kk",
+   "id": "cl/tribune_review",
+   "name": "Tribune-Review",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/wsj",
+   "source": "kk",
+   "id": "cl/wsj",
+   "name": "Wall Street Journal",
+   "country": "Chile",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/winnipeg_free_press",
+   "source": "kk",
+   "id": "cl/winnipeg_free_press",
+   "name": "Winnipeg Free Press",
    "country": "Chile",
    "state": null,
    "region": "world",
@@ -3379,6 +6249,236 @@
    "id": "co/co_patria",
    "name": "La Patria",
    "country": "Colombia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/boston_globe",
+   "source": "kk",
+   "id": "cr/boston_globe",
+   "name": "Boston Globe",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/chicago_sun_times",
+   "source": "kk",
+   "id": "cr/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/chicago_tribune",
+   "source": "kk",
+   "id": "cr/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/ny_daily_news",
+   "source": "kk",
+   "id": "cr/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/eldiario",
+   "source": "kk",
+   "id": "cr/eldiario",
+   "name": "El Diario NY",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/laopinion",
+   "source": "kk",
+   "id": "cr/laopinion",
+   "name": "La Opini\u00f3n",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/ca_journal_montreal",
+   "source": "kk",
+   "id": "cr/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/latimes",
+   "source": "kk",
+   "id": "cr/latimes",
+   "name": "Los Angeles Times",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/newyork_times",
+   "source": "kk",
+   "id": "cr/newyork_times",
+   "name": "New York Times",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/newsday",
+   "source": "kk",
+   "id": "cr/newsday",
+   "name": "Newsday",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/philadelphia_inquirer",
+   "source": "kk",
+   "id": "cr/philadelphia_inquirer",
+   "name": "Philadelphia Inquirer",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/pittsburgh_post_gazette",
+   "source": "kk",
+   "id": "cr/pittsburgh_post_gazette",
+   "name": "Pittsburgh Post-Gazette",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/sf_chronicle",
+   "source": "kk",
+   "id": "cr/sf_chronicle",
+   "name": "San Francisco Chronicle",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/mercure_news",
+   "source": "kk",
+   "id": "cr/mercure_news",
+   "name": "San Jose Mercury News",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/st_louis_post",
+   "source": "kk",
+   "id": "cr/st_louis_post",
+   "name": "St. Louis Post-Dispatch",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/atlanta_journal_conts",
+   "source": "kk",
+   "id": "cr/atlanta_journal_conts",
+   "name": "The Atlanta Journal-Constitution",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/gazette",
+   "source": "kk",
+   "id": "cr/gazette",
+   "name": "The Gazette",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/orange_register",
+   "source": "kk",
+   "id": "cr/orange_register",
+   "name": "The Orange County Register",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/sacramento_bee",
+   "source": "kk",
+   "id": "cr/sacramento_bee",
+   "name": "The Sacramento Bee",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/washington_post",
+   "source": "kk",
+   "id": "cr/washington_post",
+   "name": "The Washington Post",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/tribune_review",
+   "source": "kk",
+   "id": "cr/tribune_review",
+   "name": "Tribune-Review",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/wsj",
+   "source": "kk",
+   "id": "cr/wsj",
+   "name": "Wall Street Journal",
+   "country": "Costa Rica",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:cr/winnipeg_free_press",
+   "source": "kk",
+   "id": "cr/winnipeg_free_press",
+   "name": "Winnipeg Free Press",
+   "country": "Costa Rica",
    "state": null,
    "region": "world",
    "img": null
@@ -3574,6 +6674,66 @@
    "img": null
   },
   {
+   "uid": "kk:jp/boston_globe",
+   "source": "kk",
+   "id": "jp/boston_globe",
+   "name": "Boston Globe",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/chicago_sun_times",
+   "source": "kk",
+   "id": "jp/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/chicago_tribune",
+   "source": "kk",
+   "id": "jp/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/ny_daily_news",
+   "source": "kk",
+   "id": "jp/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/eldiario",
+   "source": "kk",
+   "id": "jp/eldiario",
+   "name": "El Diario NY",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/houston_chronicle",
+   "source": "kk",
+   "id": "jp/houston_chronicle",
+   "name": "Houston Chronicle",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:mainichi-shinbun",
    "source": "fp",
    "id": "mainichi-shinbun",
@@ -3584,10 +6744,120 @@
    "img": null
   },
   {
+   "uid": "kk:jp/newyork_times",
+   "source": "kk",
+   "id": "jp/newyork_times",
+   "name": "New York Times",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/newsday",
+   "source": "kk",
+   "id": "jp/newsday",
+   "name": "Newsday",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/starledger",
+   "source": "kk",
+   "id": "jp/starledger",
+   "name": "Star-Ledger",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/tampa_bay_times",
+   "source": "kk",
+   "id": "jp/tampa_bay_times",
+   "name": "Tampa Bay Times",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/atlanta_journal_conts",
+   "source": "kk",
+   "id": "jp/atlanta_journal_conts",
+   "name": "The Atlanta Journal-Constitution",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:the-japan-times",
    "source": "fp",
    "id": "the-japan-times",
    "name": "The Japan Times",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/oregonian",
+   "source": "kk",
+   "id": "jp/oregonian",
+   "name": "The Oregonian",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/plain_dealer",
+   "source": "kk",
+   "id": "jp/plain_dealer",
+   "name": "The Plain Dealer",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/ca_toronto_star",
+   "source": "kk",
+   "id": "jp/ca_toronto_star",
+   "name": "The Toronto Star",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/ca_toronto_sun",
+   "source": "kk",
+   "id": "jp/ca_toronto_sun",
+   "name": "The Toronto Sun",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/wsj",
+   "source": "kk",
+   "id": "jp/wsj",
+   "name": "Wall Street Journal",
+   "country": "Japan",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:jp/winnipeg_free_press",
+   "source": "kk",
+   "id": "jp/winnipeg_free_press",
+   "name": "Winnipeg Free Press",
    "country": "Japan",
    "state": null,
    "region": "world",
@@ -3934,6 +7204,56 @@
    "img": null
   },
   {
+   "uid": "kk:pl/arizona_daily_star",
+   "source": "kk",
+   "id": "pl/arizona_daily_star",
+   "name": "Arizona Daily Star",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/arizona_republic",
+   "source": "kk",
+   "id": "pl/arizona_republic",
+   "name": "Arizona Republic News",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/boston_globe",
+   "source": "kk",
+   "id": "pl/boston_globe",
+   "name": "Boston Globe",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/ny_daily_news",
+   "source": "kk",
+   "id": "pl/ny_daily_news",
+   "name": "Daily News - New York",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/eldiario",
+   "source": "kk",
+   "id": "pl/eldiario",
+   "name": "El Diario NY",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:fakt",
    "source": "fp",
    "id": "fakt",
@@ -3964,6 +7284,56 @@
    "img": null
   },
   {
+   "uid": "kk:pl/houston_chronicle",
+   "source": "kk",
+   "id": "pl/houston_chronicle",
+   "name": "Houston Chronicle",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/newyork_times",
+   "source": "kk",
+   "id": "pl/newyork_times",
+   "name": "New York Times",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/newsday",
+   "source": "kk",
+   "id": "pl/newsday",
+   "name": "Newsday",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/philadelphia_inquirer",
+   "source": "kk",
+   "id": "pl/philadelphia_inquirer",
+   "name": "Philadelphia Inquirer",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/pittsburgh_post_gazette",
+   "source": "kk",
+   "id": "pl/pittsburgh_post_gazette",
+   "name": "Pittsburgh Post-Gazette",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:rzeczpospolita",
    "source": "fp",
    "id": "rzeczpospolita",
@@ -3974,10 +7344,90 @@
    "img": null
   },
   {
+   "uid": "kk:pl/st_louis_post",
+   "source": "kk",
+   "id": "pl/st_louis_post",
+   "name": "St. Louis Post-Dispatch",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/starledger",
+   "source": "kk",
+   "id": "pl/starledger",
+   "name": "Star-Ledger",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:super-express",
    "source": "fp",
    "id": "super-express",
    "name": "Super Express",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/plain_dealer",
+   "source": "kk",
+   "id": "pl/plain_dealer",
+   "name": "The Plain Dealer",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/ca_province",
+   "source": "kk",
+   "id": "pl/ca_province",
+   "name": "The Province",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/ca_vancouver_sun",
+   "source": "kk",
+   "id": "pl/ca_vancouver_sun",
+   "name": "The Vancouver Sun",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/washington_post",
+   "source": "kk",
+   "id": "pl/washington_post",
+   "name": "The Washington Post",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/tribune_review",
+   "source": "kk",
+   "id": "pl/tribune_review",
+   "name": "Tribune-Review",
+   "country": "Poland",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:pl/wsj",
+   "source": "kk",
+   "id": "pl/wsj",
+   "name": "Wall Street Journal",
    "country": "Poland",
    "state": null,
    "region": "world",
@@ -4064,6 +7514,176 @@
    "img": null
   },
   {
+   "uid": "kk:ru/boston_globe",
+   "source": "kk",
+   "id": "ru/boston_globe",
+   "name": "Boston Globe",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/chicago_sun_times",
+   "source": "kk",
+   "id": "ru/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/chicago_tribune",
+   "source": "kk",
+   "id": "ru/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/laopinion",
+   "source": "kk",
+   "id": "ru/laopinion",
+   "name": "La Opini\u00f3n",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/ca_journal_montreal",
+   "source": "kk",
+   "id": "ru/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/latimes",
+   "source": "kk",
+   "id": "ru/latimes",
+   "name": "Los Angeles Times",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/sf_chronicle",
+   "source": "kk",
+   "id": "ru/sf_chronicle",
+   "name": "San Francisco Chronicle",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/mercure_news",
+   "source": "kk",
+   "id": "ru/mercure_news",
+   "name": "San Jose Mercury News",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/starledger",
+   "source": "kk",
+   "id": "ru/starledger",
+   "name": "Star-Ledger",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/atlanta_journal_conts",
+   "source": "kk",
+   "id": "ru/atlanta_journal_conts",
+   "name": "The Atlanta Journal-Constitution",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/ca_montreal_gazette",
+   "source": "kk",
+   "id": "ru/ca_montreal_gazette",
+   "name": "The Gazette",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/orange_register",
+   "source": "kk",
+   "id": "ru/orange_register",
+   "name": "The Orange County Register",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/ca_province",
+   "source": "kk",
+   "id": "ru/ca_province",
+   "name": "The Province",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/sacramento_bee",
+   "source": "kk",
+   "id": "ru/sacramento_bee",
+   "name": "The Sacramento Bee",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/ca_vancouver_sun",
+   "source": "kk",
+   "id": "ru/ca_vancouver_sun",
+   "name": "The Vancouver Sun",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/washington_post",
+   "source": "kk",
+   "id": "ru/washington_post",
+   "name": "The Washington Post",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:ru/winnipeg_free_press",
+   "source": "kk",
+   "id": "ru/winnipeg_free_press",
+   "name": "Winnipeg Free Press",
+   "country": "Russia",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:arab-news",
    "source": "fp",
    "id": "arab-news",
@@ -4114,6 +7734,26 @@
    "img": null
   },
   {
+   "uid": "kk:za/arizona_daily_star",
+   "source": "kk",
+   "id": "za/arizona_daily_star",
+   "name": "Arizona Daily Star",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/arizona_republic",
+   "source": "kk",
+   "id": "za/arizona_republic",
+   "name": "Arizona Republic News",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:business-day-za",
    "source": "fp",
    "id": "business-day-za",
@@ -4134,10 +7774,80 @@
    "img": null
   },
   {
+   "uid": "kk:za/chicago_sun_times",
+   "source": "kk",
+   "id": "za/chicago_sun_times",
+   "name": "Chicago Sun-Times",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/chicago_tribune",
+   "source": "kk",
+   "id": "za/chicago_tribune",
+   "name": "Chicago Tribune",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/laopinion",
+   "source": "kk",
+   "id": "za/laopinion",
+   "name": "La Opini\u00f3n",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/ca_journal_montreal",
+   "source": "kk",
+   "id": "za/ca_journal_montreal",
+   "name": "Le Journal de Montr\u00e9al",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/latimes",
+   "source": "kk",
+   "id": "za/latimes",
+   "name": "Los Angeles Times",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:mail-and-guardian",
    "source": "fp",
    "id": "mail-and-guardian",
    "name": "Mail & Guardian",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/philadelphia_inquirer",
+   "source": "kk",
+   "id": "za/philadelphia_inquirer",
+   "name": "Philadelphia Inquirer",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/pittsburgh_post_gazette",
+   "source": "kk",
+   "id": "za/pittsburgh_post_gazette",
+   "name": "Pittsburgh Post-Gazette",
    "country": "South Africa",
    "state": null,
    "region": "world",
@@ -4154,6 +7864,46 @@
    "img": null
   },
   {
+   "uid": "kk:za/sf_chronicle",
+   "source": "kk",
+   "id": "za/sf_chronicle",
+   "name": "San Francisco Chronicle",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/mercure_news",
+   "source": "kk",
+   "id": "za/mercure_news",
+   "name": "San Jose Mercury News",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/starledger",
+   "source": "kk",
+   "id": "za/starledger",
+   "name": "Star-Ledger",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/atlanta_journal_conts",
+   "source": "kk",
+   "id": "za/atlanta_journal_conts",
+   "name": "The Atlanta Journal-Constitution",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "kk:za/citizen",
    "source": "kk",
    "id": "za/citizen",
@@ -4164,10 +7914,60 @@
    "img": null
   },
   {
+   "uid": "kk:za/gazette",
+   "source": "kk",
+   "id": "za/gazette",
+   "name": "The Gazette",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:the-mercury-za",
    "source": "fp",
    "id": "the-mercury-za",
    "name": "The Mercury",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/orange_register",
+   "source": "kk",
+   "id": "za/orange_register",
+   "name": "The Orange County Register",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/oregonian",
+   "source": "kk",
+   "id": "za/oregonian",
+   "name": "The Oregonian",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/ca_province",
+   "source": "kk",
+   "id": "za/ca_province",
+   "name": "The Province",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/sacramento_bee",
+   "source": "kk",
+   "id": "za/sacramento_bee",
+   "name": "The Sacramento Bee",
    "country": "South Africa",
    "state": null,
    "region": "world",
@@ -4188,6 +7988,26 @@
    "source": "kk",
    "id": "za/the_times",
    "name": "The Times",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/ca_vancouver_sun",
+   "source": "kk",
+   "id": "za/ca_vancouver_sun",
+   "name": "The Vancouver Sun",
+   "country": "South Africa",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "kk:za/tribune_review",
+   "source": "kk",
+   "id": "za/tribune_review",
+   "name": "Tribune-Review",
    "country": "South Africa",
    "state": null,
    "region": "world",
