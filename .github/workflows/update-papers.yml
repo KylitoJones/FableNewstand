@@ -2,8 +2,9 @@ name: Update paper list
 
 on:
   schedule:
-    # 14:00 UTC = 8:00 a.m. Mountain Daylight Time (summer).
-    # When DST ends in November, change to '0 15 * * *' to stay at 8:00.
+    # 14:00 UTC = 8:00 a.m. Mountain DAYLIGHT time (summer).
+    # When daylight saving ends in November, change to '0 15 * * *'
+    # if you want to keep it at 8:00 a.m. (otherwise it runs at 7:00).
     - cron: '0 14 * * *'
   workflow_dispatch: {}   # lets you run it manually from the Actions tab
 
