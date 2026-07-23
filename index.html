@@ -48,7 +48,7 @@
   .sec-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-soft)}
   .sub-label{font-family:var(--mono);font-size:11px;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.08em;
              grid-column:1/-1;margin:8px 0 -4px;border-bottom:1px dotted var(--rule);padding-bottom:2px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
 
   /* ---------- cards ---------- */
   .card{position:relative;background:var(--paper);border:1px solid var(--rule);border-radius:2px;cursor:pointer;
@@ -56,9 +56,9 @@
   .card:hover{box-shadow:0 4px 10px rgba(20,20,25,.18);transform:translateY(-1px)}
   .card:focus-visible{outline:3px solid var(--marker);outline-offset:2px}
   .card img{display:block;width:100%;height:auto;background:#f2f2f3;min-height:120px}
-  .card .cap{margin-top:6px}
-  .card .cap .nm{font-size:12.5px;font-weight:600;line-height:1.25}
-  .card .cap .loc{font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);margin-top:1px}
+  .card .cap{margin-top:8px}
+  .card .cap .nm{font-size:14.5px;font-weight:600;line-height:1.25}
+  .card .cap .loc{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);margin-top:2px}
   .card .stale{position:absolute;left:6px;top:6px;background:var(--ink);color:#fff;
                font:10px var(--mono);padding:2px 5px;border-radius:2px;opacity:.85}
   .card.hidden-card{display:none}
@@ -160,6 +160,8 @@
     <input type="password" id="bskyPass" autocomplete="current-password">
     <label class="fld" for="bskyService">Service URL</label>
     <input type="text" id="bskyService" value="https://bsky.social">
+    <label class="fld" for="relayUrl">Image relay URL (for the CORS fix — see README)</label>
+    <input type="text" id="relayUrl" placeholder="https://your-worker.your-name.workers.dev/?url=">
     <label style="font-size:12.5px"><input type="checkbox" id="remember" checked> Remember on this device</label>
     <p class="note">Use an <b>app password</b> (Bluesky Settings → Privacy and Security → App Passwords), never your main
     password. If you check “remember”, it is stored only in this browser’s local storage.</p>
@@ -294,10 +296,15 @@ function render(){
     sec.innerHTML = `<div class="sec-head"><h2>${label}</h2><span class="count">${list.length} papers</span></div>`;
     const grid = document.createElement("div");
     grid.className = "grid";
+    // US, Canada, Mexico: flat, alphabetical by name.
+    // Western Europe / Everything Else: grouped by country.
+    const grouped = (key==="weurope"||key==="world");
+    list.sort((a,b)=> grouped
+      ? (a.country.localeCompare(b.country) || a.name.localeCompare(b.name))
+      : a.name.localeCompare(b.name));
     let lastGroup = null;
     for(const p of list){
-      const group = (key==="us") ? (p.state || "National & unsorted")
-                    : ((key==="weurope"||key==="world") ? p.country : null);
+      const group = grouped ? p.country : null;
       if(group && group!==lastGroup){
         const lab = document.createElement("div");
         lab.className = "sub-label"; lab.textContent = group;
@@ -311,7 +318,7 @@ function render(){
 }
 
 function locLine(p){
-  const base = (p.region==="us") ? (p.state ? p.state : "U.S. national / unsorted") : p.country;
+  const base = (p.region==="us") ? (p.state ? p.state : "National") : p.country;
   return `${base} · ${SRC_LABEL[p.source]||"?"}`;
 }
 
@@ -435,7 +442,9 @@ function countChars(){
 
 /* ============================ image bytes ============================ */
 async function fetchBytes(url){
-  const tries = [url, ...CORS_RELAYS.map(r=>r+encodeURIComponent(url))];
+  const userRelay = (document.getElementById("relayUrl").value||"").trim();
+  const relays = userRelay ? [userRelay, ...CORS_RELAYS] : CORS_RELAYS;
+  const tries = [url, ...relays.map(r=>r+encodeURIComponent(url))];
   let lastErr;
   for(const u of tries){
     try{
@@ -447,7 +456,9 @@ async function fetchBytes(url){
       lastErr = new Error(`HTTP ${r.status}`);
     }catch(e){ lastErr = e; }
   }
-  throw new Error("Couldn't fetch image bytes (CORS). Add your own relay to CORS_RELAYS — see README. "+lastErr);
+  throw new Error("Couldn't download the image (CORS blocked, and the public relays failed). "+
+    "Deploy the free Cloudflare Worker from the README, then paste its URL into "+
+    "\"Image relay URL\" in the Bluesky account section above. ("+lastErr+")");
 }
 async function toJpegUnderLimit(blob){
   let bmp = await createImageBitmap(blob);
@@ -484,6 +495,7 @@ async function postToBluesky(){
     localStorage.setItem("bskyHandle",identifier);
     localStorage.setItem("bskyPass",password);
     localStorage.setItem("bskyService",service);
+    localStorage.setItem("bskyRelay",document.getElementById("relayUrl").value.trim());
   }
   const btn = document.getElementById("sendBtn");
   btn.disabled = true;
@@ -557,6 +569,7 @@ document.getElementById("search").addEventListener("input",e=>{
 document.getElementById("bskyHandle").value = localStorage.getItem("bskyHandle")||"";
 document.getElementById("bskyPass").value = localStorage.getItem("bskyPass")||"";
 document.getElementById("bskyService").value = localStorage.getItem("bskyService")||"https://bsky.social";
+document.getElementById("relayUrl").value = localStorage.getItem("bskyRelay")||"";
 
 syncPicks();
 load();
