@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>The Paste-Up — today's front pages</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --table:#e9eaec;        /* light-table gray */
+    --ink:#191a1c;
+    --ink-soft:#54565c;
+    --paper:#ffffff;
+    --rule:#c9cbd1;
+    --marker:#c8342a;       /* editor's china-marker red */
+    --marker-ink:#fff;
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --disp:"Oswald",var(--sans);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{transition:none!important}}
+  body{margin:0;background:var(--table);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.45}
+
+  /* ---------- masthead ---------- */
+  header{position:sticky;top:0;z-index:40;background:var(--table);border-bottom:2px solid var(--ink);
+         padding:10px 16px 8px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline}
+  .flag{font-family:var(--disp);font-weight:600;font-size:22px;letter-spacing:.06em;text-transform:uppercase}
+  .flag .tilt{display:inline-block;color:var(--marker);transform:rotate(-4deg)}
+  #dateline{font-family:var(--mono);font-size:12px;color:var(--ink-soft)}
+  nav{display:flex;gap:12px;flex-wrap:wrap;margin-left:auto;align-items:baseline}
+  nav a{font-family:var(--mono);font-size:12px;color:var(--ink);text-decoration:none;border-bottom:1px solid transparent}
+  nav a:hover,nav a:focus-visible{border-bottom-color:var(--marker)}
+  #search{font:13px var(--mono);padding:5px 9px;border:1px solid var(--rule);border-radius:3px;background:var(--paper);min-width:180px}
+  #search:focus{outline:2px solid var(--marker);outline-offset:1px}
+
+  main{padding:14px 16px 150px;max-width:1700px;margin:0 auto}
+  #status{font-family:var(--mono);font-size:12px;color:var(--ink-soft);margin:6px 2px 14px}
+
+  /* ---------- sections ---------- */
+  section{margin:0 0 34px}
+  .sec-head{display:flex;align-items:baseline;gap:10px;border-bottom:1px solid var(--ink);padding-bottom:4px;margin-bottom:12px}
+  .sec-head h2{font-family:var(--disp);font-weight:600;font-size:17px;letter-spacing:.08em;text-transform:uppercase;margin:0}
+  .sec-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-soft)}
+  .sub-label{font-family:var(--mono);font-size:11px;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.08em;
+             grid-column:1/-1;margin:8px 0 -4px;border-bottom:1px dotted var(--rule);padding-bottom:2px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px}
+
+  /* ---------- cards ---------- */
+  .card{position:relative;background:var(--paper);border:1px solid var(--rule);border-radius:2px;cursor:pointer;
+        padding:6px 6px 7px;box-shadow:0 1px 2px rgba(20,20,25,.10);transition:box-shadow .12s, transform .12s}
+  .card:hover{box-shadow:0 4px 10px rgba(20,20,25,.18);transform:translateY(-1px)}
+  .card:focus-visible{outline:3px solid var(--marker);outline-offset:2px}
+  .card img{display:block;width:100%;height:auto;background:#f2f2f3;min-height:120px}
+  .card .cap{margin-top:6px}
+  .card .cap .nm{font-size:12.5px;font-weight:600;line-height:1.25}
+  .card .cap .loc{font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);margin-top:1px}
+  .card .stale{position:absolute;left:6px;top:6px;background:var(--ink);color:#fff;
+               font:10px var(--mono);padding:2px 5px;border-radius:2px;opacity:.85}
+  .card.hidden-card{display:none}
+  /* signature: grease-pencil pick number */
+  .card.picked{outline:3px solid var(--marker);outline-offset:-1px}
+  .pick-no{position:absolute;top:-11px;right:-9px;width:30px;height:30px;border:3px solid var(--marker);
+           border-radius:50% 46% 52% 48%/48% 52% 46% 54%;background:var(--paper);color:var(--marker);
+           font-family:var(--disp);font-weight:600;font-size:16px;display:none;align-items:center;justify-content:center;
+           transform:rotate(-9deg);box-shadow:0 1px 3px rgba(20,20,25,.25)}
+  .card.picked .pick-no{display:flex}
+
+  /* ---------- tray ---------- */
+  #tray{position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--ink);color:#eee;
+        display:flex;align-items:center;gap:12px;padding:9px 16px}
+  #tray .slots{display:flex;gap:8px}
+  .slot{width:34px;height:46px;border:1.5px dashed #7a7c82;border-radius:2px;display:flex;align-items:center;justify-content:center;
+        font-family:var(--mono);font-size:10px;color:#8b8d93;overflow:hidden;background:#2a2b2e}
+  .slot img{width:100%;height:100%;object-fit:cover}
+  .slot.filled{border-style:solid;border-color:var(--marker)}
+  #tray .hint{font-family:var(--mono);font-size:12px;color:#b7b9bf}
+  #tray button{font:600 13px var(--disp);letter-spacing:.06em;text-transform:uppercase;border:0;border-radius:3px;
+               padding:9px 16px;cursor:pointer}
+  #composeBtn{background:var(--marker);color:var(--marker-ink)}
+  #composeBtn:disabled{background:#57585c;color:#9a9ca1;cursor:not-allowed}
+  #clearBtn{background:transparent;color:#cfd0d4;border:1px solid #6f7076}
+  #tray button:focus-visible{outline:2px solid #fff;outline-offset:2px}
+
+  /* ---------- compose panel ---------- */
+  #overlay{position:fixed;inset:0;background:rgba(18,18,20,.55);z-index:90;display:none}
+  #panel{position:fixed;z-index:100;inset:auto 0 0 0;max-height:92vh;overflow:auto;background:var(--table);
+         border-top:3px solid var(--marker);padding:18px 18px 26px;display:none}
+  @media(min-width:900px){#panel{inset:4vh 8vw;border:1px solid var(--ink);border-top:3px solid var(--marker);border-radius:4px}}
+  #panel h2{font-family:var(--disp);font-weight:600;font-size:18px;letter-spacing:.07em;text-transform:uppercase;margin:0 0 12px}
+  #panel .close{float:right;font:16px var(--mono);background:none;border:1px solid var(--rule);border-radius:3px;
+                padding:3px 9px;cursor:pointer}
+  .sel-row{display:flex;gap:12px;background:var(--paper);border:1px solid var(--rule);border-radius:3px;
+           padding:10px;margin-bottom:10px;align-items:flex-start}
+  .sel-row img{width:64px;height:auto;border:1px solid var(--rule);flex:none}
+  .sel-row .meta{flex:1;min-width:0}
+  .sel-row .meta .nm{font-weight:600;font-size:13.5px}
+  .sel-row .meta .cd{font-family:var(--mono);font-size:11px;color:var(--ink-soft)}
+  .sel-row textarea{width:100%;margin-top:6px;font:12.5px var(--sans);padding:6px;border:1px solid var(--rule);
+                    border-radius:3px;resize:vertical;min-height:40px}
+  .sel-row .rm{background:none;border:none;color:var(--marker);font:12px var(--mono);cursor:pointer;padding:2px}
+  label.fld{display:block;font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.07em;
+            color:var(--ink-soft);margin:14px 0 4px}
+  #postText{width:100%;font:14px var(--sans);padding:9px;border:1px solid var(--rule);border-radius:3px;min-height:74px}
+  #charCount{font-family:var(--mono);font-size:11px;color:var(--ink-soft);text-align:right;margin-top:2px}
+  #charCount.over{color:var(--marker);font-weight:700}
+  details#acct{margin-top:14px;background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:10px 12px}
+  details#acct summary{font-family:var(--mono);font-size:12px;cursor:pointer}
+  details#acct input[type=text],details#acct input[type=password]{width:100%;font:13px var(--mono);padding:7px;margin:3px 0 8px;
+       border:1px solid var(--rule);border-radius:3px}
+  details#acct .note{font-size:11.5px;color:var(--ink-soft)}
+  #panel .actions{display:flex;gap:10px;align-items:center;margin-top:16px;flex-wrap:wrap}
+  #sendBtn{background:var(--marker);color:#fff;border:0;border-radius:3px;padding:11px 22px;cursor:pointer;
+           font:600 14px var(--disp);letter-spacing:.07em;text-transform:uppercase}
+  #sendBtn:disabled{background:#9b9da2;cursor:wait}
+  #log{font-family:var(--mono);font-size:12px;white-space:pre-wrap;margin-top:12px;color:var(--ink-soft)}
+  #log a{color:var(--marker)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="flag">The <span class="tilt">Paste-Up</span></div>
+  <div id="dateline">loading…</div>
+  <nav id="nav" aria-label="Regions"></nav>
+  <input id="search" type="search" placeholder="filter papers…" aria-label="Filter papers">
+</header>
+
+<main>
+  <p id="status">Loading paper list…</p>
+  <div id="sections"></div>
+</main>
+
+<div id="tray" role="region" aria-label="Selected pages">
+  <div class="slots" id="slots"></div>
+  <span class="hint" id="trayHint">Tap up to 4 pages</span>
+  <button id="composeBtn" disabled>Compose post</button>
+  <button id="clearBtn">Clear</button>
+</div>
+
+<div id="overlay"></div>
+<div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle">
+  <button class="close" id="closeBtn" aria-label="Close">✕</button>
+  <h2 id="panelTitle">Post to Bluesky</h2>
+  <div id="selList"></div>
+
+  <label class="fld" for="postText">Post text</label>
+  <textarea id="postText"></textarea>
+  <div id="charCount">0 / 300</div>
+
+  <details id="acct">
+    <summary>Bluesky account</summary>
+    <label class="fld" for="bskyHandle">Handle (e.g. you.bsky.social)</label>
+    <input type="text" id="bskyHandle" autocomplete="username">
+    <label class="fld" for="bskyPass">App password</label>
+    <input type="password" id="bskyPass" autocomplete="current-password">
+    <label class="fld" for="bskyService">Service URL</label>
+    <input type="text" id="bskyService" value="https://bsky.social">
+    <label style="font-size:12.5px"><input type="checkbox" id="remember" checked> Remember on this device</label>
+    <p class="note">Use an <b>app password</b> (Bluesky Settings → Privacy and Security → App Passwords), never your main
+    password. If you check “remember”, it is stored only in this browser’s local storage.</p>
+  </details>
+
+  <div class="actions">
+    <button id="sendBtn">Post to Bluesky</button>
+  </div>
+  <div id="log" aria-live="polite"></div>
+</div>
+
+<script>
+"use strict";
+/* ============================ config ============================ */
+const FF_CDN = "https://d2dr22b2lm4tvw.cloudfront.net";
+const KK_IMG = "https://img.kiosko.net";
+// If direct fetches of image bytes are blocked by CORS at posting time, these
+// relays are tried in order. Best long-term option: deploy your own tiny
+// Cloudflare Worker (see README) and put its URL first, e.g. "https://x.workers.dev/?url="
+const CORS_RELAYS = [
+  "https://corsproxy.io/?url=",
+  "https://api.allorigins.win/raw?url="
+];
+const MAX_BYTES = 950 * 1024;   // Bluesky hard limit is ~976 KB per image
+const MAX_DIM = 2000;
+
+const REGIONS = [
+  ["us","United States"],
+  ["canada","Canada"],
+  ["mexico","Mexico"],
+  ["weurope","Western Europe"],
+  ["world","Everything Else"]
+];
+const SRC_LABEL = { ff: "FF", fp: "FP", kk: "K" };
+
+/* ============================ dates ============================ */
+function denverYMD(offsetDays=0){
+  const now = new Date(Date.now() + offsetDays*86400000);
+  return new Intl.DateTimeFormat("en-CA",{timeZone:"America/Denver",
+    year:"numeric",month:"2-digit",day:"2-digit"}).format(now); // YYYY-MM-DD
+}
+function longDate(ymd){
+  const [y,m,d] = ymd.split("-").map(Number);
+  return new Date(Date.UTC(y,m-1,d)).toLocaleDateString("en-US",
+    {timeZone:"UTC",year:"numeric",month:"long",day:"numeric"});
+}
+function shortDate(ymd){
+  const [y,m,d] = ymd.split("-").map(Number);
+  return new Date(Date.UTC(y,m-1,d)).toLocaleDateString("en-US",
+    {timeZone:"UTC",month:"short",day:"numeric"});
+}
+const TODAY = denverYMD(0), YESTERDAY = denverYMD(-1);
+
+/* ============================ per-source image urls ============================ */
+const ffUrl = (id,date,size) => `${FF_CDN}/${id}/${date}/front-page-${size}.jpg`;
+const kkUrl = (id,date) => { const [y,m,d]=date.split("-"); return `${KK_IMG}/${y}/${m}/${d}/${id}.750.jpg`; };
+const fpDate = url => { const m=/\/g\/(\d{4})\/(\d{2})\/(\d{2})\//.exec(url||""); return m?`${m[1]}-${m[2]}-${m[3]}`:null; };
+
+// ordered fallback list of {date,url} to try for a paper's grid image
+function gridChain(p){
+  if(p.source==="ff") return [
+    {date:TODAY,url:ffUrl(p.id,TODAY,"medium")},{date:TODAY,url:ffUrl(p.id,TODAY,"large")},
+    {date:YESTERDAY,url:ffUrl(p.id,YESTERDAY,"medium")},{date:YESTERDAY,url:ffUrl(p.id,YESTERDAY,"large")}];
+  if(p.source==="kk") return [
+    {date:TODAY,url:kkUrl(p.id,TODAY)},{date:YESTERDAY,url:kkUrl(p.id,YESTERDAY)}];
+  if(p.source==="fp" && p.img) return [{date:fpDate(p.img)||TODAY,url:p.img}];
+  return [];
+}
+// full-size URL used when uploading to Bluesky
+function uploadUrl(p,date){
+  if(p.source==="ff") return ffUrl(p.id,date,"large");
+  if(p.source==="kk") return kkUrl(p.id,date);
+  return p.img;
+}
+
+window.imgFallback = function(img){
+  const card = img.closest(".card");
+  const p = paperByUid(card.dataset.uid);
+  const chain = gridChain(p);
+  const i = (+img.dataset.step || 0) + 1;
+  if(i < chain.length){
+    img.dataset.step = i;
+    setCardDate(card, chain[i].date);
+    img.src = chain[i].url;
+  } else {
+    card.classList.add("hidden-card");           // no page available
+    unpick(card.dataset.uid);
+  }
+};
+function setCardDate(card,date){
+  card.dataset.date = date;
+  const b = card.querySelector(".stale");
+  if(date === TODAY){ b.style.display = "none"; }
+  else { b.style.display = "block"; b.textContent = (date===YESTERDAY) ? "yesterday" : shortDate(date); }
+}
+
+/* ============================ state ============================ */
+let PAPERS = [];                 // from papers.json
+const picks = [];                // array of uids, in selection order
+
+/* ============================ render ============================ */
+async function load(){
+  document.getElementById("dateline").textContent = longDate(TODAY);
+  try{
+    const r = await fetch("data/papers.json",{cache:"no-store"});
+    const data = await r.json();
+    PAPERS = data.papers.filter(p => gridChain(p).length);
+  }catch(e){
+    document.getElementById("status").textContent =
+      "Could not load data/papers.json — run the “Update paper list” workflow once from the Actions tab.";
+    return;
+  }
+  render();
+  const bySrc = s => PAPERS.filter(p=>p.source===s).length;
+  document.getElementById("status").textContent =
+    `${PAPERS.length} papers · Freedom Forum ${bySrc("ff")} · FrontPages.com ${bySrc("fp")} · Kiosko ${bySrc("kk")} · pages missing today are hidden automatically`;
+}
+
+function render(){
+  const nav = document.getElementById("nav");
+  const wrap = document.getElementById("sections");
+  nav.innerHTML = ""; wrap.innerHTML = "";
+  for(const [key,label] of REGIONS){
+    const list = PAPERS.filter(p=>p.region===key);
+    if(!list.length) continue;
+    const a = document.createElement("a");
+    a.href = "#sec-"+key; a.textContent = label;
+    nav.appendChild(a);
+
+    const sec = document.createElement("section");
+    sec.id = "sec-"+key;
+    sec.innerHTML = `<div class="sec-head"><h2>${label}</h2><span class="count">${list.length} papers</span></div>`;
+    const grid = document.createElement("div");
+    grid.className = "grid";
+    let lastGroup = null;
+    for(const p of list){
+      const group = (key==="us") ? (p.state || "National & unsorted")
+                    : ((key==="weurope"||key==="world") ? p.country : null);
+      if(group && group!==lastGroup){
+        const lab = document.createElement("div");
+        lab.className = "sub-label"; lab.textContent = group;
+        grid.appendChild(lab); lastGroup = group;
+      }
+      grid.appendChild(makeCard(p));
+    }
+    sec.appendChild(grid);
+    wrap.appendChild(sec);
+  }
+}
+
+function locLine(p){
+  const base = (p.region==="us") ? (p.state ? p.state : "U.S. national / unsorted") : p.country;
+  return `${base} · ${SRC_LABEL[p.source]||"?"}`;
+}
+
+function makeCard(p){
+  const chain = gridChain(p);
+  const card = document.createElement("div");
+  card.className = "card";
+  card.tabIndex = 0;
+  card.setAttribute("role","button");
+  card.setAttribute("aria-label",`Select ${p.name}`);
+  card.dataset.uid = p.uid;
+  card.innerHTML = `
+    <span class="stale" style="display:none"></span>
+    <img loading="lazy" alt="Front page thumbnail of ${p.name}"
+         src="${chain[0].url}" data-step="0" onerror="imgFallback(this)">
+    <span class="pick-no"></span>
+    <div class="cap"><div class="nm">${p.name}</div><div class="loc">${locLine(p)}</div></div>`;
+  setCardDate(card, chain[0].date);
+  const toggle = ()=>togglePick(p.uid);
+  card.addEventListener("click",toggle);
+  card.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();toggle();}});
+  return card;
+}
+
+/* ============================ selection ============================ */
+function togglePick(uid){
+  const i = picks.indexOf(uid);
+  if(i>=0) picks.splice(i,1);
+  else{
+    if(picks.length>=4){alert("Four pages max — remove one first.");return;}
+    picks.push(uid);
+  }
+  syncPicks();
+}
+function unpick(uid){
+  const i = picks.indexOf(uid);
+  if(i>=0){picks.splice(i,1);syncPicks();}
+}
+function syncPicks(){
+  document.querySelectorAll(".card").forEach(card=>{
+    const i = picks.indexOf(card.dataset.uid);
+    card.classList.toggle("picked", i>=0);
+    card.querySelector(".pick-no").textContent = i>=0 ? (i+1) : "";
+  });
+  const slots = document.getElementById("slots");
+  slots.innerHTML = "";
+  for(let s=0;s<4;s++){
+    const d = document.createElement("div");
+    d.className = "slot"+(picks[s]?" filled":"");
+    if(picks[s]){
+      const card = document.querySelector(`.card[data-uid="${cssEsc(picks[s])}"]`);
+      d.innerHTML = `<img src="${card.querySelector("img").src}" alt="">`;
+    } else d.textContent = s+1;
+    slots.appendChild(d);
+  }
+  document.getElementById("composeBtn").disabled = picks.length===0;
+  document.getElementById("trayHint").textContent =
+    picks.length ? `${picks.length} of 4 selected` : "Tap up to 4 pages";
+}
+const cssEsc = s => (window.CSS && CSS.escape) ? CSS.escape(s) : s.replace(/[^a-zA-Z0-9_\-]/g, m=>"\\"+m);
+
+/* ============================ compose ============================ */
+const paperByUid = uid => PAPERS.find(p=>p.uid===uid);
+const cardEl = uid => document.querySelector(`.card[data-uid="${cssEsc(uid)}"]`);
+const cardDate = uid => cardEl(uid)?.dataset.date || TODAY;
+const cardImgSrc = uid => cardEl(uid)?.querySelector("img").src || "";
+
+function altFor(p,date){
+  const loc = p.region==="us" ? (p.state?` (${p.state})`:"") : ` (${p.country})`;
+  return `Front page of ${p.name}${loc}, ${longDate(date)}`;
+}
+function defaultText(){
+  const names = picks.map(u=>paperByUid(u).name);
+  const joined = names.length>1
+    ? names.slice(0,-1).join(", ") + " and " + names[names.length-1]
+    : names[0]||"";
+  return `Today's front pages: ${joined} — ${longDate(TODAY)}`;
+}
+
+function openPanel(){
+  const list = document.getElementById("selList");
+  list.innerHTML = "";
+  picks.forEach((uid,idx)=>{
+    const p = paperByUid(uid), d = cardDate(uid);
+    const row = document.createElement("div");
+    row.className = "sel-row";
+    const ta = document.createElement("textarea");
+    ta.dataset.uid = uid;
+    ta.setAttribute("aria-label",`Alt text for ${p.name}`);
+    ta.value = altFor(p,d);
+    row.innerHTML = `
+      <img src="${cardImgSrc(uid)}" alt="">
+      <div class="meta">
+        <div class="nm">${idx+1}. ${p.name}</div>
+        <div class="cd">${locLine(p)} · ${d}</div>
+      </div>
+      <button class="rm" data-uid="${p.uid}">remove</button>`;
+    row.querySelector(".meta").appendChild(ta);
+    list.appendChild(row);
+  });
+  list.querySelectorAll(".rm").forEach(b=>b.addEventListener("click",()=>{
+    unpick(b.dataset.uid);
+    picks.length ? openPanel() : closePanel();
+  }));
+  const t = document.getElementById("postText");
+  t.value = defaultText(); countChars();
+  document.getElementById("log").textContent = "";
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("panel").style.display = "block";
+}
+function closePanel(){
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("panel").style.display = "none";
+}
+function countChars(){
+  const n = document.getElementById("postText").value.length;
+  const el = document.getElementById("charCount");
+  el.textContent = `${n} / 300`;
+  el.classList.toggle("over", n>300);
+}
+
+/* ============================ image bytes ============================ */
+async function fetchBytes(url){
+  const tries = [url, ...CORS_RELAYS.map(r=>r+encodeURIComponent(url))];
+  let lastErr;
+  for(const u of tries){
+    try{
+      const r = await fetch(u);
+      if(r.ok){
+        const b = await r.blob();
+        if(b.size>500) return b;
+      }
+      lastErr = new Error(`HTTP ${r.status}`);
+    }catch(e){ lastErr = e; }
+  }
+  throw new Error("Couldn't fetch image bytes (CORS). Add your own relay to CORS_RELAYS — see README. "+lastErr);
+}
+async function toJpegUnderLimit(blob){
+  let bmp = await createImageBitmap(blob);
+  let {width:w,height:h} = bmp;
+  const scale = Math.min(1, MAX_DIM/Math.max(w,h));
+  w = Math.round(w*scale); h = Math.round(h*scale);
+  const canvas = document.createElement("canvas");
+  canvas.width = w; canvas.height = h;
+  canvas.getContext("2d").drawImage(bmp,0,0,w,h);
+  for(const q of [0.88,0.8,0.72,0.62,0.5]){
+    const out = await new Promise(res=>canvas.toBlob(res,"image/jpeg",q));
+    if(out && out.size<=MAX_BYTES) return {blob:out,width:w,height:h};
+  }
+  canvas.width = Math.round(w*0.7); canvas.height = Math.round(h*0.7);
+  canvas.getContext("2d").drawImage(bmp,0,0,canvas.width,canvas.height);
+  const out = await new Promise(res=>canvas.toBlob(res,"image/jpeg",0.6));
+  return {blob:out,width:canvas.width,height:canvas.height};
+}
+
+/* ============================ bluesky ============================ */
+const log = msg => { const el=document.getElementById("log"); el.innerHTML += msg+"\n"; };
+
+async function postToBluesky(){
+  const service = document.getElementById("bskyService").value.trim().replace(/\/+$/,"");
+  const identifier = document.getElementById("bskyHandle").value.trim().replace(/^@/,"");
+  const password = document.getElementById("bskyPass").value;
+  const text = document.getElementById("postText").value;
+  if(!identifier || !password){
+    document.getElementById("acct").open = true;
+    log("Enter your Bluesky handle and app password first."); return;
+  }
+  if(text.length>300){ log("Post text is over 300 characters — trim it first."); return; }
+  if(document.getElementById("remember").checked){
+    localStorage.setItem("bskyHandle",identifier);
+    localStorage.setItem("bskyPass",password);
+    localStorage.setItem("bskyService",service);
+  }
+  const btn = document.getElementById("sendBtn");
+  btn.disabled = true;
+  try{
+    log("Signing in…");
+    let r = await fetch(`${service}/xrpc/com.atproto.server.createSession`,{
+      method:"POST",headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({identifier,password})});
+    if(!r.ok) throw new Error("Login failed — check handle / app password. "+await r.text());
+    const session = await r.json();
+
+    const images = [];
+    for(const uid of picks){
+      const p = paperByUid(uid), d = cardDate(uid);
+      const alt = document.querySelector(`#selList textarea[data-uid="${cssEsc(uid)}"]`)?.value || altFor(p,d);
+      log(`Fetching ${p.name}…`);
+      const raw = await fetchBytes(uploadUrl(p,d));
+      const {blob,width,height} = await toJpegUnderLimit(raw);
+      log(`  uploading (${Math.round(blob.size/1024)} KB)…`);
+      r = await fetch(`${service}/xrpc/com.atproto.repo.uploadBlob`,{
+        method:"POST",
+        headers:{"Content-Type":"image/jpeg","Authorization":"Bearer "+session.accessJwt},
+        body:blob});
+      if(!r.ok) throw new Error(`Upload failed for ${p.name}: `+await r.text());
+      const up = await r.json();
+      images.push({alt, image:up.blob, aspectRatio:{width,height}});
+    }
+
+    log("Creating post…");
+    r = await fetch(`${service}/xrpc/com.atproto.repo.createRecord`,{
+      method:"POST",
+      headers:{"Content-Type":"application/json","Authorization":"Bearer "+session.accessJwt},
+      body:JSON.stringify({
+        repo:session.did,
+        collection:"app.bsky.feed.post",
+        record:{
+          "$type":"app.bsky.feed.post",
+          text, createdAt:new Date().toISOString(), langs:["en"],
+          embed:{ "$type":"app.bsky.embed.images", images }
+        }})});
+    if(!r.ok) throw new Error("Post failed: "+await r.text());
+    const rec = await r.json();
+    const rkey = rec.uri.split("/").pop();
+    log(`Posted ✔ <a target="_blank" rel="noopener" href="https://bsky.app/profile/${session.handle}/post/${rkey}">Open on Bluesky</a>`);
+  }catch(e){
+    log("✗ "+e.message);
+  }finally{
+    btn.disabled = false;
+  }
+}
+
+/* ============================ wiring ============================ */
+document.getElementById("composeBtn").addEventListener("click",openPanel);
+document.getElementById("clearBtn").addEventListener("click",()=>{picks.length=0;syncPicks();});
+document.getElementById("closeBtn").addEventListener("click",closePanel);
+document.getElementById("overlay").addEventListener("click",closePanel);
+document.getElementById("postText").addEventListener("input",countChars);
+document.getElementById("sendBtn").addEventListener("click",postToBluesky);
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closePanel();});
+document.getElementById("search").addEventListener("input",e=>{
+  const q = e.target.value.trim().toLowerCase();
+  document.querySelectorAll(".card").forEach(card=>{
+    const p = paperByUid(card.dataset.uid);
+    const hay = `${p.name} ${p.country} ${p.state||""} ${p.id}`.toLowerCase();
+    card.style.display = (!q || hay.includes(q)) ? "" : "none";
+  });
+  document.querySelectorAll(".sub-label").forEach(l=>l.style.display = q ? "none" : "");
+});
+
+// restore saved credentials
+document.getElementById("bskyHandle").value = localStorage.getItem("bskyHandle")||"";
+document.getElementById("bskyPass").value = localStorage.getItem("bskyPass")||"";
+document.getElementById("bskyService").value = localStorage.getItem("bskyService")||"https://bsky.social";
+
+syncPicks();
+load();
+</script>
+</body>
+</html>

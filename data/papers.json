@@ -1,0 +1,107 @@
+{
+ "generated": "seed",
+ "date": "2026-07-22",
+ "count": 10,
+ "papers": [
+  {
+   "uid": "ff:usat",
+   "source": "ff",
+   "id": "usat",
+   "name": "USA Today",
+   "region": "us",
+   "country": "United States",
+   "state": null,
+   "img": null
+  },
+  {
+   "uid": "ff:wsj",
+   "source": "ff",
+   "id": "wsj",
+   "name": "The Wall Street Journal",
+   "region": "us",
+   "country": "United States",
+   "state": null,
+   "img": null
+  },
+  {
+   "uid": "ff:az_ar",
+   "source": "ff",
+   "id": "az_ar",
+   "name": "The Arizona Republic",
+   "region": "us",
+   "country": "United States",
+   "state": "Arizona",
+   "img": null
+  },
+  {
+   "uid": "ff:ca_mn",
+   "source": "ff",
+   "id": "ca_mn",
+   "name": "The Mercury News",
+   "region": "us",
+   "country": "United States",
+   "state": "California",
+   "img": null
+  },
+  {
+   "uid": "ff:fl_mh",
+   "source": "ff",
+   "id": "fl_mh",
+   "name": "The Miami Herald",
+   "region": "us",
+   "country": "United States",
+   "state": "Florida",
+   "img": null
+  },
+  {
+   "uid": "ff:il_cst",
+   "source": "ff",
+   "id": "il_cst",
+   "name": "Chicago Sun-Times",
+   "region": "us",
+   "country": "United States",
+   "state": "Illinois",
+   "img": null
+  },
+  {
+   "uid": "ff:mn_st",
+   "source": "ff",
+   "id": "mn_st",
+   "name": "Star Tribune",
+   "region": "us",
+   "country": "United States",
+   "state": "Minnesota",
+   "img": null
+  },
+  {
+   "uid": "ff:mo_slpd",
+   "source": "ff",
+   "id": "mo_slpd",
+   "name": "St. Louis Post-Dispatch",
+   "region": "us",
+   "country": "United States",
+   "state": "Missouri",
+   "img": null
+  },
+  {
+   "uid": "ff:ne_owh",
+   "source": "ff",
+   "id": "ne_owh",
+   "name": "Omaha World-Herald",
+   "region": "us",
+   "country": "United States",
+   "state": "Nebraska",
+   "img": null
+  },
+  {
+   "uid": "ff:wa_st",
+   "source": "ff",
+   "id": "wa_st",
+   "name": "The Seattle Times",
+   "region": "us",
+   "country": "United States",
+   "state": "Washington",
+   "img": null
+  }
+ ]
+}
