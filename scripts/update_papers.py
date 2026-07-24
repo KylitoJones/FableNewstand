@@ -1,27 +1,31 @@
 #!/usr/bin/env python3
 """
-Refresh data/papers.json from three sources:
+update_papers v5 — refresh data/papers.json from three sources:
 
-  ff  Freedom Forum   (frontpages.freedomforum.org; date-stamped image URLs)
-  fp  FrontPages.com  (per-day hashed image URLs -> recorded daily by this script)
+  ff  Freedom Forum   (date-stamped image URLs on CloudFront)
+      The website blanket rate-limits cloud IPs, so enumeration comes from the
+      Internet Archive's CDX index of frontpages.freedomforum.org/newspapers/*
+      (URL slugs contain code AND name). Every new candidate code is then
+      validated directly against FF's image CDN (not rate-limited) so dead
+      codes never enter the list. Direct site fetches are still attempted
+      first in case the rate limit lifts.
+
+  fp  FrontPages.com  (per-day hashed image URLs, recorded daily)
+      The paper grid on each country page sits between </h1> and the first
+      <h2>; nav menus (which contain the literal text "SPORTS/WORLD
+      Newspapers") must NOT be used as cut markers. A per-paper og:image
+      pass fills any image the listing didn't expose.
+
   kk  Kiosko.net      (date-stamped image URLs)
+      TLS needs OpenSSL security level 0 (legacy signature algorithm).
+      Country landing pages cross-link to OTHER countries' geo pages, so each
+      paper is attributed by the country code in its own URL, and every geo
+      page is fetched at most once globally.
 
-Strategies per source:
-  ff: homepage + gallery HTML, the same routes requested as a Next.js RSC
-      payload, robots.txt-discovered sitemaps plus common sitemap paths,
-      expanding sitemap indexes. Slug pattern tolerates JSON-escaped slashes.
-  fp: per-country listing pages (main grid only, split at first <h2>).
-  kk: per-country landing pages PLUS their linked geo/*.html region pages.
+Merging is conservative (a bad scrape day never shrinks the list); dedupe
+across sources keeps ff > fp > kk. Diagnostics go to stderr.
 
-All requests use browser-like headers. If a page comes back blocked
-(401/403/429/503) it is retried through the r.jina.ai text mirror, whose
-markdown output preserves the absolute URLs these parsers look for.
-
-Merging is conservative (existing entries survive a bad scrape day) and
-cross-source dedupe keeps ff > fp > kk. Diagnostics go to stderr so the
-Actions log shows exactly what each page returned.
-
-No third-party dependencies; runs on stock Python 3.9+.
+No third-party dependencies; stock Python 3.9+.
 """
 
 import html as htmllib
@@ -35,7 +39,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
-from urllib.parse import unquote, urljoin
+from urllib.parse import unquote, urljoin, urlsplit
 
 try:
     from zoneinfo import ZoneInfo
@@ -44,16 +48,24 @@ except Exception:
     DENVER = None
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "papers.json"
-DELAY = 0.25    # politeness between requests
-RETRY_429 = 20  # seconds to back off once when rate-limited
+DELAY = 0.25
+RETRY_429 = 20
+RATE_LIMITED = set()      # hosts that returned 429; don't waste backoffs again
 
-# kiosko.net's TLS uses a legacy signature algorithm that OpenSSL 3 rejects
-# by default (WRONG_SIGNATURE_TYPE); lowering the security level fixes it.
-SSL_CTX = ssl.create_default_context()
-try:
-    SSL_CTX.set_ciphers("DEFAULT:@SECLEVEL=1")
-except ssl.SSLError:
-    pass
+# --- TLS: kiosko.net needs legacy signature algorithms (security level 0) ---
+def _make_ctx(seclevel, verify=True):
+    ctx = ssl.create_default_context()
+    if not verify:
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+    try:
+        ctx.set_ciphers(f"DEFAULT:@SECLEVEL={seclevel}")
+    except ssl.SSLError:
+        pass
+    return ctx
+
+SSL_CTX = _make_ctx(0)
+SSL_CTX_LOOSE = _make_ctx(0, verify=False)   # last resort for broken TLS stacks
 
 BROWSER_HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -70,8 +82,14 @@ def _request(url, headers=None, timeout=45):
     if headers:
         h.update(headers)
     req = urllib.request.Request(url, headers=h)
-    with urllib.request.urlopen(req, timeout=timeout, context=SSL_CTX) as r:
-        return r.read().decode("utf-8", errors="replace")
+    try:
+        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CTX) as r:
+            return r.read().decode("utf-8", errors="replace")
+    except urllib.error.URLError as e:
+        if isinstance(getattr(e, "reason", None), ssl.SSLError):
+            with urllib.request.urlopen(req, timeout=timeout, context=SSL_CTX_LOOSE) as r:
+                return r.read().decode("utf-8", errors="replace")
+        raise
 
 def _jina(url):
     txt = _request("https://r.jina.ai/" + url)
@@ -79,19 +97,21 @@ def _jina(url):
     return txt
 
 def get(url, headers=None, mirror=True):
-    """Fetch with browser headers; on block, retry via the r.jina.ai mirror."""
+    host = urlsplit(url).netloc
     try:
         txt = _request(url, headers)
         time.sleep(DELAY)
         return txt
     except urllib.error.HTTPError as e:
         note(f"    {url} -> HTTP {e.code}")
-        if e.code == 429:
+        if e.code == 429 and host not in RATE_LIMITED:
+            RATE_LIMITED.add(host)
             note(f"    backing off {RETRY_429}s and retrying once…")
             time.sleep(RETRY_429)
             try:
                 txt = _request(url, headers)
                 time.sleep(DELAY)
+                RATE_LIMITED.discard(host)
                 return txt
             except Exception as e2:
                 note(f"    429 retry failed: {e2}")
@@ -109,6 +129,9 @@ def get(url, headers=None, mirror=True):
             except Exception as e2:
                 note(f"    jina mirror failed too: {e2}")
         raise
+
+def denver_now():
+    return datetime.now(DENVER) if DENVER else datetime.utcnow() - timedelta(hours=6)
 
 
 # ----------------------------------------------------------------- regions ---
@@ -221,9 +244,12 @@ def strip_tags(s):
 # ------------------------------------------------------- source: freedomforum
 
 FF_BASE = "https://frontpages.freedomforum.org"
-# tolerate JSON-escaped slashes (\/newspapers\/...) inside script payloads
+FF_CDN = "https://d2dr22b2lm4tvw.cloudfront.net"
 FF_SLUG = re.compile(r"(?:\\/|/)newspapers(?:\\/|/)([a-z0-9_]+)-([^\"'<>\s\\)?#&]+)")
-LOC_RE = re.compile(r"<loc>\s*([^<\s]+)\s*</loc>")
+# CDX index of every archived paper URL (contains code AND name)
+FF_CDX = ("https://web.archive.org/cdx/search/cdx"
+          "?url=frontpages.freedomforum.org/newspapers/*"
+          "&collapse=urlkey&fl=original&limit=8000")
 
 def _ff_harvest(text, out, label):
     n0 = len(out)
@@ -245,48 +271,63 @@ def _ff_harvest(text, out, label):
                          region=region_for_country(country), img=None)
     note(f"  ff {label}: +{len(out)-n0} (total {len(out)})")
 
+def _cdn_alive(code, dates):
+    for d in dates:
+        url = f"{FF_CDN}/{code}/{d}/front-page-medium.jpg"
+        try:
+            req = urllib.request.Request(
+                url, headers={**BROWSER_HEADERS, "Range": "bytes=0-0"})
+            with urllib.request.urlopen(req, timeout=20, context=SSL_CTX):
+                return True
+        except Exception:
+            continue
+    return False
+
 def scrape_freedomforum():
     out = {}
+    # 1) direct attempts (cheap; work whenever the rate limit isn't biting)
     for url in (FF_BASE + "/", FF_BASE + "/gallery"):
-        for hdr, label in ((None, "html"), ({"RSC": "1"}, "rsc")):
-            try:
-                _ff_harvest(get(url, headers=hdr), out, f"{url} [{label}]")
-            except Exception as exc:
-                note(f"  ff skip {url} [{label}]: {exc}")
-    # the gallery is client-rendered; the jina mirror renders JS, so ask it
-    # for the full gallery regardless of whether the direct fetch "worked"
+        try:
+            _ff_harvest(get(url), out, url)
+        except Exception as exc:
+            note(f"  ff skip {url}: {exc}")
     try:
         _ff_harvest(_jina(FF_BASE + "/gallery"), out, "gallery [jina-rendered]")
     except Exception as exc:
         note(f"  ff jina gallery: {exc}")
-    # sitemap discovery: robots.txt first, then common paths
-    sitemap_urls = []
+    # 2) Internet Archive CDX enumeration (not rate-limited by FF)
     try:
-        robots = get(FF_BASE + "/robots.txt")
-        sitemap_urls += re.findall(r"(?im)^sitemap:\s*(\S+)", robots)
-        note(f"  ff robots.txt lists {len(sitemap_urls)} sitemap(s)")
+        _ff_harvest(get(FF_CDX, mirror=False), out, "wayback cdx")
     except Exception as exc:
-        note(f"  ff robots.txt: {exc}")
-    sitemap_urls += [FF_BASE + p for p in
-                     ("/sitemap.xml", "/sitemap-0.xml", "/sitemap_index.xml",
-                      "/server-sitemap.xml")]
-    seen, queue = set(), list(dict.fromkeys(sitemap_urls))
-    while queue and len(seen) < 30:
-        sm = queue.pop(0)
-        if sm in seen:
+        note(f"  ff wayback cdx: {exc}")
+    # 3) validate NEW candidates against the image CDN so dead codes never land
+    known = set()
+    try:
+        for p in json.loads(DATA_FILE.read_text())["papers"]:
+            if p.get("source") == "ff":
+                known.add(p["id"])
+    except Exception:
+        pass
+    now = denver_now()
+    dates = [now.strftime("%Y-%m-%d"),
+             (now - timedelta(days=1)).strftime("%Y-%m-%d")]
+    validated, dropped, checked = {}, 0, 0
+    for code, p in out.items():
+        if code in known:
+            validated[code] = p
             continue
-        seen.add(sm)
-        try:
-            xml = get(sm)
-        except Exception:
-            continue
-        _ff_harvest(xml, out, sm)
-        if "<sitemap>" in xml:                    # sitemap index -> children
-            for child in LOC_RE.findall(xml):
-                if "freedomforum" in child and child not in seen:
-                    queue.append(child)
-    print(f"ff: {len(out)} papers")
-    return list(out.values())
+        if checked >= 1000:
+            break
+        checked += 1
+        if _cdn_alive(code, dates):
+            validated[code] = p
+        else:
+            dropped += 1
+        time.sleep(0.05)
+    note(f"  ff validation: {checked} new codes checked against CDN, "
+         f"{dropped} dead ones dropped")
+    print(f"ff: {len(validated)} papers")
+    return list(validated.values())
 
 
 # ------------------------------------------------------- source: frontpages.com
@@ -316,7 +357,6 @@ FP_COUNTRIES = {
 FP_ANCHOR = re.compile(
     r'<a[^>]+href="(?:https://www\.frontpages\.com)?/([a-z0-9\-]+)/"[^>]*>(.*?)</a>',
     re.S)
-# markdown-mirror form: [**Name** ...](https://www.frontpages.com/slug/)
 FP_MD_ANCHOR = re.compile(r"\[\*\*(.+?)\*\*.*?\]\(https://www\.frontpages\.com/([a-z0-9\-]+)/\)")
 FP_IMG = re.compile(r'([^\s"\'()<>\]]*?/g/(\d{4})/(\d{2})/(\d{2})/([a-z0-9\-]+)-[0-9a-z]+\.[a-z.]+)')
 FP_NAME = re.compile(r"<(?:b|strong)[^>]*>(.*?)</(?:b|strong)>", re.S)
@@ -324,7 +364,22 @@ FP_OG  = re.compile(r'(?:property|name)="og:image"[^>]*?content="([^"]+)"')
 FP_OG2 = re.compile(r'content="([^"]+)"[^>]*?(?:property|name)="og:image"')
 FP_SKIP = {"sports-newspapers", "financial-newspapers", "world-newspapers",
            "newspaper-list", "uk-newspapers", "us-newspapers"}
-FP_CUT = re.compile(r"<h2|SPORTS Newspapers|WORLD Newspapers", re.I)
+
+def _fp_main_window(page):
+    """The country's own grid sits between </h1> and the first <h2>.
+    (Nav menus contain the literal text 'SPORTS/WORLD Newspapers', so text
+    markers must not be used.) Markdown mirrors use '# ' / '## ' headings."""
+    h1 = page.find("</h1>")
+    if h1 != -1:
+        start = h1 + len("</h1>")
+        h2 = page.find("<h2", start)
+        return page[start:h2 if h2 != -1 else len(page)]
+    m1 = re.search(r"^# .*$", page, re.M)          # markdown mirror
+    if m1:
+        start = m1.end()
+        m2 = re.search(r"^## ", page[start:], re.M)
+        return page[start:start + m2.start()] if m2 else page[start:]
+    return page
 
 def _fp_clean(name):
     name = re.sub(r"\s*(Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day,.*$", "", name)
@@ -339,8 +394,7 @@ def scrape_frontpages():
         except Exception as exc:
             note(f"  fp skip {url}: {exc}")
             continue
-        m = FP_CUT.search(page)
-        main = page[:m.start()] if m else page
+        main = _fp_main_window(page)
         imgs = {}
         for full, y, mo, d, slug in FP_IMG.findall(main):
             u = full if full.startswith("http") else FP_BASE + (full if full.startswith("/") else "/" + full)
@@ -366,10 +420,9 @@ def scrape_frontpages():
                              img=imgs.get(slug))
             found += 1
         note(f"  fp {url}: +{found} papers, {len(imgs)} images "
-             f"({len(page)} chars{'' if found else ' — first 200: ' + repr(page[:200])})")
-    # --- second pass: per-paper og:image (server-rendered, has the day's URL)
-    now = datetime.now(DENVER) if DENVER else datetime.utcnow() - timedelta(hours=6)
-    today_path = now.strftime("%Y/%m/%d")
+             f"({len(page)} chars{'' if found else ' — main window: ' + repr(main[:200])})")
+    # --- second pass: per-paper og:image for anything missing today's URL
+    today_path = denver_now().strftime("%Y/%m/%d")
     def img_day(u):
         m = re.search(r"/g/(\d{4}/\d{2}/\d{2})/", u or "")
         return m.group(1) if m else None
@@ -414,37 +467,56 @@ KK_COUNTRIES = {
     "br": "Brazil", "cl": "Chile", "co": "Colombia", "pe": "Peru",
     "ve": "Venezuela", "uy": "Uruguay", "py": "Paraguay", "bo": "Bolivia",
     "ec": "Ecuador", "cr": "Costa Rica", "za": "South Africa",
+    "ph": "Philippines", "ae": "United Arab Emirates",
 }
 KK_ANCHOR = re.compile(
-    r'<a\b[^>]*href="[^"]*?\bnp/([a-z0-9_\-]+)\.html"[^>]*>(.*?)</a>', re.S)
+    r'<a\b[^>]*href="([^"]*?\bnp/([a-z0-9_\-]+)\.html)"[^>]*>(.*?)</a>', re.S)
+KK_MD_ANCHOR = re.compile(
+    r"\[([^\]]{3,}?)\]\((?:https?://[a-z0-9.]*kiosko\.net)?/?(?:([a-z]{2})/)?np/([a-z0-9_\-]+)\.html")
 KK_TITLE = re.compile(r'title="([^"]*)"')
 KK_GEO = re.compile(r'href="([^"]*?\bgeo/[^"]+\.html)"')
+KK_HREF_CC = re.compile(r'/([a-z]{2})/np/')
 
-def _kk_harvest(page, cc, country, out):
-    n0 = len(out)
+def _kk_clean(name):
+    name = re.sub(r"\s*\(.*?\)\s*$", "", name)
+    name = re.sub(r"\bnewspaper\b\.?", "", name, flags=re.I).strip(" .-")
+    return name
+
+def _kk_add(out, cc, code, name):
+    country = KK_COUNTRIES.get(cc)
+    if not country:
+        return 0
+    kid = f"{cc}/{code}"
+    if kid in out:
+        return 0
+    name = _kk_clean(name) or code.replace("_", " ").title()
+    state = US_STATE_BY_NAME.get(norm_name(name)) if country == "United States" else None
+    out[kid] = dict(uid=f"kk:{kid}", source="kk", id=kid, name=name,
+                    country=country, state=state,
+                    region=region_for_country(country), img=None)
+    return 1
+
+def _kk_harvest(page, page_cc, out):
+    n = 0
     for m in KK_ANCHOR.finditer(page):
-        code, inner = m.group(1), m.group(2)
-        kid = f"{cc}/{code}"
-        if kid in out:
-            continue
+        href, code, inner = m.group(1), m.group(2), m.group(3)
+        mcc = KK_HREF_CC.search(href)
+        cc = mcc.group(1) if (mcc and mcc.group(1) in KK_COUNTRIES) else page_cc
         opening = m.group(0).split(">", 1)[0]
         t = KK_TITLE.search(opening)
         alt = re.search(r'alt="([^"]{3,})"', inner)
         name = strip_tags(t.group(1) if t else "") \
             or (strip_tags(alt.group(1)) if alt else "") \
             or strip_tags(inner)
-        name = re.sub(r"\s*\(.*?\)\s*$", "", name)
-        name = re.sub(r"\bnewspaper\b\.?", "", name, flags=re.I).strip(" .-")
-        if not name:
-            name = code.replace("_", " ").title()
-        state = US_STATE_BY_NAME.get(norm_name(name)) if country == "United States" else None
-        out[kid] = dict(uid=f"kk:{kid}", source="kk", id=kid, name=name,
-                        country=country, state=state,
-                        region=region_for_country(country), img=None)
-    return len(out) - n0
+        n += _kk_add(out, cc, code, name)
+    for name, mcc, code in KK_MD_ANCHOR.findall(page):     # markdown mirrors
+        cc = mcc if mcc in KK_COUNTRIES else page_cc
+        n += _kk_add(out, cc, code, strip_tags(name))
+    return n
 
 def scrape_kiosko():
     out = {}
+    geo_seen = set()
     for cc, country in KK_COUNTRIES.items():
         url = f"{KK_BASE}/{cc}/"
         try:
@@ -452,16 +524,22 @@ def scrape_kiosko():
         except Exception as exc:
             note(f"  kk skip {url}: {exc}")
             continue
-        n = _kk_harvest(page, cc, country, out)
-        # region pages (geo/*.html) carry the rest of large countries' papers
-        geos = list(dict.fromkeys(KK_GEO.findall(page)))[:40]
-        for g in geos:
+        n = _kk_harvest(page, cc, out)
+        fetched_geos = 0
+        for g in KK_GEO.findall(page):
             gu = urljoin(url, g)
+            if gu in geo_seen:
+                continue
+            geo_seen.add(gu)
+            # attribute papers on a geo page by the country dir in ITS url
+            gm = re.search(r"kiosko\.net/([a-z]{2})/geo/", gu)
+            gcc = gm.group(1) if (gm and gm.group(1) in KK_COUNTRIES) else None
             try:
-                n += _kk_harvest(get(gu), cc, country, out)
+                n += _kk_harvest(get(gu), gcc, out)
+                fetched_geos += 1
             except Exception as exc:
                 note(f"  kk skip {gu}: {exc}")
-        note(f"  kk {url}: +{n} papers ({len(geos)} geo pages)")
+        note(f"  kk {url}: running total {len(out)} ({fetched_geos} new geo pages)")
     print(f"kk: {len(out)} papers")
     return list(out.values())
 
@@ -472,7 +550,7 @@ REGION_ORDER = {"us": 0, "canada": 1, "mexico": 2, "weurope": 3, "world": 4}
 SRC_PRIORITY = {"ff": 0, "fp": 1, "kk": 2}
 
 def main():
-    print("update_papers v4")
+    print("update_papers v5")
     scraped = scrape_freedomforum() + scrape_frontpages() + scrape_kiosko()
 
     existing = {}
@@ -509,7 +587,7 @@ def main():
         p["name"].lower(),
     ))
 
-    now = datetime.now(DENVER) if DENVER else datetime.utcnow() - timedelta(hours=6)
+    now = denver_now()
     payload = {
         "generated": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),
