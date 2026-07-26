@@ -409,6 +409,33 @@ def _fp_clean(name):
     name = re.sub(r"\s*(Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day,.*$", "", name)
     return name.strip()
 
+def _fp_harvest_chunk(chunk, country, out):
+    imgs = {}
+    for full, y, mo, d, slug in FP_IMG.findall(chunk):
+        u = full if full.startswith("http") else FP_BASE + (full if full.startswith("/") else "/" + full)
+        imgs.setdefault(slug, u)
+    found = 0
+    pairs = [(slug, None, inner) for slug, inner in FP_ANCHOR.findall(chunk)]
+    pairs += [(slug, name, "") for name, slug in FP_MD_ANCHOR.findall(chunk)]
+    for slug, mdname, inner in pairs:
+        if slug in FP_SKIP or slug.endswith("-newspapers") \
+           or slug.endswith("-sports") or slug.endswith("-sport") or slug in out:
+            continue
+        if mdname:
+            name = _fp_clean(strip_tags(mdname))
+        else:
+            nm = FP_NAME.search(inner)
+            name = _fp_clean(strip_tags(nm.group(1) if nm else inner))
+        if not name:
+            continue
+        state = US_STATE_BY_NAME.get(norm_name(name)) if country == "United States" else None
+        out[slug] = dict(uid=f"fp:{slug}", source="fp", id=slug, name=name,
+                         country=country, state=state,
+                         region=region_for_country(country),
+                         img=imgs.get(slug))
+        found += 1
+    return found
+
 def scrape_frontpages():
     out = {}
     for cslug, country in FP_COUNTRIES.items():
@@ -419,32 +446,18 @@ def scrape_frontpages():
             note(f"  fp skip {url}: {exc}")
             continue
         main = _fp_main_window(page)
-        imgs = {}
-        for full, y, mo, d, slug in FP_IMG.findall(main):
-            u = full if full.startswith("http") else FP_BASE + (full if full.startswith("/") else "/" + full)
-            imgs.setdefault(slug, u)
-        found = 0
-        pairs = [(slug, None, inner) for slug, inner in FP_ANCHOR.findall(main)]
-        pairs += [(slug, name, "") for name, slug in FP_MD_ANCHOR.findall(main)]
-        for slug, mdname, inner in pairs:
-            if slug in FP_SKIP or slug.endswith("-newspapers") \
-               or slug.endswith("-sports") or slug.endswith("-sport") or slug in out:
-                continue
-            if mdname:
-                name = _fp_clean(strip_tags(mdname))
-            else:
-                nm = FP_NAME.search(inner)
-                name = _fp_clean(strip_tags(nm.group(1) if nm else inner))
-            if not name:
-                continue
-            state = US_STATE_BY_NAME.get(norm_name(name)) if country == "United States" else None
-            out[slug] = dict(uid=f"fp:{slug}", source="fp", id=slug, name=name,
-                             country=country, state=state,
-                             region=region_for_country(country),
-                             img=imgs.get(slug))
-            found += 1
-        note(f"  fp {url}: +{found} papers, {len(imgs)} images "
-             f"({len(page)} chars{'' if found else ' — main window: ' + repr(main[:200])})")
+        found = _fp_harvest_chunk(main, country, out)
+        if found == 0:
+            # language variants (e.g. Italy) nest the grid inside <h2> sections;
+            # fall back to the FIRST section only (national dailies)
+            h2s = [m.start() for m in re.finditer(r"<h2", page)]
+            if h2s:
+                seg = page[h2s[0]:h2s[1]] if len(h2s) > 1 else page[h2s[0]:]
+                found = _fp_harvest_chunk(seg, country, out)
+                if found:
+                    note(f"  fp {url}: used first-<h2>-section fallback")
+        note(f"  fp {url}: +{found} papers ({len(page)} chars"
+             f"{'' if found else ' — main window: ' + repr(main[:150])})")
     # --- second pass: per-paper og:image for anything missing today's URL
     today_path = denver_now().strftime("%Y/%m/%d")
     def img_day(u):
