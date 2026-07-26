@@ -1,18 +1,8 @@
 {
- "generated": "2026-07-25T09:10:58-06:00",
+ "generated": "2026-07-25T20:24:02-06:00",
  "date": "2026-07-25",
- "count": 1411,
+ "count": 1040,
  "papers": [
-  {
-   "uid": "kk:us/arizona_republic",
-   "source": "kk",
-   "id": "us/arizona_republic",
-   "name": "Arizona Republic News",
-   "country": "United States",
-   "state": null,
-   "region": "us",
-   "img": null
-  },
   {
    "uid": "kk:us/ny_daily_news",
    "source": "kk",
@@ -32,16 +22,6 @@
    "state": null,
    "region": "us",
    "img": "https://www.frontpages.com/g/2026/06/18/forbes-155228ig6.webp.jpg"
-  },
-  {
-   "uid": "kk:us/ca_journal_montreal",
-   "source": "kk",
-   "id": "us/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "United States",
-   "state": null,
-   "region": "us",
-   "img": null
   },
   {
    "uid": "fp:new-york-magazine",
@@ -114,46 +94,6 @@
    "img": "https://www.frontpages.com/g/2026/07/21/the-new-yorker-072023v8b.webp.jpg"
   },
   {
-   "uid": "kk:us/ca_province",
-   "source": "kk",
-   "id": "us/ca_province",
-   "name": "The Province",
-   "country": "United States",
-   "state": null,
-   "region": "us",
-   "img": null
-  },
-  {
-   "uid": "kk:us/ca_toronto_star",
-   "source": "kk",
-   "id": "us/ca_toronto_star",
-   "name": "The Toronto Star",
-   "country": "United States",
-   "state": null,
-   "region": "us",
-   "img": null
-  },
-  {
-   "uid": "kk:us/ca_toronto_sun",
-   "source": "kk",
-   "id": "us/ca_toronto_sun",
-   "name": "The Toronto Sun",
-   "country": "United States",
-   "state": null,
-   "region": "us",
-   "img": null
-  },
-  {
-   "uid": "kk:us/ca_vancouver_sun",
-   "source": "kk",
-   "id": "us/ca_vancouver_sun",
-   "name": "The Vancouver Sun",
-   "country": "United States",
-   "state": null,
-   "region": "us",
-   "img": null
-  },
-  {
    "uid": "ff:wsj",
    "source": "ff",
    "id": "wsj",
@@ -202,16 +142,6 @@
    "state": null,
    "region": "us",
    "img": "https://www.frontpages.com/g/2026/07/08/vanity-fair-064014uar.webp.jpg"
-  },
-  {
-   "uid": "kk:us/winnipeg_free_press",
-   "source": "kk",
-   "id": "us/winnipeg_free_press",
-   "name": "Winnipeg Free Press",
-   "country": "United States",
-   "state": null,
-   "region": "us",
-   "img": null
   },
   {
    "uid": "ff:al_de",
@@ -1534,16 +1464,6 @@
    "img": null
   },
   {
-   "uid": "ff:il_cn",
-   "source": "ff",
-   "id": "il_cn",
-   "name": "The Courier-News",
-   "country": "United States",
-   "state": "Illinois",
-   "region": "us",
-   "img": null
-  },
-  {
    "uid": "ff:il_th",
    "source": "ff",
    "id": "il_th",
@@ -1768,16 +1688,6 @@
    "source": "ff",
    "id": "in_sp",
    "name": "The Star Press",
-   "country": "United States",
-   "state": "Indiana",
-   "region": "us",
-   "img": null
-  },
-  {
-   "uid": "ff:in_tt",
-   "source": "ff",
-   "id": "in_tt",
-   "name": "The Times",
    "country": "United States",
    "state": "Indiana",
    "region": "us",
@@ -3134,16 +3044,6 @@
    "img": null
   },
   {
-   "uid": "ff:ny_jn",
-   "source": "ff",
-   "id": "ny_jn",
-   "name": "The Journal News",
-   "country": "United States",
-   "state": "New York",
-   "region": "us",
-   "img": null
-  },
-  {
    "uid": "ff:ny_ctl",
    "source": "ff",
    "id": "ny_ctl",
@@ -3318,16 +3218,6 @@
    "source": "ff",
    "id": "nc_no",
    "name": "The News",
-   "country": "United States",
-   "state": "North Carolina",
-   "region": "us",
-   "img": null
-  },
-  {
-   "uid": "ff:nc_ts",
-   "source": "ff",
-   "id": "nc_ts",
-   "name": "The Star",
    "country": "United States",
    "state": "North Carolina",
    "region": "us",
@@ -3944,16 +3834,6 @@
    "img": null
   },
   {
-   "uid": "ff:sc_th",
-   "source": "ff",
-   "id": "sc_th",
-   "name": "The Herald",
-   "country": "United States",
-   "state": "South Carolina",
-   "region": "us",
-   "img": null
-  },
-  {
    "uid": "ff:sc_ip",
    "source": "ff",
    "id": "sc_ip",
@@ -3978,16 +3858,6 @@
    "source": "ff",
    "id": "sc_ts",
    "name": "The State",
-   "country": "United States",
-   "state": "South Carolina",
-   "region": "us",
-   "img": null
-  },
-  {
-   "uid": "ff:sc_sn",
-   "source": "ff",
-   "id": "sc_sn",
-   "name": "The Sun News",
    "country": "United States",
    "state": "South Carolina",
    "region": "us",
@@ -4368,16 +4238,6 @@
    "source": "ff",
    "id": "tx_pw",
    "name": "The Panola Watchman",
-   "country": "United States",
-   "state": "Texas",
-   "region": "us",
-   "img": null
-  },
-  {
-   "uid": "ff:tx_trn",
-   "source": "ff",
-   "id": "tx_trn",
-   "name": "Times Record News",
    "country": "United States",
    "state": "Texas",
    "region": "us",
@@ -4844,26 +4704,6 @@
    "img": null
   },
   {
-   "uid": "kk:ca/chicago_sun_times",
-   "source": "kk",
-   "id": "ca/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/chicago_tribune",
-   "source": "kk",
-   "id": "ca/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
    "uid": "fp:corriere-canadese",
    "source": "fp",
    "id": "corriere-canadese",
@@ -4872,16 +4712,6 @@
    "state": null,
    "region": "canada",
    "img": "https://www.frontpages.com/g/2026/07/24/corriere-canadese-00195698y.webp.jpg"
-  },
-  {
-   "uid": "kk:ca/ny_daily_news",
-   "source": "kk",
-   "id": "ca/ny_daily_news",
-   "name": "Daily News - New York",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
   },
   {
    "uid": "ff:can_ej",
@@ -4904,36 +4734,6 @@
    "img": null
   },
   {
-   "uid": "kk:ca/eldiario",
-   "source": "kk",
-   "id": "ca/eldiario",
-   "name": "El Diario NY",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/houston_chronicle",
-   "source": "kk",
-   "id": "ca/houston_chronicle",
-   "name": "Houston Chronicle",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/laopinion",
-   "source": "kk",
-   "id": "ca/laopinion",
-   "name": "La Opini\u00f3n",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
    "uid": "fp:le-devoir",
    "source": "fp",
    "id": "le-devoir",
@@ -4948,16 +4748,6 @@
    "source": "ff",
    "id": "can_jm",
    "name": "Le Journal de Montr\u00e9al",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/latimes",
-   "source": "kk",
-   "id": "ca/latimes",
-   "name": "Los Angeles Times",
    "country": "Canada",
    "state": null,
    "region": "canada",
@@ -4994,26 +4784,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/national-post-0803542v6.webp.jpg"
   },
   {
-   "uid": "kk:ca/newyork_times",
-   "source": "kk",
-   "id": "ca/newyork_times",
-   "name": "New York Times",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/newsday",
-   "source": "kk",
-   "id": "ca/newsday",
-   "name": "Newsday",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
    "uid": "fp:ottawa-citizen",
    "source": "fp",
    "id": "ottawa-citizen",
@@ -5022,66 +4792,6 @@
    "state": null,
    "region": "canada",
    "img": "https://www.frontpages.com/g/2026/07/25/ottawa-citizen-0818311gu.webp.jpg"
-  },
-  {
-   "uid": "kk:ca/philadelphia_inquirer",
-   "source": "kk",
-   "id": "ca/philadelphia_inquirer",
-   "name": "Philadelphia Inquirer",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/pittsburgh_post_gazette",
-   "source": "kk",
-   "id": "ca/pittsburgh_post_gazette",
-   "name": "Pittsburgh Post-Gazette",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/sf_chronicle",
-   "source": "kk",
-   "id": "ca/sf_chronicle",
-   "name": "San Francisco Chronicle",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/mercure_news",
-   "source": "kk",
-   "id": "ca/mercure_news",
-   "name": "San Jose Mercury News",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/starledger",
-   "source": "kk",
-   "id": "ca/starledger",
-   "name": "Star-Ledger",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/tampa_bay_times",
-   "source": "kk",
-   "id": "ca/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
   },
   {
    "uid": "ff:can_cs",
@@ -5144,16 +4854,6 @@
    "img": null
   },
   {
-   "uid": "kk:ca/orange_register",
-   "source": "kk",
-   "id": "ca/orange_register",
-   "name": "The Orange County Register",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
    "uid": "ff:can_os",
    "source": "ff",
    "id": "can_os",
@@ -5174,30 +4874,10 @@
    "img": null
   },
   {
-   "uid": "kk:ca/sacramento_bee",
-   "source": "kk",
-   "id": "ca/sacramento_bee",
-   "name": "The Sacramento Bee",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
    "uid": "ff:can_vs",
    "source": "ff",
    "id": "can_vs",
    "name": "The Vancouver Sun",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/washington_post",
-   "source": "kk",
-   "id": "ca/washington_post",
-   "name": "The Washington Post",
    "country": "Canada",
    "state": null,
    "region": "canada",
@@ -5234,26 +4914,6 @@
    "img": null
   },
   {
-   "uid": "kk:ca/tribune_review",
-   "source": "kk",
-   "id": "ca/tribune_review",
-   "name": "Tribune-Review",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
-   "uid": "kk:ca/wsj",
-   "source": "kk",
-   "id": "ca/wsj",
-   "name": "Wall Street Journal",
-   "country": "Canada",
-   "state": null,
-   "region": "canada",
-   "img": null
-  },
-  {
    "uid": "ff:can_wfp",
    "source": "ff",
    "id": "can_wfp",
@@ -5268,16 +4928,6 @@
    "source": "kk",
    "id": "mx/mx_am",
    "name": "Al D\u00eda A.M",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
-   "uid": "kk:mx/boston_globe",
-   "source": "kk",
-   "id": "mx/boston_globe",
-   "name": "Boston Globe",
    "country": "Mexico",
    "state": null,
    "region": "mexico",
@@ -5308,16 +4958,6 @@
    "source": "kk",
    "id": "mx/mx_debate_culiacan",
    "name": "El Debate de Culiac\u00e1n",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
-   "uid": "kk:mx/mx_debate_mochis",
-   "source": "kk",
-   "id": "mx/mx_debate_mochis",
-   "name": "El Debate de Los Mochis",
    "country": "Mexico",
    "state": null,
    "region": "mexico",
@@ -5424,16 +5064,6 @@
    "img": null
   },
   {
-   "uid": "kk:mx/mx_sol_sinaloa",
-   "source": "kk",
-   "id": "mx/mx_sol_sinaloa",
-   "name": "El Sol de Sinaloa",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
    "uid": "ff:mex_eu",
    "source": "ff",
    "id": "mex_eu",
@@ -5484,16 +5114,6 @@
    "img": null
   },
   {
-   "uid": "kk:mx/houston_chronicle",
-   "source": "kk",
-   "id": "mx/houston_chronicle",
-   "name": "Houston Chronicle",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
    "uid": "kk:mx/mx_cronica_baja_cal",
    "source": "kk",
    "id": "mx/mx_cronica_baja_cal",
@@ -5512,16 +5132,6 @@
    "state": null,
    "region": "mexico",
    "img": "https://www.frontpages.com/g/2026/07/25/la-jornada-131806u3h.webp.jpg"
-  },
-  {
-   "uid": "kk:mx/laopinion",
-   "source": "kk",
-   "id": "mx/laopinion",
-   "name": "La Opini\u00f3n",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
   },
   {
    "uid": "kk:mx/mx_laprensa",
@@ -5548,16 +5158,6 @@
    "source": "ff",
    "id": "mex_lrdm",
    "name": "La Raz\u00f3n de M\u00e9xico",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
-   "uid": "kk:mx/latimes",
-   "source": "kk",
-   "id": "mx/latimes",
-   "name": "Los Angeles Times",
    "country": "Mexico",
    "state": null,
    "region": "mexico",
@@ -5714,56 +5314,6 @@
    "img": null
   },
   {
-   "uid": "kk:mx/sf_chronicle",
-   "source": "kk",
-   "id": "mx/sf_chronicle",
-   "name": "San Francisco Chronicle",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
-   "uid": "kk:mx/mercure_news",
-   "source": "kk",
-   "id": "mx/mercure_news",
-   "name": "San Jose Mercury News",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
-   "uid": "kk:mx/st_louis_post",
-   "source": "kk",
-   "id": "mx/st_louis_post",
-   "name": "St. Louis Post-Dispatch",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
-   "uid": "kk:mx/starledger",
-   "source": "kk",
-   "id": "mx/starledger",
-   "name": "Star-Ledger",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
-   "uid": "kk:mx/tampa_bay_times",
-   "source": "kk",
-   "id": "mx/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
    "uid": "fp:ermometro-economico",
    "source": "fp",
    "id": "ermometro-economico",
@@ -5772,56 +5322,6 @@
    "state": null,
    "region": "mexico",
    "img": "https://www.frontpages.com/g/2026/07/24/ermometro-economico-1628149fz.webp.jpg"
-  },
-  {
-   "uid": "kk:mx/atlanta_journal_conts",
-   "source": "kk",
-   "id": "mx/atlanta_journal_conts",
-   "name": "The Atlanta Journal-Constitution",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
-   "uid": "kk:mx/gazette",
-   "source": "kk",
-   "id": "mx/gazette",
-   "name": "The Gazette",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
-   "uid": "kk:mx/orange_register",
-   "source": "kk",
-   "id": "mx/orange_register",
-   "name": "The Orange County Register",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
-   "uid": "kk:mx/oregonian",
-   "source": "kk",
-   "id": "mx/oregonian",
-   "name": "The Oregonian",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
-  },
-  {
-   "uid": "kk:mx/sacramento_bee",
-   "source": "kk",
-   "id": "mx/sacramento_bee",
-   "name": "The Sacramento Bee",
-   "country": "Mexico",
-   "state": null,
-   "region": "mexico",
-   "img": null
   },
   {
    "uid": "ff:mex_van",
@@ -5861,7 +5361,7 @@
    "country": "Austria",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/kronen-zeitung-0017367lv.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/kronen-zeitung-001733rwi.webp.jpg"
   },
   {
    "uid": "ff:aut_kur",
@@ -5914,90 +5414,10 @@
    "img": "https://www.frontpages.com/g/2026/07/25/oesterreich-065153bgz.webp.jpg"
   },
   {
-   "uid": "kk:be/arizona_daily_star",
-   "source": "kk",
-   "id": "be/arizona_daily_star",
-   "name": "Arizona Daily Star",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/arizona_republic",
-   "source": "kk",
-   "id": "be/arizona_republic",
-   "name": "Arizona Republic News",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/boston_globe",
-   "source": "kk",
-   "id": "be/boston_globe",
-   "name": "Boston Globe",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/chicago_sun_times",
-   "source": "kk",
-   "id": "be/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/chicago_tribune",
-   "source": "kk",
-   "id": "be/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/ny_daily_news",
-   "source": "kk",
-   "id": "be/ny_daily_news",
-   "name": "Daily News - New York",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "ff:bel_dm",
    "source": "ff",
    "id": "bel_dm",
    "name": "De Morgen",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/eldiario",
-   "source": "kk",
-   "id": "be/eldiario",
-   "name": "El Diario NY",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/ca_journal_montreal",
-   "source": "kk",
-   "id": "be/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
    "country": "Belgium",
    "state": null,
    "region": "weurope",
@@ -6012,96 +5432,6 @@
    "state": null,
    "region": "weurope",
    "img": "https://www.frontpages.com/g/2026/07/25/le-soir-081905ncc.webp.jpg"
-  },
-  {
-   "uid": "kk:be/newyork_times",
-   "source": "kk",
-   "id": "be/newyork_times",
-   "name": "New York Times",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/newsday",
-   "source": "kk",
-   "id": "be/newsday",
-   "name": "Newsday",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/philadelphia_inquirer",
-   "source": "kk",
-   "id": "be/philadelphia_inquirer",
-   "name": "Philadelphia Inquirer",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/pittsburgh_post_gazette",
-   "source": "kk",
-   "id": "be/pittsburgh_post_gazette",
-   "name": "Pittsburgh Post-Gazette",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/ca_montreal_gazette",
-   "source": "kk",
-   "id": "be/ca_montreal_gazette",
-   "name": "The Gazette",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/ca_toronto_star",
-   "source": "kk",
-   "id": "be/ca_toronto_star",
-   "name": "The Toronto Star",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/ca_toronto_sun",
-   "source": "kk",
-   "id": "be/ca_toronto_sun",
-   "name": "The Toronto Sun",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/tribune_review",
-   "source": "kk",
-   "id": "be/tribune_review",
-   "name": "Tribune-Review",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:be/wsj",
-   "source": "kk",
-   "id": "be/wsj",
-   "name": "Wall Street Journal",
-   "country": "Belgium",
-   "state": null,
-   "region": "weurope",
-   "img": null
   },
   {
    "uid": "ff:cyp_phil",
@@ -6121,7 +5451,7 @@
    "country": "Denmark",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/ekstra-bladet-02190377z.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/ekstra-bladet-014658uwg.webp.jpg"
   },
   {
    "uid": "ff:den_pol",
@@ -6191,7 +5521,7 @@
    "country": "France",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/corse-matin-000728o28.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/corse-matin-001618kkj.webp.jpg"
   },
   {
    "uid": "kk:fr/courrierpicard",
@@ -6261,7 +5591,7 @@
    "country": "France",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/l-equipe-001555qec.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/l-equipe-002323lai.webp.jpg"
   },
   {
    "uid": "kk:fr/esteclair",
@@ -6278,16 +5608,6 @@
    "source": "kk",
    "id": "fr/estrepublicain",
    "name": "L'Est Republicain",
-   "country": "France",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:fr/l_express",
-   "source": "kk",
-   "id": "fr/l_express",
-   "name": "L'Express",
    "country": "France",
    "state": null,
    "region": "weurope",
@@ -6391,7 +5711,7 @@
    "country": "France",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/la-tribune-001256b38.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/la-tribune-001112ojq.webp.jpg"
   },
   {
    "uid": "kk:fr/voixdunord",
@@ -6491,7 +5811,7 @@
    "country": "France",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/24/le-monde-233106741.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/25/le-monde-2325137tu.webp.jpg"
   },
   {
    "uid": "fp:le-monde-des-livres",
@@ -6531,7 +5851,7 @@
    "country": "France",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/le-parisien-090420de0.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/25/le-parisien-232742pov.webp.jpg"
   },
   {
    "uid": "kk:fr/petitbleu",
@@ -6741,7 +6061,7 @@
    "country": "Germany",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/bild-001657dk4.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/bild-001726b8z.webp.jpg"
   },
   {
    "uid": "fp:der-spiegel",
@@ -6761,7 +6081,7 @@
    "country": "Germany",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/der-tagesspiegel-011423vgu.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/der-tagesspiegel-011550vkc.webp.jpg"
   },
   {
    "uid": "ff:ger_taz",
@@ -6781,7 +6101,7 @@
    "country": "Germany",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/die-welt-001731nxy.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/die-welt-001729qav.webp.jpg"
   },
   {
    "uid": "ff:ger_faz",
@@ -6944,6 +6264,16 @@
    "img": "https://www.frontpages.com/g/2026/07/25/naftemporiki-053847jjy.webp.jpg"
   },
   {
+   "uid": "ff:gree_nk",
+   "source": "ff",
+   "id": "gree_nk",
+   "name": "Nea Kriti",
+   "country": "Greece",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:ta-nea",
    "source": "fp",
    "id": "ta-nea",
@@ -6952,6 +6282,16 @@
    "state": null,
    "region": "weurope",
    "img": "https://www.frontpages.com/g/2026/07/25/ta-nea-08222811t.webp.jpg"
+  },
+  {
+   "uid": "ff:gree_tax",
+   "source": "ff",
+   "id": "gree_tax",
+   "name": "Taxydromos",
+   "country": "Greece",
+   "state": null,
+   "region": "weurope",
+   "img": null
   },
   {
    "uid": "fp:to-vima",
@@ -6971,7 +6311,7 @@
    "country": "Ireland",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/irish-daily-mail-0303158nh.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/irish-daily-mail-034522xf0.webp.jpg"
   },
   {
    "uid": "fp:irish-daily-mirror",
@@ -7054,36 +6394,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/the-herald-ireland-0318318cj.webp.jpg"
   },
   {
-   "uid": "kk:it/arizona_daily_star",
-   "source": "kk",
-   "id": "it/arizona_daily_star",
-   "name": "Arizona Daily Star",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/arizona_republic",
-   "source": "kk",
-   "id": "it/arizona_republic",
-   "name": "Arizona Republic News",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/boston_globe",
-   "source": "kk",
-   "id": "it/boston_globe",
-   "name": "Boston Globe",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "kk:it/corriere_della_sera",
    "source": "kk",
    "id": "it/corriere_della_sera",
@@ -7098,26 +6408,6 @@
    "source": "kk",
    "id": "it/corriere_sport",
    "name": "Corriere dello Sport",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/ny_daily_news",
-   "source": "kk",
-   "id": "it/ny_daily_news",
-   "name": "Daily News - New York",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/eldiario",
-   "source": "kk",
-   "id": "it/eldiario",
-   "name": "El Diario NY",
    "country": "Italy",
    "state": null,
    "region": "weurope",
@@ -7154,16 +6444,6 @@
    "img": null
   },
   {
-   "uid": "kk:it/l_economia",
-   "source": "kk",
-   "id": "it/l_economia",
-   "name": "L'Economia",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "kk:it/gazzetta_mezzogiorno",
    "source": "kk",
    "id": "it/gazzetta_mezzogiorno",
@@ -7194,16 +6474,6 @@
    "img": null
   },
   {
-   "uid": "kk:it/ca_journal_montreal",
-   "source": "kk",
-   "id": "it/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "fp:quotidiani-lombardia",
    "source": "fp",
    "id": "quotidiani-lombardia",
@@ -7218,26 +6488,6 @@
    "source": "kk",
    "id": "it/milano_finanza",
    "name": "Milano Finanza",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/newyork_times",
-   "source": "kk",
-   "id": "it/newyork_times",
-   "name": "New York Times",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/newsday",
-   "source": "kk",
-   "id": "it/newsday",
-   "name": "Newsday",
    "country": "Italy",
    "state": null,
    "region": "weurope",
@@ -7334,66 +6584,6 @@
    "img": null
   },
   {
-   "uid": "kk:it/tampa_bay_times",
-   "source": "kk",
-   "id": "it/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/atlanta_journal_conts",
-   "source": "kk",
-   "id": "it/atlanta_journal_conts",
-   "name": "The Atlanta Journal-Constitution",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/ca_montreal_gazette",
-   "source": "kk",
-   "id": "it/ca_montreal_gazette",
-   "name": "The Gazette",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/oregonian",
-   "source": "kk",
-   "id": "it/oregonian",
-   "name": "The Oregonian",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/ca_toronto_star",
-   "source": "kk",
-   "id": "it/ca_toronto_star",
-   "name": "The Toronto Star",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/ca_toronto_sun",
-   "source": "kk",
-   "id": "it/ca_toronto_sun",
-   "name": "The Toronto Sun",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "kk:it/tuttosport",
    "source": "kk",
    "id": "it/tuttosport",
@@ -7408,16 +6598,6 @@
    "source": "fp",
    "id": "ultimi-aggiornamenti",
    "name": "ULTIMI Aggiornamenti",
-   "country": "Italy",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:it/wsj",
-   "source": "kk",
-   "id": "it/wsj",
-   "name": "Wall Street Journal",
    "country": "Italy",
    "state": null,
    "region": "weurope",
@@ -7481,7 +6661,7 @@
    "country": "Malta",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-malta-independent-015415kku.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/the-malta-independent-031959ndm.webp.jpg"
   },
   {
    "uid": "fp:times-of-malta",
@@ -7491,13 +6671,13 @@
    "country": "Malta",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/times-of-malta-0723589uw.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/times-of-malta-0308517bi.webp.jpg"
   },
   {
-   "uid": "kk:nl/ad",
-   "source": "kk",
-   "id": "nl/ad",
-   "name": "Ad",
+   "uid": "ff:net_ad2",
+   "source": "ff",
+   "id": "net_ad2",
+   "name": "AD",
    "country": "Netherlands",
    "state": null,
    "region": "weurope",
@@ -7524,36 +6704,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/algemeen-dagblad-071743gnk.webp.jpg"
   },
   {
-   "uid": "kk:nl/chicago_sun_times",
-   "source": "kk",
-   "id": "nl/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/chicago_tribune",
-   "source": "kk",
-   "id": "nl/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/ny_daily_news",
-   "source": "kk",
-   "id": "nl/ny_daily_news",
-   "name": "Daily News - New York",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "fp:de-telegraaf",
    "source": "fp",
    "id": "de-telegraaf",
@@ -7564,20 +6714,20 @@
    "img": "https://www.frontpages.com/g/2026/07/25/de-telegraaf-020712cq3.webp.jpg"
   },
   {
-   "uid": "fp:de-volkskrant",
-   "source": "fp",
-   "id": "de-volkskrant",
+   "uid": "ff:net_dv",
+   "source": "ff",
+   "id": "net_dv",
    "name": "de Volkskrant",
    "country": "Netherlands",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/de-volkskrant-050056xg9.webp.jpg"
+   "img": null
   },
   {
-   "uid": "kk:nl/eldiario",
-   "source": "kk",
-   "id": "nl/eldiario",
-   "name": "El Diario NY",
+   "uid": "ff:net_hfd",
+   "source": "ff",
+   "id": "net_hfd",
+   "name": "Het Financieele Dagblad",
    "country": "Netherlands",
    "state": null,
    "region": "weurope",
@@ -7594,30 +6744,10 @@
    "img": "https://www.frontpages.com/g/2026/07/25/het-financieele-dagblad-0400515qf.webp.jpg"
   },
   {
-   "uid": "fp:het-parool",
-   "source": "fp",
-   "id": "het-parool",
+   "uid": "ff:net_hp",
+   "source": "ff",
+   "id": "net_hp",
    "name": "Het Parool",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/het-parool-131305y7m.webp.jpg"
-  },
-  {
-   "uid": "kk:nl/newyork_times",
-   "source": "kk",
-   "id": "nl/newyork_times",
-   "name": "New York Times",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/newsday",
-   "source": "kk",
-   "id": "nl/newsday",
-   "name": "Newsday",
    "country": "Netherlands",
    "state": null,
    "region": "weurope",
@@ -7634,120 +6764,10 @@
    "img": "https://www.frontpages.com/g/2026/07/25/nrc-handelsblad-023342nj7.webp.jpg"
   },
   {
-   "uid": "kk:nl/philadelphia_inquirer",
-   "source": "kk",
-   "id": "nl/philadelphia_inquirer",
-   "name": "Philadelphia Inquirer",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/pittsburgh_post_gazette",
-   "source": "kk",
-   "id": "nl/pittsburgh_post_gazette",
-   "name": "Pittsburgh Post-Gazette",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/starledger",
-   "source": "kk",
-   "id": "nl/starledger",
-   "name": "Star-Ledger",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/tampa_bay_times",
-   "source": "kk",
-   "id": "nl/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/gazette",
-   "source": "kk",
-   "id": "nl/gazette",
-   "name": "The Gazette",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/oregonian",
-   "source": "kk",
-   "id": "nl/oregonian",
-   "name": "The Oregonian",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/plain_dealer",
-   "source": "kk",
-   "id": "nl/plain_dealer",
-   "name": "The Plain Dealer",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/ca_toronto_star",
-   "source": "kk",
-   "id": "nl/ca_toronto_star",
-   "name": "The Toronto Star",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/ca_toronto_sun",
-   "source": "kk",
-   "id": "nl/ca_toronto_sun",
-   "name": "The Toronto Sun",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:nl/tribune_review",
-   "source": "kk",
-   "id": "nl/tribune_review",
-   "name": "Tribune-Review",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "fp:trouw",
-   "source": "fp",
-   "id": "trouw",
+   "uid": "ff:net_trouw",
+   "source": "ff",
+   "id": "net_trouw",
    "name": "Trouw",
-   "country": "Netherlands",
-   "state": null,
-   "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/trouw-001811p6t.webp.jpg"
-  },
-  {
-   "uid": "kk:nl/wsj",
-   "source": "kk",
-   "id": "nl/wsj",
-   "name": "Wall Street Journal",
    "country": "Netherlands",
    "state": null,
    "region": "weurope",
@@ -7771,27 +6791,7 @@
    "country": "Norway",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/aftenposten-002915hev.webp.jpg"
-  },
-  {
-   "uid": "kk:no/arizona_daily_star",
-   "source": "kk",
-   "id": "no/arizona_daily_star",
-   "name": "Arizona Daily Star",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:no/arizona_republic",
-   "source": "kk",
-   "id": "no/arizona_republic",
-   "name": "Arizona Republic News",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/aftenposten-0017215d8.webp.jpg"
   },
   {
    "uid": "fp:bergens-tidende",
@@ -7802,26 +6802,6 @@
    "state": null,
    "region": "weurope",
    "img": "https://www.frontpages.com/g/2026/07/25/bergens-tidende-074831i3b.webp.jpg"
-  },
-  {
-   "uid": "kk:no/chicago_sun_times",
-   "source": "kk",
-   "id": "no/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:no/chicago_tribune",
-   "source": "kk",
-   "id": "no/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
   },
   {
    "uid": "fp:dagbladet",
@@ -7841,7 +6821,7 @@
    "country": "Norway",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/dagens-naeringsliv-000630fug.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/dagens-naeringsliv-001820yrs.webp.jpg"
   },
   {
    "uid": "fp:dagsavisen",
@@ -7854,26 +6834,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/dagsavisen-010823md5.webp.jpg"
   },
   {
-   "uid": "kk:no/ny_daily_news",
-   "source": "kk",
-   "id": "no/ny_daily_news",
-   "name": "Daily News - New York",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:no/eldiario",
-   "source": "kk",
-   "id": "no/eldiario",
-   "name": "El Diario NY",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "fp:faedrelandsvennen",
    "source": "fp",
    "id": "faedrelandsvennen",
@@ -7882,16 +6842,6 @@
    "state": null,
    "region": "weurope",
    "img": "https://www.frontpages.com/g/2026/07/25/faedrelandsvennen-001817jei.webp.jpg"
-  },
-  {
-   "uid": "kk:no/houston_chronicle",
-   "source": "kk",
-   "id": "no/houston_chronicle",
-   "name": "Houston Chronicle",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
   },
   {
    "uid": "fp:klassekampen",
@@ -7904,36 +6854,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/klassekampen-041509f8w.webp.jpg"
   },
   {
-   "uid": "kk:no/newyork_times",
-   "source": "kk",
-   "id": "no/newyork_times",
-   "name": "New York Times",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:no/newsday",
-   "source": "kk",
-   "id": "no/newsday",
-   "name": "Newsday",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:no/starledger",
-   "source": "kk",
-   "id": "no/starledger",
-   "name": "Star-Ledger",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "fp:stavanger-aftenblad",
    "source": "fp",
    "id": "stavanger-aftenblad",
@@ -7944,56 +6864,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/stavanger-aftenblad-073407kv1.webp.jpg"
   },
   {
-   "uid": "kk:no/atlanta_journal_conts",
-   "source": "kk",
-   "id": "no/atlanta_journal_conts",
-   "name": "The Atlanta Journal-Constitution",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:no/oregonian",
-   "source": "kk",
-   "id": "no/oregonian",
-   "name": "The Oregonian",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:no/plain_dealer",
-   "source": "kk",
-   "id": "no/plain_dealer",
-   "name": "The Plain Dealer",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:no/ca_toronto_star",
-   "source": "kk",
-   "id": "no/ca_toronto_star",
-   "name": "The Toronto Star",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:no/ca_toronto_sun",
-   "source": "kk",
-   "id": "no/ca_toronto_sun",
-   "name": "The Toronto Sun",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "fp:verdens-gang",
    "source": "fp",
    "id": "verdens-gang",
@@ -8001,17 +6871,7 @@
    "country": "Norway",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/verdens-gang-0330159ow.webp.jpg"
-  },
-  {
-   "uid": "kk:no/wsj",
-   "source": "kk",
-   "id": "no/wsj",
-   "name": "Wall Street Journal",
-   "country": "Norway",
-   "state": null,
-   "region": "weurope",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/verdens-gang-02233443x.webp.jpg"
   },
   {
    "uid": "fp:a-bola",
@@ -8021,47 +6881,7 @@
    "country": "Portugal",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/a-bola-040949sv4.webp.jpg"
-  },
-  {
-   "uid": "kk:pt/arizona_daily_star",
-   "source": "kk",
-   "id": "pt/arizona_daily_star",
-   "name": "Arizona Daily Star",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/arizona_republic",
-   "source": "kk",
-   "id": "pt/arizona_republic",
-   "name": "Arizona Republic News",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/chicago_sun_times",
-   "source": "kk",
-   "id": "pt/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/chicago_tribune",
-   "source": "kk",
-   "id": "pt/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/a-bola-041809wg6.webp.jpg"
   },
   {
    "uid": "fp:correio-da-manha",
@@ -8104,36 +6924,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/jornal-de-noticias-041438jfm.webp.jpg"
   },
   {
-   "uid": "kk:pt/laopinion",
-   "source": "kk",
-   "id": "pt/laopinion",
-   "name": "La Opini\u00f3n",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/ca_journal_montreal",
-   "source": "kk",
-   "id": "pt/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/latimes",
-   "source": "kk",
-   "id": "pt/latimes",
-   "name": "Los Angeles Times",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "fp:nascer-do-sol",
    "source": "fp",
    "id": "nascer-do-sol",
@@ -8151,7 +6941,7 @@
    "country": "Portugal",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/o-jogo-042417qar.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/o-jogo-041427p4x.webp.jpg"
   },
   {
    "uid": "fp:o-jornal-economico",
@@ -8171,7 +6961,7 @@
    "country": "Portugal",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/publico-004220o7o.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/publico-004501dzl.webp.jpg"
   },
   {
    "uid": "fp:record-pt",
@@ -8182,126 +6972,6 @@
    "state": null,
    "region": "weurope",
    "img": "https://www.frontpages.com/g/2026/07/25/record-pt-045739awy.webp.jpg"
-  },
-  {
-   "uid": "kk:pt/sf_chronicle",
-   "source": "kk",
-   "id": "pt/sf_chronicle",
-   "name": "San Francisco Chronicle",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/mercure_news",
-   "source": "kk",
-   "id": "pt/mercure_news",
-   "name": "San Jose Mercury News",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/starledger",
-   "source": "kk",
-   "id": "pt/starledger",
-   "name": "Star-Ledger",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/tampa_bay_times",
-   "source": "kk",
-   "id": "pt/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/atlanta_journal_conts",
-   "source": "kk",
-   "id": "pt/atlanta_journal_conts",
-   "name": "The Atlanta Journal-Constitution",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/gazette",
-   "source": "kk",
-   "id": "pt/gazette",
-   "name": "The Gazette",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/orange_register",
-   "source": "kk",
-   "id": "pt/orange_register",
-   "name": "The Orange County Register",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/oregonian",
-   "source": "kk",
-   "id": "pt/oregonian",
-   "name": "The Oregonian",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/ca_province",
-   "source": "kk",
-   "id": "pt/ca_province",
-   "name": "The Province",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/sacramento_bee",
-   "source": "kk",
-   "id": "pt/sacramento_bee",
-   "name": "The Sacramento Bee",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/ca_vancouver_sun",
-   "source": "kk",
-   "id": "pt/ca_vancouver_sun",
-   "name": "The Vancouver Sun",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:pt/washington_post",
-   "source": "kk",
-   "id": "pt/washington_post",
-   "name": "The Washington Post",
-   "country": "Portugal",
-   "state": null,
-   "region": "weurope",
-   "img": null
   },
   {
    "uid": "fp:l-informazione-di-san-marino",
@@ -8361,7 +7031,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/abc-es-033717p6j.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/abc-es-034051xhf.webp.jpg"
   },
   {
    "uid": "kk:es/abc_sevilla",
@@ -8378,26 +7048,6 @@
    "source": "ff",
    "id": "spa_ara",
    "name": "ARA",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/arizona_daily_star",
-   "source": "kk",
-   "id": "es/arizona_daily_star",
-   "name": "Arizona Daily Star",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/arizona_republic",
-   "source": "kk",
-   "id": "es/arizona_republic",
-   "name": "Arizona Republic News",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -8421,7 +7071,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/as-0348058jp.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/as-002305v8b.webp.jpg"
   },
   {
    "uid": "kk:es/atlantico_diario",
@@ -8444,40 +7094,10 @@
    "img": null
   },
   {
-   "uid": "kk:es/chicago_sun_times",
-   "source": "kk",
-   "id": "es/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/chicago_tribune",
-   "source": "kk",
-   "id": "es/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "kk:es/5dias",
    "source": "kk",
    "id": "es/5dias",
    "name": "Cinco D\u00edas",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/ny_daily_news",
-   "source": "kk",
-   "id": "es/ny_daily_news",
-   "name": "Daily News - New York",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -8541,7 +7161,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/diario-de-ibiza-021926ug5.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/diario-de-ibiza-015918hkf.webp.jpg"
   },
   {
    "uid": "kk:es/diario_leon",
@@ -8578,16 +7198,6 @@
    "source": "kk",
    "id": "es/diario_pontevedra",
    "name": "Diario de Pontevedra",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/diario_teruel",
-   "source": "kk",
-   "id": "es/diario_teruel",
-   "name": "Diario de Teruel",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -8661,7 +7271,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/diario-sur-024648u42.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/diario-sur-0254342g3.webp.jpg"
   },
   {
    "uid": "kk:es/diario_vasco",
@@ -8754,16 +7364,6 @@
    "img": null
   },
   {
-   "uid": "kk:es/eldiario",
-   "source": "kk",
-   "id": "es/eldiario",
-   "name": "El Diario NY",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "fp:el-diario-vasco",
    "source": "fp",
    "id": "el-diario-vasco",
@@ -8831,7 +7431,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/24/el-mundo-231944q47.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/25/el-mundo-231711onj.webp.jpg"
   },
   {
    "uid": "kk:es/mundodeportivo",
@@ -8851,7 +7451,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/el-pais-0031230o0.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/el-pais-001934i2g.webp.jpg"
   },
   {
    "uid": "kk:es/elperiodico",
@@ -8881,7 +7481,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/el-periodico-de-catalunya-025100gfe.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/el-periodico-de-catalunya-041930tl5.webp.jpg"
   },
   {
    "uid": "kk:es/elperiodico_extremadura",
@@ -9011,7 +7611,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/24/l-esportiu-234753ldc.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/25/l-esportiu-234259pt6.webp.jpg"
   },
   {
    "uid": "kk:es/nueva_cronica",
@@ -9028,16 +7628,6 @@
    "source": "kk",
    "id": "es/lanuevaespana",
    "name": "La Nueva Espa\u00f1a",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/laopinion",
-   "source": "kk",
-   "id": "es/laopinion",
-   "name": "La Opini\u00f3n",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -9101,7 +7691,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/la-razon-0234540x9.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/la-razon-023417hxg.webp.jpg"
   },
   {
    "uid": "kk:es/laregion",
@@ -9128,26 +7718,6 @@
    "source": "kk",
    "id": "es/latribuna_albacete",
    "name": "La Tribuna de Albacete",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/latribuna_ciudadreal",
-   "source": "kk",
-   "id": "es/latribuna_ciudadreal",
-   "name": "La Tribuna de Ciudad Real",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/latribuna_cuenca",
-   "source": "kk",
-   "id": "es/latribuna_cuenca",
-   "name": "La Tribuna de Cuenca",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -9224,30 +7794,10 @@
    "img": null
   },
   {
-   "uid": "kk:es/ca_journal_montreal",
-   "source": "kk",
-   "id": "es/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "kk:es/levante",
    "source": "kk",
    "id": "es/levante",
    "name": "Levante",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/latimes",
-   "source": "kk",
-   "id": "es/latimes",
-   "name": "Los Angeles Times",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -9261,7 +7811,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/marca-001839857.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/marca-01104678j.webp.jpg"
   },
   {
    "uid": "kk:es/diario_menorca",
@@ -9291,7 +7841,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/mundo-deportivo-031956ukx.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/mundo-deportivo-0323072fm.webp.jpg"
   },
   {
    "uid": "kk:es/mundodeportivo_bizkaia",
@@ -9308,26 +7858,6 @@
    "source": "kk",
    "id": "es/mundodeportivo_gipuzkoa",
    "name": "Mundo Deportivo Gipuzkoa",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/newyork_times",
-   "source": "kk",
-   "id": "es/newyork_times",
-   "name": "New York Times",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/newsday",
-   "source": "kk",
-   "id": "es/newsday",
-   "name": "Newsday",
    "country": "Spain",
    "state": null,
    "region": "weurope",
@@ -9394,26 +7924,6 @@
    "img": null
   },
   {
-   "uid": "kk:es/sf_chronicle",
-   "source": "kk",
-   "id": "es/sf_chronicle",
-   "name": "San Francisco Chronicle",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/mercure_news",
-   "source": "kk",
-   "id": "es/mercure_news",
-   "name": "San Jose Mercury News",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "ff:spa_segre",
    "source": "ff",
    "id": "spa_segre",
@@ -9441,17 +7951,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/sport-es-001747cdf.webp.jpg"
-  },
-  {
-   "uid": "kk:es/starledger",
-   "source": "kk",
-   "id": "es/starledger",
-   "name": "Star-Ledger",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/sport-es-002122o9d.webp.jpg"
   },
   {
    "uid": "fp:superdeporte",
@@ -9461,117 +7961,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/superdeporte-002113tf1.webp.jpg"
-  },
-  {
-   "uid": "kk:es/tampa_bay_times",
-   "source": "kk",
-   "id": "es/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/atlanta_journal_conts",
-   "source": "kk",
-   "id": "es/atlanta_journal_conts",
-   "name": "The Atlanta Journal-Constitution",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/gazette",
-   "source": "kk",
-   "id": "es/gazette",
-   "name": "The Gazette",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/orange_register",
-   "source": "kk",
-   "id": "es/orange_register",
-   "name": "The Orange County Register",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/plain_dealer",
-   "source": "kk",
-   "id": "es/plain_dealer",
-   "name": "The Plain Dealer",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/ca_province",
-   "source": "kk",
-   "id": "es/ca_province",
-   "name": "The Province",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/sacramento_bee",
-   "source": "kk",
-   "id": "es/sacramento_bee",
-   "name": "The Sacramento Bee",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/ca_toronto_star",
-   "source": "kk",
-   "id": "es/ca_toronto_star",
-   "name": "The Toronto Star",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/ca_toronto_sun",
-   "source": "kk",
-   "id": "es/ca_toronto_sun",
-   "name": "The Toronto Sun",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/ca_vancouver_sun",
-   "source": "kk",
-   "id": "es/ca_vancouver_sun",
-   "name": "The Vancouver Sun",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:es/wsj",
-   "source": "kk",
-   "id": "es/wsj",
-   "name": "Wall Street Journal",
-   "country": "Spain",
-   "state": null,
-   "region": "weurope",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/25/superdeporte-232020c3h.webp.jpg"
   },
   {
    "uid": "kk:es/ultima_hora",
@@ -9592,56 +7982,6 @@
    "state": null,
    "region": "weurope",
    "img": "https://www.frontpages.com/g/2026/07/25/aftonbladet-051929c25.webp.jpg"
-  },
-  {
-   "uid": "kk:se/arizona_daily_star",
-   "source": "kk",
-   "id": "se/arizona_daily_star",
-   "name": "Arizona Daily Star",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:se/arizona_republic",
-   "source": "kk",
-   "id": "se/arizona_republic",
-   "name": "Arizona Republic News",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:se/boston_globe",
-   "source": "kk",
-   "id": "se/boston_globe",
-   "name": "Boston Globe",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:se/chicago_sun_times",
-   "source": "kk",
-   "id": "se/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:se/chicago_tribune",
-   "source": "kk",
-   "id": "se/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
   },
   {
    "uid": "fp:dagens-nyheter",
@@ -9684,16 +8024,6 @@
    "img": null
   },
   {
-   "uid": "kk:se/ca_journal_montreal",
-   "source": "kk",
-   "id": "se/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "fp:sportbladet",
    "source": "fp",
    "id": "sportbladet",
@@ -9701,17 +8031,7 @@
    "country": "Sweden",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/sportbladet-060749kqf.webp.jpg"
-  },
-  {
-   "uid": "kk:se/st_louis_post",
-   "source": "kk",
-   "id": "se/st_louis_post",
-   "name": "St. Louis Post-Dispatch",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/sportbladet-040912uce.webp.jpg"
   },
   {
    "uid": "fp:svd-naringsliv",
@@ -9734,66 +8054,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/svenska-dagbladet-0608392zc.webp.jpg"
   },
   {
-   "uid": "kk:se/tampa_bay_times",
-   "source": "kk",
-   "id": "se/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:se/ca_montreal_gazette",
-   "source": "kk",
-   "id": "se/ca_montreal_gazette",
-   "name": "The Gazette",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:se/oregonian",
-   "source": "kk",
-   "id": "se/oregonian",
-   "name": "The Oregonian",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:se/ca_province",
-   "source": "kk",
-   "id": "se/ca_province",
-   "name": "The Province",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:se/ca_vancouver_sun",
-   "source": "kk",
-   "id": "se/ca_vancouver_sun",
-   "name": "The Vancouver Sun",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
-   "uid": "kk:se/winnipeg_free_press",
-   "source": "kk",
-   "id": "se/winnipeg_free_press",
-   "name": "Winnipeg Free Press",
-   "country": "Sweden",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "kk:ch/24_heures",
    "source": "kk",
    "id": "ch/24_heures",
@@ -9811,7 +8071,7 @@
    "country": "Switzerland",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/blick-00301285q.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/blick-013449736.webp.jpg"
   },
   {
    "uid": "fp:corriere-del-ticino",
@@ -9881,7 +8141,7 @@
    "country": "Switzerland",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/neue-zurcher-zeitung-000335qwi.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/25/neue-zurcher-zeitung-235700jm2.webp.jpg"
   },
   {
    "uid": "kk:ch/tages_anzeiger",
@@ -10024,16 +8284,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/derby-telegraph-001555ke5.webp.jpg"
   },
   {
-   "uid": "kk:uk/evening_standard",
-   "source": "kk",
-   "id": "uk/evening_standard",
-   "name": "Evening Standard",
-   "country": "United Kingdom",
-   "state": null,
-   "region": "weurope",
-   "img": null
-  },
-  {
    "uid": "fp:financial-times",
    "source": "fp",
    "id": "financial-times",
@@ -10121,7 +8371,7 @@
    "country": "United Kingdom",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/19/sunday-mail-010813962.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/sunday-mail-005550go4.webp.jpg"
   },
   {
    "uid": "kk:uk/economist",
@@ -10141,7 +8391,7 @@
    "country": "United Kingdom",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-herald-scotland-0509095av.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/25/the-herald-scotland-233902ask.webp.jpg"
   },
   {
    "uid": "kk:uk/the_independent",
@@ -10181,17 +8431,7 @@
    "country": "United Kingdom",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/24/the-national-scotland-230900my2.webp.jpg"
-  },
-  {
-   "uid": "kk:uk/observer",
-   "source": "kk",
-   "id": "uk/observer",
-   "name": "The Observer",
-   "country": "United Kingdom",
-   "state": null,
-   "region": "weurope",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/the-national-scotland-001757t92.webp.jpg"
   },
   {
    "uid": "kk:uk/scotsman",
@@ -10234,23 +8474,13 @@
    "img": "https://www.frontpages.com/g/2026/07/25/l-osservatore-romano-143022c5y.webp.jpg"
   },
   {
-   "uid": "fp:gazeta-panorama",
-   "source": "fp",
-   "id": "gazeta-panorama",
-   "name": "Gazeta Panorama",
-   "country": "Albania",
-   "state": null,
-   "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/gazeta-panorama-0828467bt.webp.jpg"
-  },
-  {
    "uid": "ff:arg_cla",
    "source": "ff",
    "id": "arg_cla",
    "name": "Clar\u00edn",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
@@ -10260,7 +8490,7 @@
    "name": "Diario El Sure\u00f1o",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
@@ -10270,7 +8500,7 @@
    "name": "Diario Hoy",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
@@ -10280,7 +8510,7 @@
    "name": "Diario La Capital - Mar del Plata",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
@@ -10290,7 +8520,7 @@
    "name": "El Ancasti",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
@@ -10300,7 +8530,7 @@
    "name": "El Chubut",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
@@ -10310,7 +8540,7 @@
    "name": "El Cronista Comercial",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
@@ -10320,17 +8550,7 @@
    "name": "El Territorio",
    "country": "Argentina",
    "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ar/houston_chronicle",
-   "source": "kk",
-   "id": "ar/houston_chronicle",
-   "name": "Houston Chronicle",
-   "country": "Argentina",
-   "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
@@ -10340,7 +8560,7 @@
    "name": "La Capital - Rosario",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
@@ -10350,7 +8570,7 @@
    "name": "La Naci\u00f3n",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": "https://www.frontpages.com/g/2026/07/25/la-nacion-111814hyu.webp.jpg"
   },
   {
@@ -10360,7 +8580,7 @@
    "name": "La Voz del Chaco",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
@@ -10370,17 +8590,7 @@
    "name": "La Voz del Interior",
    "country": "Argentina",
    "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ar/ca_journal_montreal",
-   "source": "kk",
-   "id": "ar/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "Argentina",
-   "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
@@ -10390,7 +8600,7 @@
    "name": "Ol\u00e9",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": "https://www.frontpages.com/g/2026/07/25/ole-ar-063415c52.webp.jpg"
   },
   {
@@ -10400,128 +8610,348 @@
    "name": "Rio Negro",
    "country": "Argentina",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:ar/tampa_bay_times",
-   "source": "kk",
-   "id": "ar/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Argentina",
+   "uid": "ff:bra_atarde",
+   "source": "ff",
+   "id": "bra_atarde",
+   "name": "A Tarde",
+   "country": "Brazil",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:ar/atlanta_journal_conts",
-   "source": "kk",
-   "id": "ar/atlanta_journal_conts",
-   "name": "The Atlanta Journal-Constitution",
-   "country": "Argentina",
+   "uid": "ff:bra_cb",
+   "source": "ff",
+   "id": "bra_cb",
+   "name": "Correio Braziliense",
+   "country": "Brazil",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:ar/gazette",
+   "uid": "kk:br/correio_bahia",
    "source": "kk",
-   "id": "ar/gazette",
-   "name": "The Gazette",
-   "country": "Argentina",
+   "id": "br/correio_bahia",
+   "name": "Correio*",
+   "country": "Brazil",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:ar/oregonian",
-   "source": "kk",
-   "id": "ar/oregonian",
-   "name": "The Oregonian",
-   "country": "Argentina",
+   "uid": "ff:bra_diar",
+   "source": "ff",
+   "id": "bra_diar",
+   "name": "DIARINHO",
+   "country": "Brazil",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:ar/plain_dealer",
+   "uid": "kk:br/br_atarde",
    "source": "kk",
-   "id": "ar/plain_dealer",
-   "name": "The Plain Dealer",
-   "country": "Argentina",
+   "id": "br/br_atarde",
+   "name": "Di\u00e1rio A Tarde",
+   "country": "Brazil",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:ar/ca_province",
-   "source": "kk",
-   "id": "ar/ca_province",
-   "name": "The Province",
-   "country": "Argentina",
+   "uid": "ff:bra_fdsp",
+   "source": "ff",
+   "id": "bra_fdsp",
+   "name": "Folha de S. Paulo",
+   "country": "Brazil",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:ar/ca_vancouver_sun",
+   "uid": "kk:br/br_folha_spaulo",
    "source": "kk",
-   "id": "ar/ca_vancouver_sun",
-   "name": "The Vancouver Sun",
-   "country": "Argentina",
+   "id": "br/br_folha_spaulo",
+   "name": "Folha de S\u00e3o Paulo",
+   "country": "Brazil",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:ar/tiempo_argentino",
+   "uid": "kk:br/o_dia",
    "source": "kk",
-   "id": "ar/tiempo_argentino",
-   "name": "Tiempo Argentino",
-   "country": "Argentina",
+   "id": "br/o_dia",
+   "name": "O Dia",
+   "country": "Brazil",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:ar/winnipeg_free_press",
-   "source": "kk",
-   "id": "ar/winnipeg_free_press",
-   "name": "Winnipeg Free Press",
-   "country": "Argentina",
+   "uid": "ff:bra_oe",
+   "source": "ff",
+   "id": "bra_oe",
+   "name": "O Estado de S. Paulo",
+   "country": "Brazil",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:au/boston_globe",
+   "uid": "kk:br/br_estado_spaulo",
    "source": "kk",
-   "id": "au/boston_globe",
-   "name": "Boston Globe",
-   "country": "Australia",
+   "id": "br/br_estado_spaulo",
+   "name": "O Estado de S\u00e3o Paulo",
+   "country": "Brazil",
    "state": null,
-   "region": "world",
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:au/chicago_sun_times",
-   "source": "kk",
-   "id": "au/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Australia",
+   "uid": "fp:o-globo",
+   "source": "fp",
+   "id": "o-globo",
+   "name": "O Globo",
+   "country": "Brazil",
    "state": null,
-   "region": "world",
+   "region": "latam",
+   "img": "https://www.frontpages.com/g/2026/07/25/o-globo-065831veo.webp.jpg"
+  },
+  {
+   "uid": "fp:valor-economico",
+   "source": "fp",
+   "id": "valor-economico",
+   "name": "Valor Econ\u00f4mico",
+   "country": "Brazil",
+   "state": null,
+   "region": "latam",
+   "img": "https://www.frontpages.com/g/2026/07/24/valor-economico-063734trd.webp.jpg"
+  },
+  {
+   "uid": "ff:chi_cd",
+   "source": "ff",
+   "id": "chi_cd",
+   "name": "China Daily",
+   "country": "Chile",
+   "state": null,
+   "region": "latam",
    "img": null
   },
   {
-   "uid": "kk:au/chicago_tribune",
+   "uid": "kk:cl/cl_chanarcillo",
    "source": "kk",
-   "id": "au/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Australia",
+   "id": "cl/cl_chanarcillo",
+   "name": "Diario Cha\u00f1arcillo",
+   "country": "Chile",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/diario_concepcion",
+   "source": "kk",
+   "id": "cl/diario_concepcion",
+   "name": "Diario de Concepci\u00f3n",
+   "country": "Chile",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "ff:chil_em",
+   "source": "ff",
+   "id": "chil_em",
+   "name": "El Mercurio",
+   "country": "Chile",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/pinguino",
+   "source": "kk",
+   "id": "cl/pinguino",
+   "name": "El Ping\u00fcino",
+   "country": "Chile",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:cl/cl_tercera",
+   "source": "kk",
+   "id": "cl/cl_tercera",
+   "name": "La Tercera",
+   "country": "Chile",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "ff:chi_pd",
+   "source": "ff",
+   "id": "chi_pd",
+   "name": "People\u2019s Daily",
+   "country": "Chile",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:co/co_espectador",
+   "source": "kk",
+   "id": "co/co_espectador",
+   "name": "El Espectador",
+   "country": "Colombia",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:co/co_heraldo",
+   "source": "kk",
+   "id": "co/co_heraldo",
+   "name": "El Heraldo",
+   "country": "Colombia",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "ff:col_eu",
+   "source": "ff",
+   "id": "col_eu",
+   "name": "El Universal",
+   "country": "Colombia",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:co/co_patria",
+   "source": "kk",
+   "id": "co/co_patria",
+   "name": "La Patria",
+   "country": "Colombia",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "ff:col_vl",
+   "source": "ff",
+   "id": "col_vl",
+   "name": "Vanguardia Liberal",
+   "country": "Colombia",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:ec/ec_expreso",
+   "source": "kk",
+   "id": "ec/ec_expreso",
+   "name": "Expreso",
+   "country": "Ecuador",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "ff:pan_lep",
+   "source": "ff",
+   "id": "pan_lep",
+   "name": "La Estrella de Panama",
+   "country": "Panama",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:py/nacion",
+   "source": "kk",
+   "id": "py/nacion",
+   "name": "La Naci\u00f3n",
+   "country": "Paraguay",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:pe/pe_comercio",
+   "source": "kk",
+   "id": "pe/pe_comercio",
+   "name": "El Comercio",
+   "country": "Peru",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:pe/pe_republica",
+   "source": "kk",
+   "id": "pe/pe_republica",
+   "name": "La Republica",
+   "country": "Peru",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:pe/pe_libero",
+   "source": "kk",
+   "id": "pe/pe_libero",
+   "name": "L\u00edbero",
+   "country": "Peru",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:uy/uy_elpais",
+   "source": "kk",
+   "id": "uy/uy_elpais",
+   "name": "El Pa\u00eds",
+   "country": "Uruguay",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:uy/uy_telegrafo",
+   "source": "kk",
+   "id": "uy/uy_telegrafo",
+   "name": "El Tel\u00e9grafo",
+   "country": "Uruguay",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "kk:ve/ve_universal",
+   "source": "kk",
+   "id": "ve/ve_universal",
+   "name": "Universal",
+   "country": "Venezuela",
+   "state": null,
+   "region": "latam",
+   "img": null
+  },
+  {
+   "uid": "fp:gazeta-panorama",
+   "source": "fp",
+   "id": "gazeta-panorama",
+   "name": "Gazeta Panorama",
+   "country": "Albania",
    "state": null,
    "region": "world",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/25/gazeta-panorama-0828467bt.webp.jpg"
   },
   {
    "uid": "fp:geelong-advertiser",
@@ -10541,37 +8971,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/herald-sun-010728pga.webp.jpg"
-  },
-  {
-   "uid": "kk:au/ca_journal_montreal",
-   "source": "kk",
-   "id": "au/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "Australia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:au/starledger",
-   "source": "kk",
-   "id": "au/starledger",
-   "name": "Star-Ledger",
-   "country": "Australia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:au/tampa_bay_times",
-   "source": "kk",
-   "id": "au/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Australia",
-   "state": null,
-   "region": "world",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/herald-sun-012333xhg.webp.jpg"
   },
   {
    "uid": "fp:the-advertiser",
@@ -10591,17 +8991,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/24/the-age-232014ltk.webp.jpg"
-  },
-  {
-   "uid": "kk:au/atlanta_journal_conts",
-   "source": "kk",
-   "id": "au/atlanta_journal_conts",
-   "name": "The Atlanta Journal-Constitution",
-   "country": "Australia",
-   "state": null,
-   "region": "world",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/25/the-age-232114b0t.webp.jpg"
   },
   {
    "uid": "fp:the-australian",
@@ -10631,7 +9021,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-canberra-times-000508rt2.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/25/the-canberra-times-232225cof.webp.jpg"
   },
   {
    "uid": "fp:the-courier-mail",
@@ -10641,7 +9031,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-courier-mail-010708dhk.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/the-courier-mail-01243121n.webp.jpg"
   },
   {
    "uid": "fp:the-daily-telegraph-sydney",
@@ -10651,17 +9041,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-daily-telegraph-sydney-010801014.webp.jpg"
-  },
-  {
-   "uid": "kk:au/ca_montreal_gazette",
-   "source": "kk",
-   "id": "au/ca_montreal_gazette",
-   "name": "The Gazette",
-   "country": "Australia",
-   "state": null,
-   "region": "world",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/the-daily-telegraph-sydney-0122365i4.webp.jpg"
   },
   {
    "uid": "fp:the-guardian-australia",
@@ -10691,7 +9071,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/24/the-sydney-morning-herald-231224bsp.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/25/the-sydney-morning-herald-232203p2z.webp.jpg"
   },
   {
    "uid": "ff:aus_wa",
@@ -10741,7 +9121,7 @@
    "country": "Bangladesh",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-business-standard-021917glr.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/the-business-standard-020926180.webp.jpg"
   },
   {
    "uid": "fp:the-daily-ittefaq",
@@ -10752,876 +9132,6 @@
    "state": null,
    "region": "world",
    "img": "https://www.frontpages.com/g/2026/07/25/the-daily-ittefaq-071245nsp.webp.jpg"
-  },
-  {
-   "uid": "kk:bo/arizona_daily_star",
-   "source": "kk",
-   "id": "bo/arizona_daily_star",
-   "name": "Arizona Daily Star",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/arizona_republic",
-   "source": "kk",
-   "id": "bo/arizona_republic",
-   "name": "Arizona Republic News",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/boston_globe",
-   "source": "kk",
-   "id": "bo/boston_globe",
-   "name": "Boston Globe",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/chicago_sun_times",
-   "source": "kk",
-   "id": "bo/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/chicago_tribune",
-   "source": "kk",
-   "id": "bo/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/ny_daily_news",
-   "source": "kk",
-   "id": "bo/ny_daily_news",
-   "name": "Daily News - New York",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/eldiario",
-   "source": "kk",
-   "id": "bo/eldiario",
-   "name": "El Diario NY",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/ca_journal_montreal",
-   "source": "kk",
-   "id": "bo/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/newyork_times",
-   "source": "kk",
-   "id": "bo/newyork_times",
-   "name": "New York Times",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/newsday",
-   "source": "kk",
-   "id": "bo/newsday",
-   "name": "Newsday",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/philadelphia_inquirer",
-   "source": "kk",
-   "id": "bo/philadelphia_inquirer",
-   "name": "Philadelphia Inquirer",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/pittsburgh_post_gazette",
-   "source": "kk",
-   "id": "bo/pittsburgh_post_gazette",
-   "name": "Pittsburgh Post-Gazette",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/st_louis_post",
-   "source": "kk",
-   "id": "bo/st_louis_post",
-   "name": "St. Louis Post-Dispatch",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/starledger",
-   "source": "kk",
-   "id": "bo/starledger",
-   "name": "Star-Ledger",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/tampa_bay_times",
-   "source": "kk",
-   "id": "bo/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/ca_montreal_gazette",
-   "source": "kk",
-   "id": "bo/ca_montreal_gazette",
-   "name": "The Gazette",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/oregonian",
-   "source": "kk",
-   "id": "bo/oregonian",
-   "name": "The Oregonian",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/plain_dealer",
-   "source": "kk",
-   "id": "bo/plain_dealer",
-   "name": "The Plain Dealer",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/ca_province",
-   "source": "kk",
-   "id": "bo/ca_province",
-   "name": "The Province",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/ca_vancouver_sun",
-   "source": "kk",
-   "id": "bo/ca_vancouver_sun",
-   "name": "The Vancouver Sun",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/tribune_review",
-   "source": "kk",
-   "id": "bo/tribune_review",
-   "name": "Tribune-Review",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/wsj",
-   "source": "kk",
-   "id": "bo/wsj",
-   "name": "Wall Street Journal",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:bo/winnipeg_free_press",
-   "source": "kk",
-   "id": "bo/winnipeg_free_press",
-   "name": "Winnipeg Free Press",
-   "country": "Bolivia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:bra_atarde",
-   "source": "ff",
-   "id": "bra_atarde",
-   "name": "A Tarde",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/chicago_sun_times",
-   "source": "kk",
-   "id": "br/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/chicago_tribune",
-   "source": "kk",
-   "id": "br/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:bra_cb",
-   "source": "ff",
-   "id": "bra_cb",
-   "name": "Correio Braziliense",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/correio_bahia",
-   "source": "kk",
-   "id": "br/correio_bahia",
-   "name": "Correio*",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/ny_daily_news",
-   "source": "kk",
-   "id": "br/ny_daily_news",
-   "name": "Daily News - New York",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:bra_diar",
-   "source": "ff",
-   "id": "bra_diar",
-   "name": "DIARINHO",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/br_atarde",
-   "source": "kk",
-   "id": "br/br_atarde",
-   "name": "Di\u00e1rio A Tarde",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/eldiario",
-   "source": "kk",
-   "id": "br/eldiario",
-   "name": "El Diario NY",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:bra_fdsp",
-   "source": "ff",
-   "id": "bra_fdsp",
-   "name": "Folha de S. Paulo",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/br_folha_spaulo",
-   "source": "kk",
-   "id": "br/br_folha_spaulo",
-   "name": "Folha de S\u00e3o Paulo",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/houston_chronicle",
-   "source": "kk",
-   "id": "br/houston_chronicle",
-   "name": "Houston Chronicle",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/newyork_times",
-   "source": "kk",
-   "id": "br/newyork_times",
-   "name": "New York Times",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/newsday",
-   "source": "kk",
-   "id": "br/newsday",
-   "name": "Newsday",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/o_dia",
-   "source": "kk",
-   "id": "br/o_dia",
-   "name": "O Dia",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:bra_oe",
-   "source": "ff",
-   "id": "bra_oe",
-   "name": "O Estado de S. Paulo",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/br_estado_spaulo",
-   "source": "kk",
-   "id": "br/br_estado_spaulo",
-   "name": "O Estado de S\u00e3o Paulo",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "fp:o-globo",
-   "source": "fp",
-   "id": "o-globo",
-   "name": "O Globo",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/o-globo-065831veo.webp.jpg"
-  },
-  {
-   "uid": "kk:br/philadelphia_inquirer",
-   "source": "kk",
-   "id": "br/philadelphia_inquirer",
-   "name": "Philadelphia Inquirer",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/pittsburgh_post_gazette",
-   "source": "kk",
-   "id": "br/pittsburgh_post_gazette",
-   "name": "Pittsburgh Post-Gazette",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/gazette",
-   "source": "kk",
-   "id": "br/gazette",
-   "name": "The Gazette",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/oregonian",
-   "source": "kk",
-   "id": "br/oregonian",
-   "name": "The Oregonian",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/plain_dealer",
-   "source": "kk",
-   "id": "br/plain_dealer",
-   "name": "The Plain Dealer",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/ca_toronto_star",
-   "source": "kk",
-   "id": "br/ca_toronto_star",
-   "name": "The Toronto Star",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/ca_toronto_sun",
-   "source": "kk",
-   "id": "br/ca_toronto_sun",
-   "name": "The Toronto Sun",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/washington_post",
-   "source": "kk",
-   "id": "br/washington_post",
-   "name": "The Washington Post",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/tribune_review",
-   "source": "kk",
-   "id": "br/tribune_review",
-   "name": "Tribune-Review",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "fp:valor-economico",
-   "source": "fp",
-   "id": "valor-economico",
-   "name": "Valor Econ\u00f4mico",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/24/valor-economico-063734trd.webp.jpg"
-  },
-  {
-   "uid": "kk:br/wsj",
-   "source": "kk",
-   "id": "br/wsj",
-   "name": "Wall Street Journal",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:br/winnipeg_free_press",
-   "source": "kk",
-   "id": "br/winnipeg_free_press",
-   "name": "Winnipeg Free Press",
-   "country": "Brazil",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:chil_em",
-   "source": "ff",
-   "id": "chil_em",
-   "name": "El Mercurio",
-   "country": "CHIL",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/chicago_sun_times",
-   "source": "kk",
-   "id": "cl/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/chicago_tribune",
-   "source": "kk",
-   "id": "cl/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:chi_cd",
-   "source": "ff",
-   "id": "chi_cd",
-   "name": "China Daily",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/ny_daily_news",
-   "source": "kk",
-   "id": "cl/ny_daily_news",
-   "name": "Daily News - New York",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/cl_chanarcillo",
-   "source": "kk",
-   "id": "cl/cl_chanarcillo",
-   "name": "Diario Cha\u00f1arcillo",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/diario_concepcion",
-   "source": "kk",
-   "id": "cl/diario_concepcion",
-   "name": "Diario de Concepci\u00f3n",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/eldiario",
-   "source": "kk",
-   "id": "cl/eldiario",
-   "name": "El Diario NY",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/cl_mercurio",
-   "source": "kk",
-   "id": "cl/cl_mercurio",
-   "name": "El Mercurio",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/pinguino",
-   "source": "kk",
-   "id": "cl/pinguino",
-   "name": "El Ping\u00fcino",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/houston_chronicle",
-   "source": "kk",
-   "id": "cl/houston_chronicle",
-   "name": "Houston Chronicle",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/laopinion",
-   "source": "kk",
-   "id": "cl/laopinion",
-   "name": "La Opini\u00f3n",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/cl_tercera",
-   "source": "kk",
-   "id": "cl/cl_tercera",
-   "name": "La Tercera",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/ca_journal_montreal",
-   "source": "kk",
-   "id": "cl/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/latimes",
-   "source": "kk",
-   "id": "cl/latimes",
-   "name": "Los Angeles Times",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/newyork_times",
-   "source": "kk",
-   "id": "cl/newyork_times",
-   "name": "New York Times",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/newsday",
-   "source": "kk",
-   "id": "cl/newsday",
-   "name": "Newsday",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:chi_pd",
-   "source": "ff",
-   "id": "chi_pd",
-   "name": "People\u2019s Daily",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/philadelphia_inquirer",
-   "source": "kk",
-   "id": "cl/philadelphia_inquirer",
-   "name": "Philadelphia Inquirer",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/pittsburgh_post_gazette",
-   "source": "kk",
-   "id": "cl/pittsburgh_post_gazette",
-   "name": "Pittsburgh Post-Gazette",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/sf_chronicle",
-   "source": "kk",
-   "id": "cl/sf_chronicle",
-   "name": "San Francisco Chronicle",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/mercure_news",
-   "source": "kk",
-   "id": "cl/mercure_news",
-   "name": "San Jose Mercury News",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/starledger",
-   "source": "kk",
-   "id": "cl/starledger",
-   "name": "Star-Ledger",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/tampa_bay_times",
-   "source": "kk",
-   "id": "cl/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/ca_montreal_gazette",
-   "source": "kk",
-   "id": "cl/ca_montreal_gazette",
-   "name": "The Gazette",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/orange_register",
-   "source": "kk",
-   "id": "cl/orange_register",
-   "name": "The Orange County Register",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/oregonian",
-   "source": "kk",
-   "id": "cl/oregonian",
-   "name": "The Oregonian",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/sacramento_bee",
-   "source": "kk",
-   "id": "cl/sacramento_bee",
-   "name": "The Sacramento Bee",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/ca_toronto_star",
-   "source": "kk",
-   "id": "cl/ca_toronto_star",
-   "name": "The Toronto Star",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/ca_toronto_sun",
-   "source": "kk",
-   "id": "cl/ca_toronto_sun",
-   "name": "The Toronto Sun",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/washington_post",
-   "source": "kk",
-   "id": "cl/washington_post",
-   "name": "The Washington Post",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/tribune_review",
-   "source": "kk",
-   "id": "cl/tribune_review",
-   "name": "Tribune-Review",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/wsj",
-   "source": "kk",
-   "id": "cl/wsj",
-   "name": "Wall Street Journal",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cl/winnipeg_free_press",
-   "source": "kk",
-   "id": "cl/winnipeg_free_press",
-   "name": "Winnipeg Free Press",
-   "country": "Chile",
-   "state": null,
-   "region": "world",
-   "img": null
   },
   {
    "uid": "fp:china-daily",
@@ -11661,297 +9171,7 @@
    "country": "China",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/south-china-morning-post-000651n9c.webp.jpg"
-  },
-  {
-   "uid": "kk:co/co_espectador",
-   "source": "kk",
-   "id": "co/co_espectador",
-   "name": "El Espectador",
-   "country": "Colombia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:co/co_heraldo",
-   "source": "kk",
-   "id": "co/co_heraldo",
-   "name": "El Heraldo",
-   "country": "Colombia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:col_eu",
-   "source": "ff",
-   "id": "col_eu",
-   "name": "El Universal",
-   "country": "Colombia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:co/co_patria",
-   "source": "kk",
-   "id": "co/co_patria",
-   "name": "La Patria",
-   "country": "Colombia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:col_vl",
-   "source": "ff",
-   "id": "col_vl",
-   "name": "Vanguardia Liberal",
-   "country": "Colombia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/boston_globe",
-   "source": "kk",
-   "id": "cr/boston_globe",
-   "name": "Boston Globe",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/chicago_sun_times",
-   "source": "kk",
-   "id": "cr/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/chicago_tribune",
-   "source": "kk",
-   "id": "cr/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/ny_daily_news",
-   "source": "kk",
-   "id": "cr/ny_daily_news",
-   "name": "Daily News - New York",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/eldiario",
-   "source": "kk",
-   "id": "cr/eldiario",
-   "name": "El Diario NY",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/laopinion",
-   "source": "kk",
-   "id": "cr/laopinion",
-   "name": "La Opini\u00f3n",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/ca_journal_montreal",
-   "source": "kk",
-   "id": "cr/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/latimes",
-   "source": "kk",
-   "id": "cr/latimes",
-   "name": "Los Angeles Times",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/newyork_times",
-   "source": "kk",
-   "id": "cr/newyork_times",
-   "name": "New York Times",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/newsday",
-   "source": "kk",
-   "id": "cr/newsday",
-   "name": "Newsday",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/philadelphia_inquirer",
-   "source": "kk",
-   "id": "cr/philadelphia_inquirer",
-   "name": "Philadelphia Inquirer",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/pittsburgh_post_gazette",
-   "source": "kk",
-   "id": "cr/pittsburgh_post_gazette",
-   "name": "Pittsburgh Post-Gazette",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/sf_chronicle",
-   "source": "kk",
-   "id": "cr/sf_chronicle",
-   "name": "San Francisco Chronicle",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/mercure_news",
-   "source": "kk",
-   "id": "cr/mercure_news",
-   "name": "San Jose Mercury News",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/st_louis_post",
-   "source": "kk",
-   "id": "cr/st_louis_post",
-   "name": "St. Louis Post-Dispatch",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/atlanta_journal_conts",
-   "source": "kk",
-   "id": "cr/atlanta_journal_conts",
-   "name": "The Atlanta Journal-Constitution",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/gazette",
-   "source": "kk",
-   "id": "cr/gazette",
-   "name": "The Gazette",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/orange_register",
-   "source": "kk",
-   "id": "cr/orange_register",
-   "name": "The Orange County Register",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/sacramento_bee",
-   "source": "kk",
-   "id": "cr/sacramento_bee",
-   "name": "The Sacramento Bee",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/washington_post",
-   "source": "kk",
-   "id": "cr/washington_post",
-   "name": "The Washington Post",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/tribune_review",
-   "source": "kk",
-   "id": "cr/tribune_review",
-   "name": "Tribune-Review",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/wsj",
-   "source": "kk",
-   "id": "cr/wsj",
-   "name": "Wall Street Journal",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:cr/winnipeg_free_press",
-   "source": "kk",
-   "id": "cr/winnipeg_free_press",
-   "name": "Winnipeg Free Press",
-   "country": "Costa Rica",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:cro_vl",
-   "source": "ff",
-   "id": "cro_vl",
-   "name": "Vecernji List",
-   "country": "CRO",
-   "state": null,
-   "region": "world",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/south-china-morning-post-0016437ar.webp.jpg"
   },
   {
    "uid": "fp:la-voce-del-popolo",
@@ -11964,11 +9184,11 @@
    "img": "https://www.frontpages.com/g/2026/07/25/la-voce-del-popolo-000159bpx.webp.jpg"
   },
   {
-   "uid": "kk:ec/ec_expreso",
-   "source": "kk",
-   "id": "ec/ec_expreso",
-   "name": "Expreso",
-   "country": "Ecuador",
+   "uid": "ff:cro_vl",
+   "source": "ff",
+   "id": "cro_vl",
+   "name": "Vecernji List",
+   "country": "Croatia",
    "state": null,
    "region": "world",
    "img": null
@@ -11988,7 +9208,7 @@
    "source": "ff",
    "id": "fiji_ft",
    "name": "The Fiji Times",
-   "country": "FIJI",
+   "country": "Fiji",
    "state": null,
    "region": "world",
    "img": null
@@ -11998,27 +9218,7 @@
    "source": "ff",
    "id": "geor_tm",
    "name": "The Messenger",
-   "country": "GEOR",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:gree_nk",
-   "source": "ff",
-   "id": "gree_nk",
-   "name": "Nea Kriti",
-   "country": "GREE",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:gree_tax",
-   "source": "ff",
-   "id": "gree_tax",
-   "name": "Taxydromos",
-   "country": "GREE",
+   "country": "Georgia",
    "state": null,
    "region": "world",
    "img": null
@@ -12041,7 +9241,7 @@
    "country": "Hong Kong",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/oriental-daily-news-010443wxi.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/oriental-daily-news-01482938s.webp.jpg"
   },
   {
    "uid": "fp:dainik-jagran",
@@ -12051,7 +9251,7 @@
    "country": "India",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/dainik-jagran-094340zbg.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/dainik-jagran-001722xnd.webp.jpg"
   },
   {
    "uid": "fp:hindustan-times",
@@ -12141,17 +9341,7 @@
    "country": "India",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-hindu-015346kaq.webp.jpg"
-  },
-  {
-   "uid": "kk:in/statesman",
-   "source": "kk",
-   "id": "in/statesman",
-   "name": "The Statesman",
-   "country": "India",
-   "state": null,
-   "region": "world",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/the-hindu-014755y0a.webp.jpg"
   },
   {
    "uid": "fp:the-times-of-india",
@@ -12171,7 +9361,7 @@
    "country": "Indonesia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/kompas-000546blx.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/kompas-001719dnw.webp.jpg"
   },
   {
    "uid": "fp:the-jakarta-post",
@@ -12254,66 +9444,6 @@
    "img": null
   },
   {
-   "uid": "kk:jp/boston_globe",
-   "source": "kk",
-   "id": "jp/boston_globe",
-   "name": "Boston Globe",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/chicago_sun_times",
-   "source": "kk",
-   "id": "jp/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/chicago_tribune",
-   "source": "kk",
-   "id": "jp/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/ny_daily_news",
-   "source": "kk",
-   "id": "jp/ny_daily_news",
-   "name": "Daily News - New York",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/eldiario",
-   "source": "kk",
-   "id": "jp/eldiario",
-   "name": "El Diario NY",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/houston_chronicle",
-   "source": "kk",
-   "id": "jp/houston_chronicle",
-   "name": "Houston Chronicle",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
    "uid": "fp:mainichi-shinbun",
    "source": "fp",
    "id": "mainichi-shinbun",
@@ -12321,57 +9451,7 @@
    "country": "Japan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/mainichi-shinbun-000608310.webp.jpg"
-  },
-  {
-   "uid": "kk:jp/newyork_times",
-   "source": "kk",
-   "id": "jp/newyork_times",
-   "name": "New York Times",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/newsday",
-   "source": "kk",
-   "id": "jp/newsday",
-   "name": "Newsday",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/starledger",
-   "source": "kk",
-   "id": "jp/starledger",
-   "name": "Star-Ledger",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/tampa_bay_times",
-   "source": "kk",
-   "id": "jp/tampa_bay_times",
-   "name": "Tampa Bay Times",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/atlanta_journal_conts",
-   "source": "kk",
-   "id": "jp/atlanta_journal_conts",
-   "name": "The Atlanta Journal-Constitution",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/mainichi-shinbun-001704bo3.webp.jpg"
   },
   {
    "uid": "fp:the-japan-times",
@@ -12384,66 +9464,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/the-japan-times-010603qj6.webp.jpg"
   },
   {
-   "uid": "kk:jp/oregonian",
-   "source": "kk",
-   "id": "jp/oregonian",
-   "name": "The Oregonian",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/plain_dealer",
-   "source": "kk",
-   "id": "jp/plain_dealer",
-   "name": "The Plain Dealer",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/ca_toronto_star",
-   "source": "kk",
-   "id": "jp/ca_toronto_star",
-   "name": "The Toronto Star",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/ca_toronto_sun",
-   "source": "kk",
-   "id": "jp/ca_toronto_sun",
-   "name": "The Toronto Sun",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/wsj",
-   "source": "kk",
-   "id": "jp/wsj",
-   "name": "Wall Street Journal",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:jp/winnipeg_free_press",
-   "source": "kk",
-   "id": "jp/winnipeg_free_press",
-   "name": "Winnipeg Free Press",
-   "country": "Japan",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
    "uid": "fp:yomiuri-shinbun",
    "source": "fp",
    "id": "yomiuri-shinbun",
@@ -12451,7 +9471,7 @@
    "country": "Japan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/yomiuri-shinbun-000450gll.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/yomiuri-shinbun-001341f5d.webp.jpg"
   },
   {
    "uid": "fp:the-jordan-times",
@@ -12471,14 +9491,14 @@
    "country": "Kenya",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/daily-nation-kenya-000435pzi.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/daily-nation-kenya-001825muc.webp.jpg"
   },
   {
    "uid": "ff:kos_kd",
    "source": "ff",
    "id": "kos_kd",
    "name": "Koha Ditore",
-   "country": "KOS",
+   "country": "Kosovo",
    "state": null,
    "region": "world",
    "img": null
@@ -12488,7 +9508,7 @@
    "source": "ff",
    "id": "kuw_kt",
    "name": "Kuwait Times",
-   "country": "KUW",
+   "country": "Kuwait",
    "state": null,
    "region": "world",
    "img": null
@@ -12498,17 +9518,7 @@
    "source": "ff",
    "id": "lith_lr",
    "name": "Lietuvos Rytas",
-   "country": "LITH",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:mal_star",
-   "source": "ff",
-   "id": "mal_star",
-   "name": "Star",
-   "country": "MAL",
+   "country": "Lithuania",
    "state": null,
    "region": "world",
    "img": null
@@ -12521,7 +9531,7 @@
    "country": "Malaysia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/berita-harian-malaysia-000339774.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/berita-harian-malaysia-001834tu1.webp.jpg"
   },
   {
    "uid": "fp:harian-metro",
@@ -12531,7 +9541,7 @@
    "country": "Malaysia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/harian-metro-000536imy.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/harian-metro-0017427rg.webp.jpg"
   },
   {
    "uid": "fp:new-straits-times",
@@ -12541,7 +9551,7 @@
    "country": "Malaysia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/new-straits-times-0003056e4.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/new-straits-times-001804i6a.webp.jpg"
   },
   {
    "uid": "fp:sin-chew-daily",
@@ -12551,17 +9561,17 @@
    "country": "Malaysia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/sin-chew-daily-000423n69.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/sin-chew-daily-001833t25.webp.jpg"
   },
   {
-   "uid": "fp:the-star-malaysia",
-   "source": "fp",
-   "id": "the-star-malaysia",
-   "name": "The Star",
+   "uid": "ff:mal_star",
+   "source": "ff",
+   "id": "mal_star",
+   "name": "Star",
    "country": "Malaysia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-star-malaysia-000359fws.webp.jpg"
+   "img": null
   },
   {
    "uid": "fp:the-sun-malaysia",
@@ -12571,64 +9581,24 @@
    "country": "Malaysia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-sun-malaysia-000418fpf.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/the-sun-malaysia-001833qj2.webp.jpg"
   },
   {
    "uid": "ff:mor_aa",
    "source": "ff",
    "id": "mor_aa",
    "name": "Alahdath Almaghrebia",
-   "country": "MOR",
+   "country": "Morocco",
    "state": null,
    "region": "world",
    "img": null
   },
   {
-   "uid": "ff:net_ad2",
+   "uid": "ff:newz_dp",
    "source": "ff",
-   "id": "net_ad2",
-   "name": "AD",
-   "country": "NET",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:net_dv",
-   "source": "ff",
-   "id": "net_dv",
-   "name": "de Volkskrant",
-   "country": "NET",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:net_hfd",
-   "source": "ff",
-   "id": "net_hfd",
-   "name": "Het Financieele Dagblad",
-   "country": "NET",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:net_hp",
-   "source": "ff",
-   "id": "net_hp",
-   "name": "Het Parool",
-   "country": "NET",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:net_trouw",
-   "source": "ff",
-   "id": "net_trouw",
-   "name": "Trouw",
-   "country": "NET",
+   "id": "newz_dp",
+   "name": "The Dominion Post",
+   "country": "New Zealand",
    "state": null,
    "region": "world",
    "img": null
@@ -12654,6 +9624,16 @@
    "img": "https://www.frontpages.com/g/2026/07/25/the-post-nz-000602pcv.webp.jpg"
   },
   {
+   "uid": "ff:newz_tp",
+   "source": "ff",
+   "id": "newz_tp",
+   "name": "The Press",
+   "country": "New Zealand",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
    "uid": "fp:the-press-nz",
    "source": "fp",
    "id": "the-press-nz",
@@ -12672,26 +9652,6 @@
    "state": null,
    "region": "world",
    "img": "https://www.frontpages.com/g/2026/07/25/the-southland-times-nz-00052692a.webp.jpg"
-  },
-  {
-   "uid": "ff:newz_dp",
-   "source": "ff",
-   "id": "newz_dp",
-   "name": "The Dominion Post",
-   "country": "NEWZ",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:newz_tp",
-   "source": "ff",
-   "id": "newz_tp",
-   "name": "The Press",
-   "country": "NEWZ",
-   "state": null,
-   "region": "world",
-   "img": null
   },
   {
    "uid": "fp:businessday",
@@ -12854,56 +9814,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/al-quds-082323myd.webp.jpg"
   },
   {
-   "uid": "ff:pan_lep",
-   "source": "ff",
-   "id": "pan_lep",
-   "name": "La Estrella de Panama",
-   "country": "Panama",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:py/nacion",
-   "source": "kk",
-   "id": "py/nacion",
-   "name": "La Naci\u00f3n",
-   "country": "Paraguay",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pe/pe_comercio",
-   "source": "kk",
-   "id": "pe/pe_comercio",
-   "name": "El Comercio",
-   "country": "Peru",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pe/pe_republica",
-   "source": "kk",
-   "id": "pe/pe_republica",
-   "name": "La Republica",
-   "country": "Peru",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pe/pe_libero",
-   "source": "kk",
-   "id": "pe/pe_libero",
-   "name": "L\u00edbero",
-   "country": "Peru",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
    "uid": "ff:phi_mb",
    "source": "ff",
    "id": "phi_mb",
@@ -12921,7 +9831,7 @@
    "country": "Philippines",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/philippine-daily-inquirer-000503dkt.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/philippine-daily-inquirer-001808jve.webp.jpg"
   },
   {
    "uid": "fp:the-philippine-star",
@@ -12931,57 +9841,7 @@
    "country": "Philippines",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-philippine-star-000516t05.webp.jpg"
-  },
-  {
-   "uid": "kk:pl/arizona_daily_star",
-   "source": "kk",
-   "id": "pl/arizona_daily_star",
-   "name": "Arizona Daily Star",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/arizona_republic",
-   "source": "kk",
-   "id": "pl/arizona_republic",
-   "name": "Arizona Republic News",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/boston_globe",
-   "source": "kk",
-   "id": "pl/boston_globe",
-   "name": "Boston Globe",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/ny_daily_news",
-   "source": "kk",
-   "id": "pl/ny_daily_news",
-   "name": "Daily News - New York",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/eldiario",
-   "source": "kk",
-   "id": "pl/eldiario",
-   "name": "El Diario NY",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/the-philippine-star-0018011yl.webp.jpg"
   },
   {
    "uid": "fp:fakt",
@@ -13014,56 +9874,6 @@
    "img": "https://www.frontpages.com/g/2026/07/24/gazeta-wyborcza-stoleczna-072041jg2.webp.jpg"
   },
   {
-   "uid": "kk:pl/houston_chronicle",
-   "source": "kk",
-   "id": "pl/houston_chronicle",
-   "name": "Houston Chronicle",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/newyork_times",
-   "source": "kk",
-   "id": "pl/newyork_times",
-   "name": "New York Times",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/newsday",
-   "source": "kk",
-   "id": "pl/newsday",
-   "name": "Newsday",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/philadelphia_inquirer",
-   "source": "kk",
-   "id": "pl/philadelphia_inquirer",
-   "name": "Philadelphia Inquirer",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/pittsburgh_post_gazette",
-   "source": "kk",
-   "id": "pl/pittsburgh_post_gazette",
-   "name": "Pittsburgh Post-Gazette",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
    "uid": "fp:rzeczpospolita",
    "source": "fp",
    "id": "rzeczpospolita",
@@ -13074,26 +9884,6 @@
    "img": "https://www.frontpages.com/g/2026/07/25/rzeczpospolita-0711264av.webp.jpg"
   },
   {
-   "uid": "kk:pl/st_louis_post",
-   "source": "kk",
-   "id": "pl/st_louis_post",
-   "name": "St. Louis Post-Dispatch",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/starledger",
-   "source": "kk",
-   "id": "pl/starledger",
-   "name": "Star-Ledger",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
    "uid": "fp:super-express",
    "source": "fp",
    "id": "super-express",
@@ -13102,66 +9892,6 @@
    "state": null,
    "region": "world",
    "img": "https://www.frontpages.com/g/2026/07/25/super-express-070931may.webp.jpg"
-  },
-  {
-   "uid": "kk:pl/plain_dealer",
-   "source": "kk",
-   "id": "pl/plain_dealer",
-   "name": "The Plain Dealer",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/ca_province",
-   "source": "kk",
-   "id": "pl/ca_province",
-   "name": "The Province",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/ca_vancouver_sun",
-   "source": "kk",
-   "id": "pl/ca_vancouver_sun",
-   "name": "The Vancouver Sun",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/washington_post",
-   "source": "kk",
-   "id": "pl/washington_post",
-   "name": "The Washington Post",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/tribune_review",
-   "source": "kk",
-   "id": "pl/tribune_review",
-   "name": "Tribune-Review",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:pl/wsj",
-   "source": "kk",
-   "id": "pl/wsj",
-   "name": "Wall Street Journal",
-   "country": "Poland",
-   "state": null,
-   "region": "world",
-   "img": null
   },
   {
    "uid": "fp:gulf-times",
@@ -13244,180 +9974,10 @@
    "img": "https://www.frontpages.com/g/2026/07/24/ziarul-financiar-001739h98.webp.jpg"
   },
   {
-   "uid": "kk:ru/boston_globe",
-   "source": "kk",
-   "id": "ru/boston_globe",
-   "name": "Boston Globe",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/chicago_sun_times",
-   "source": "kk",
-   "id": "ru/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/chicago_tribune",
-   "source": "kk",
-   "id": "ru/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/laopinion",
-   "source": "kk",
-   "id": "ru/laopinion",
-   "name": "La Opini\u00f3n",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/ca_journal_montreal",
-   "source": "kk",
-   "id": "ru/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/latimes",
-   "source": "kk",
-   "id": "ru/latimes",
-   "name": "Los Angeles Times",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
    "uid": "ff:rus_mp",
    "source": "ff",
    "id": "rus_mp",
    "name": "Moskovskaya Pravda",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/sf_chronicle",
-   "source": "kk",
-   "id": "ru/sf_chronicle",
-   "name": "San Francisco Chronicle",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/mercure_news",
-   "source": "kk",
-   "id": "ru/mercure_news",
-   "name": "San Jose Mercury News",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/starledger",
-   "source": "kk",
-   "id": "ru/starledger",
-   "name": "Star-Ledger",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/atlanta_journal_conts",
-   "source": "kk",
-   "id": "ru/atlanta_journal_conts",
-   "name": "The Atlanta Journal-Constitution",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/ca_montreal_gazette",
-   "source": "kk",
-   "id": "ru/ca_montreal_gazette",
-   "name": "The Gazette",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/orange_register",
-   "source": "kk",
-   "id": "ru/orange_register",
-   "name": "The Orange County Register",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/ca_province",
-   "source": "kk",
-   "id": "ru/ca_province",
-   "name": "The Province",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/sacramento_bee",
-   "source": "kk",
-   "id": "ru/sacramento_bee",
-   "name": "The Sacramento Bee",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/ca_vancouver_sun",
-   "source": "kk",
-   "id": "ru/ca_vancouver_sun",
-   "name": "The Vancouver Sun",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/washington_post",
-   "source": "kk",
-   "id": "ru/washington_post",
-   "name": "The Washington Post",
-   "country": "Russia",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ru/winnipeg_free_press",
-   "source": "kk",
-   "id": "ru/winnipeg_free_press",
-   "name": "Winnipeg Free Press",
    "country": "Russia",
    "state": null,
    "region": "world",
@@ -13431,27 +9991,17 @@
    "country": "Saudi Arabia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/24/arab-news-2308120t2.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/25/arab-news-234051674.webp.jpg"
   },
   {
    "uid": "ff:sing_lz",
    "source": "ff",
    "id": "sing_lz",
    "name": "Lianhe Zaobao",
-   "country": "SING",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "fp:lianhe-zaobao",
-   "source": "fp",
-   "id": "lianhe-zaobao",
-   "name": "Lianhe Zaobao",
    "country": "Singapore",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/lianhe-zaobao-000312xzv.webp.jpg"
+   "img": null
   },
   {
    "uid": "fp:the-business-times",
@@ -13471,54 +10021,14 @@
    "country": "Singapore",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-straits-times-000641wcg.webp.jpg"
-  },
-  {
-   "uid": "ff:skor_jai",
-   "source": "ff",
-   "id": "skor_jai",
-   "name": "JoongAng Ilbo",
-   "country": "SKOR",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:skor_ci",
-   "source": "ff",
-   "id": "skor_ci",
-   "name": "The Chosun Ilbo",
-   "country": "SKOR",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:skor_did",
-   "source": "ff",
-   "id": "skor_did",
-   "name": "The Dong-a Ilbo",
-   "country": "SKOR",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "ff:skor_mb",
-   "source": "ff",
-   "id": "skor_mb",
-   "name": "The Maeil Business Newspaper",
-   "country": "SKOR",
-   "state": null,
-   "region": "world",
-   "img": null
+   "img": "https://www.frontpages.com/g/2026/07/26/the-straits-times-001334pti.webp.jpg"
   },
   {
    "uid": "ff:slk_den",
    "source": "ff",
    "id": "slk_den",
    "name": "Denn\u00edk N",
-   "country": "SLK",
+   "country": "Slovakia",
    "state": null,
    "region": "world",
    "img": null
@@ -13532,26 +10042,6 @@
    "state": null,
    "region": "world",
    "img": "https://www.frontpages.com/g/2026/07/25/primorske-novice-093043hlc.webp.jpg"
-  },
-  {
-   "uid": "kk:za/arizona_daily_star",
-   "source": "kk",
-   "id": "za/arizona_daily_star",
-   "name": "Arizona Daily Star",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/arizona_republic",
-   "source": "kk",
-   "id": "za/arizona_republic",
-   "name": "Arizona Republic News",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
   },
   {
    "uid": "fp:business-day-za",
@@ -13574,56 +10064,6 @@
    "img": null
   },
   {
-   "uid": "kk:za/chicago_sun_times",
-   "source": "kk",
-   "id": "za/chicago_sun_times",
-   "name": "Chicago Sun-Times",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/chicago_tribune",
-   "source": "kk",
-   "id": "za/chicago_tribune",
-   "name": "Chicago Tribune",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/laopinion",
-   "source": "kk",
-   "id": "za/laopinion",
-   "name": "La Opini\u00f3n",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/ca_journal_montreal",
-   "source": "kk",
-   "id": "za/ca_journal_montreal",
-   "name": "Le Journal de Montr\u00e9al",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/latimes",
-   "source": "kk",
-   "id": "za/latimes",
-   "name": "Los Angeles Times",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
    "uid": "fp:mail-and-guardian",
    "source": "fp",
    "id": "mail-and-guardian",
@@ -13632,26 +10072,6 @@
    "state": null,
    "region": "world",
    "img": "https://www.frontpages.com/g/2026/07/24/mail-and-guardian-021931cm5.webp.jpg"
-  },
-  {
-   "uid": "kk:za/philadelphia_inquirer",
-   "source": "kk",
-   "id": "za/philadelphia_inquirer",
-   "name": "Philadelphia Inquirer",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/pittsburgh_post_gazette",
-   "source": "kk",
-   "id": "za/pittsburgh_post_gazette",
-   "name": "Pittsburgh Post-Gazette",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
   },
   {
    "uid": "fp:pretoria-news",
@@ -13664,46 +10084,6 @@
    "img": "https://www.frontpages.com/g/2026/07/24/pretoria-news-0509131jm.webp.jpg"
   },
   {
-   "uid": "kk:za/sf_chronicle",
-   "source": "kk",
-   "id": "za/sf_chronicle",
-   "name": "San Francisco Chronicle",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/mercure_news",
-   "source": "kk",
-   "id": "za/mercure_news",
-   "name": "San Jose Mercury News",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/starledger",
-   "source": "kk",
-   "id": "za/starledger",
-   "name": "Star-Ledger",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/atlanta_journal_conts",
-   "source": "kk",
-   "id": "za/atlanta_journal_conts",
-   "name": "The Atlanta Journal-Constitution",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
    "uid": "kk:za/citizen",
    "source": "kk",
    "id": "za/citizen",
@@ -13714,60 +10094,10 @@
    "img": null
   },
   {
-   "uid": "kk:za/gazette",
-   "source": "kk",
-   "id": "za/gazette",
-   "name": "The Gazette",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
    "uid": "ff:saf_tm",
    "source": "ff",
    "id": "saf_tm",
    "name": "The Mercury",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/orange_register",
-   "source": "kk",
-   "id": "za/orange_register",
-   "name": "The Orange County Register",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/oregonian",
-   "source": "kk",
-   "id": "za/oregonian",
-   "name": "The Oregonian",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/ca_province",
-   "source": "kk",
-   "id": "za/ca_province",
-   "name": "The Province",
-   "country": "South Africa",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:za/sacramento_bee",
-   "source": "kk",
-   "id": "za/sacramento_bee",
-   "name": "The Sacramento Bee",
    "country": "South Africa",
    "state": null,
    "region": "world",
@@ -13794,21 +10124,31 @@
    "img": null
   },
   {
-   "uid": "kk:za/ca_vancouver_sun",
-   "source": "kk",
-   "id": "za/ca_vancouver_sun",
-   "name": "The Vancouver Sun",
-   "country": "South Africa",
+   "uid": "ff:skor_jai",
+   "source": "ff",
+   "id": "skor_jai",
+   "name": "JoongAng Ilbo",
+   "country": "South Korea",
    "state": null,
    "region": "world",
    "img": null
   },
   {
-   "uid": "kk:za/tribune_review",
-   "source": "kk",
-   "id": "za/tribune_review",
-   "name": "Tribune-Review",
-   "country": "South Africa",
+   "uid": "ff:skor_ci",
+   "source": "ff",
+   "id": "skor_ci",
+   "name": "The Chosun Ilbo",
+   "country": "South Korea",
+   "state": null,
+   "region": "world",
+   "img": null
+  },
+  {
+   "uid": "ff:skor_did",
+   "source": "ff",
+   "id": "skor_did",
+   "name": "The Dong-a Ilbo",
+   "country": "South Korea",
    "state": null,
    "region": "world",
    "img": null
@@ -13834,11 +10174,11 @@
    "img": "https://www.frontpages.com/g/2026/07/24/the-korea-times-001904tvu.webp.jpg"
   },
   {
-   "uid": "ff:taiw_tmt",
+   "uid": "ff:skor_mb",
    "source": "ff",
-   "id": "taiw_tmt",
-   "name": "The Merit Times",
-   "country": "TAIW",
+   "id": "skor_mb",
+   "name": "The Maeil Business Newspaper",
+   "country": "South Korea",
    "state": null,
    "region": "world",
    "img": null
@@ -13851,7 +10191,7 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/china-times-000618dte.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/china-times-0016570bh.webp.jpg"
   },
   {
    "uid": "fp:commercial-times",
@@ -13861,7 +10201,7 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/commercial-times-000702gr5.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/commercial-times-0016348w7.webp.jpg"
   },
   {
    "uid": "fp:economic-daily-news",
@@ -13871,7 +10211,7 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/economic-daily-news-000354om9.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/economic-daily-news-001849w7r.webp.jpg"
   },
   {
    "uid": "fp:liberty-times",
@@ -13881,7 +10221,7 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/liberty-times-000409grf.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/liberty-times-0018424y4.webp.jpg"
   },
   {
    "uid": "fp:taipei-times",
@@ -13891,17 +10231,17 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/taipei-times-000346yq5.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/taipei-times-001840kyn.webp.jpg"
   },
   {
-   "uid": "fp:the-merit-times",
-   "source": "fp",
-   "id": "the-merit-times",
+   "uid": "ff:taiw_tmt",
+   "source": "ff",
+   "id": "taiw_tmt",
    "name": "The Merit Times",
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/the-merit-times-0004026u5.webp.jpg"
+   "img": null
   },
   {
    "uid": "fp:united-daily-news",
@@ -13911,7 +10251,7 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/united-daily-news-000551rco.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/united-daily-news-0017120gh.webp.jpg"
   },
   {
    "uid": "fp:bangkok-post",
@@ -13921,7 +10261,7 @@
    "country": "Thailand",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/bangkok-post-000334zxv.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/bangkok-post-001829502.webp.jpg"
   },
   {
    "uid": "ff:tur_ds",
@@ -14034,56 +10374,6 @@
    "img": "https://www.frontpages.com/g/2026/07/24/the-national-abu-dhabi-0040413rn.webp.jpg"
   },
   {
-   "uid": "kk:uy/uy_elpais",
-   "source": "kk",
-   "id": "uy/uy_elpais",
-   "name": "El Pa\u00eds",
-   "country": "Uruguay",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:uy/uy_telegrafo",
-   "source": "kk",
-   "id": "uy/uy_telegrafo",
-   "name": "El Tel\u00e9grafo",
-   "country": "Uruguay",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ve/ve_2001",
-   "source": "kk",
-   "id": "ve/ve_2001",
-   "name": "2001 - Dosmiluno",
-   "country": "Venezuela",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ve/ve_meridiano",
-   "source": "kk",
-   "id": "ve/ve_meridiano",
-   "name": "Meridiano",
-   "country": "Venezuela",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
-   "uid": "kk:ve/ve_universal",
-   "source": "kk",
-   "id": "ve/ve_universal",
-   "name": "Universal",
-   "country": "Venezuela",
-   "state": null,
-   "region": "world",
-   "img": null
-  },
-  {
    "uid": "fp:nhan-dan",
    "source": "fp",
    "id": "nhan-dan",
@@ -14091,7 +10381,7 @@
    "country": "Vietnam",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/nhan-dan-000441z38.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/nhan-dan-021836faw.webp.jpg"
   },
   {
    "uid": "fp:viet-nam-news",
