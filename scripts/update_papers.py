@@ -154,6 +154,13 @@ US_STATES = {
     "pr": "Puerto Rico", "gu": "Guam", "vi": "U.S. Virgin Islands",
 }
 
+LATAM = {
+    "argentina", "bolivia", "brazil", "chile", "colombia", "ecuador",
+    "paraguay", "peru", "uruguay", "venezuela", "guyana", "suriname",
+    "guatemala", "belize", "honduras", "el salvador", "nicaragua",
+    "costa rica", "panama",
+}
+
 WEUROPE = {
     "united kingdom", "england", "scotland", "wales", "northern ireland",
     "ireland", "france", "germany", "spain", "portugal", "italy",
@@ -168,6 +175,7 @@ def region_for_country(country):
     if c == "canada": return "canada"
     if c == "mexico": return "mexico"
     if c in WEUROPE: return "weurope"
+    if c in LATAM: return "latam"
     return "world"
 
 FF_COUNTRIES = {
@@ -199,6 +207,14 @@ FF_COUNTRIES = {
     "uae": "United Arab Emirates", "ukr": "Ukraine", "ury": "Uruguay",
     "uru": "Uruguay", "ven": "Venezuela", "vnm": "Vietnam", "vie": "Vietnam",
     "zaf": "South Africa", "saf": "South Africa", "zwe": "Zimbabwe",
+    # longer/irregular prefixes observed in live Freedom Forum data
+    "chil": "Chile", "cro": "Croatia", "fiji": "Fiji", "geor": "Georgia",
+    "gree": "Greece", "kos": "Kosovo", "kuw": "Kuwait", "lith": "Lithuania",
+    "mal": "Malaysia", "mor": "Morocco", "net": "Netherlands",
+    "newz": "New Zealand", "sing": "Singapore", "skor": "South Korea",
+    "slk": "Slovakia", "taiw": "Taiwan", "hrv": "Croatia", "geo": "Georgia",
+    "mar": "Morocco", "lka": "Sri Lanka", "srb": "Serbia", "bgr": "Bulgaria",
+    "bul": "Bulgaria",
 }
 
 US_STATE_BY_NAME = {
@@ -235,6 +251,7 @@ def norm_name(name):
     s = re.sub(r"\s+", " ", s).strip()
     if s.startswith("the "):
         s = s[4:]
+    s = re.sub(r"(?<!daily) news(paper)?$", "", s).strip()
     return s
 
 def strip_tags(s):
@@ -271,17 +288,24 @@ def _ff_harvest(text, out, label):
                          region=region_for_country(country), img=None)
     note(f"  ff {label}: +{len(out)-n0} (total {len(out)})")
 
-def _cdn_alive(code, dates):
-    for d in dates:
-        url = f"{FF_CDN}/{code}/{d}/front-page-medium.jpg"
+def _exists(url):
+    """Range-probe a CDN URL. Only a definite 404/403/410 counts as dead;
+    transient errors get the benefit of the doubt."""
+    req = urllib.request.Request(
+        url, headers={**BROWSER_HEADERS, "Range": "bytes=0-0"})
+    for ctx in (SSL_CTX, SSL_CTX_LOOSE):
         try:
-            req = urllib.request.Request(
-                url, headers={**BROWSER_HEADERS, "Range": "bytes=0-0"})
-            with urllib.request.urlopen(req, timeout=20, context=SSL_CTX):
+            with urllib.request.urlopen(req, timeout=20, context=ctx):
                 return True
+        except urllib.error.HTTPError as e:
+            return e.code not in (403, 404, 410)
         except Exception:
             continue
-    return False
+    return True
+
+def _cdn_alive(code, dates):
+    return any(_exists(f"{FF_CDN}/{code}/{d}/front-page-medium.jpg")
+               for d in dates)
 
 def scrape_freedomforum():
     out = {}
@@ -540,18 +564,44 @@ def scrape_kiosko():
             except Exception as exc:
                 note(f"  kk skip {gu}: {exc}")
         note(f"  kk {url}: running total {len(out)} ({fetched_geos} new geo pages)")
-    print(f"kk: {len(out)} papers")
-    return list(out.values())
+    # validate: a paper only exists if its own country dir serves an image
+    now = denver_now()
+    dates = [(now - timedelta(days=n)).strftime("%Y/%m/%d") for n in (0, 1)]
+    alive, dropped = {}, 0
+    for kid, p in out.items():
+        if any(_exists(f"https://img.kiosko.net/{d}/{kid}.750.jpg") for d in dates):
+            alive[kid] = p
+        else:
+            dropped += 1
+        time.sleep(0.05)
+    note(f"  kk validation: {dropped} phantom/dead entries dropped")
+    print(f"kk: {len(alive)} papers")
+    return list(alive.values())
 
 
 # -------------------------------------------------------------------- main --
 
-REGION_ORDER = {"us": 0, "canada": 1, "mexico": 2, "weurope": 3, "world": 4}
+REGION_ORDER = {"us": 0, "canada": 1, "mexico": 2, "weurope": 3, "latam": 4, "world": 5}
 SRC_PRIORITY = {"ff": 0, "fp": 1, "kk": 2}
 
+def reclassify(p):
+    """Re-derive country/state/region from scratch (heals older data)."""
+    if p["source"] == "ff":
+        code = p["id"]
+        prefix = code.split("_", 1)[0] if "_" in code else code
+        if "_" in code and prefix in US_STATES:
+            p["country"], p["state"] = "United States", US_STATES[prefix]
+        elif prefix in FF_COUNTRIES:
+            p["country"], p["state"] = FF_COUNTRIES[prefix], None
+        elif "_" not in code:
+            p["country"], p["state"] = "United States", None
+    p["region"] = region_for_country(p["country"])
+    return p
+
 def main():
-    print("update_papers v5")
-    scraped = scrape_freedomforum() + scrape_frontpages() + scrape_kiosko()
+    print("update_papers v6")
+    kk_list = scrape_kiosko()
+    scraped = scrape_freedomforum() + scrape_frontpages() + kk_list
 
     existing = {}
     if DATA_FILE.exists():
@@ -562,6 +612,15 @@ def main():
             note(f"warn: could not read existing papers.json: {exc}")
 
     merged = dict(existing)
+    # a healthy kiosko scrape fully replaces the stored kiosko subset,
+    # purging phantom entries that validation has since ruled out
+    if len(kk_list) >= 100:
+        kk_now = {p["uid"] for p in kk_list}
+        purged = [u for u in merged if u.startswith("kk:") and u not in kk_now]
+        for u in purged:
+            del merged[u]
+        if purged:
+            note(f"  purged {len(purged)} stale/phantom kiosko entries")
     for p in scraped:
         old = merged.get(p["uid"])
         if old and p.get("img") is None and old.get("img"):
@@ -571,6 +630,9 @@ def main():
     if not merged:
         note("error: nothing scraped and no existing file")
         return 1
+
+    for p in merged.values():
+        reclassify(p)
 
     best = {}
     for p in merged.values():
