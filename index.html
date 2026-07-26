@@ -193,6 +193,7 @@ const REGIONS = [
   ["canada","Canada"],
   ["mexico","Mexico"],
   ["weurope","Western Europe"],
+  ["latam","Central & South America"],
   ["world","Everything Else"]
 ];
 const SRC_LABEL = { ff: "FF", fp: "FP", kk: "K" };
@@ -298,7 +299,7 @@ function render(){
     grid.className = "grid";
     // US, Canada, Mexico: flat, alphabetical by name.
     // Western Europe / Everything Else: grouped by country.
-    const grouped = (key==="weurope"||key==="world");
+    const grouped = (key==="weurope"||key==="latam"||key==="world");
     list.sort((a,b)=> grouped
       ? (a.country.localeCompare(b.country) || a.name.localeCompare(b.name))
       : a.name.localeCompare(b.name));
@@ -442,7 +443,12 @@ function countChars(){
 
 /* ============================ image bytes ============================ */
 async function fetchBytes(url){
-  const userRelay = (document.getElementById("relayUrl").value||"").trim();
+  let userRelay = (document.getElementById("relayUrl").value||"").trim();
+  // Accept a bare worker address: turn "https://x.workers.dev" or ".../"
+  // into ".../?url=" automatically. Anything already ending in "=" is kept.
+  if(userRelay && !userRelay.endsWith("=")){
+    userRelay = userRelay.replace(/\/+$/,"") + "/?url=";
+  }
   const relays = userRelay ? [userRelay, ...CORS_RELAYS] : CORS_RELAYS;
   const tries = [url, ...relays.map(r=>r+encodeURIComponent(url))];
   let lastErr;
