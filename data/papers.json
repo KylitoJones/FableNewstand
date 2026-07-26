@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-25T20:24:02-06:00",
+ "generated": "2026-07-25T20:48:05-06:00",
  "date": "2026-07-25",
- "count": 1040,
+ "count": 1066,
  "papers": [
   {
    "uid": "kk:us/ny_daily_news",
@@ -6251,7 +6251,7 @@
    "country": "Greece",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/kathimerini-043404r7l.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/kathimerini-043600c1u.webp.jpg"
   },
   {
    "uid": "fp:naftemporiki",
@@ -6394,9 +6394,19 @@
    "img": "https://www.frontpages.com/g/2026/07/25/the-herald-ireland-0318318cj.webp.jpg"
   },
   {
-   "uid": "kk:it/corriere_della_sera",
-   "source": "kk",
-   "id": "it/corriere_della_sera",
+   "uid": "fp:prima-pagina-avvenire",
+   "source": "fp",
+   "id": "prima-pagina-avvenire",
+   "name": "Avvenire",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-corriere-della-sera",
+   "source": "fp",
+   "id": "prima-pagina-corriere-della-sera",
    "name": "Corriere della Sera",
    "country": "Italy",
    "state": null,
@@ -6414,6 +6424,16 @@
    "img": null
   },
   {
+   "uid": "fp:prima-pagina-domani",
+   "source": "fp",
+   "id": "prima-pagina-domani",
+   "name": "Domani",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:elenco-quotidiani",
    "source": "fp",
    "id": "elenco-quotidiani",
@@ -6424,10 +6444,130 @@
    "img": null
   },
   {
-   "uid": "kk:it/sole24ore",
-   "source": "kk",
-   "id": "it/sole24ore",
-   "name": "Il Sole 24 ORE",
+   "uid": "fp:prima-pagina-il-dubbio",
+   "source": "fp",
+   "id": "prima-pagina-il-dubbio",
+   "name": "Il Dubbio",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-fatto-quotidiano",
+   "source": "fp",
+   "id": "prima-pagina-il-fatto-quotidiano",
+   "name": "Il Fatto Quotidiano",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-foglio",
+   "source": "fp",
+   "id": "prima-pagina-il-foglio",
+   "name": "Il Foglio",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-gazzettino",
+   "source": "fp",
+   "id": "prima-pagina-il-gazzettino",
+   "name": "Il Gazzettino",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-giornale",
+   "source": "fp",
+   "id": "prima-pagina-il-giornale",
+   "name": "Il Giornale",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-manifesto",
+   "source": "fp",
+   "id": "prima-pagina-il-manifesto",
+   "name": "Il Manifesto",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-mattino",
+   "source": "fp",
+   "id": "prima-pagina-il-mattino",
+   "name": "Il Mattino",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-messaggero",
+   "source": "fp",
+   "id": "prima-pagina-il-messaggero",
+   "name": "Il Messaggero",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-resto-del-carlino",
+   "source": "fp",
+   "id": "prima-pagina-il-resto-del-carlino",
+   "name": "Il Resto del Carlino",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-riformista",
+   "source": "fp",
+   "id": "prima-pagina-il-riformista",
+   "name": "Il Riformista",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-secolo-xix",
+   "source": "fp",
+   "id": "prima-pagina-il-secolo-xix",
+   "name": "Il Secolo XIX",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-sole-24-ore",
+   "source": "fp",
+   "id": "prima-pagina-il-sole-24-ore",
+   "name": "Il Sole 24 Ore",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-tempo",
+   "source": "fp",
+   "id": "prima-pagina-il-tempo",
+   "name": "Il Tempo",
    "country": "Italy",
    "state": null,
    "region": "weurope",
@@ -6438,6 +6578,56 @@
    "source": "fp",
    "id": "info",
    "name": "Informazioni e Contatti",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-il-quotidiano-del-sud",
+   "source": "fp",
+   "id": "prima-pagina-il-quotidiano-del-sud",
+   "name": "l'Altravoce | Il Quotidiano del Sud",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-l-edicola",
+   "source": "fp",
+   "id": "prima-pagina-l-edicola",
+   "name": "L'Edicola | Nazionale",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-l-identita",
+   "source": "fp",
+   "id": "prima-pagina-l-identita",
+   "name": "L'Identit\u00e0",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-l-opinione-delle-liberta",
+   "source": "fp",
+   "id": "prima-pagina-l-opinione-delle-liberta",
+   "name": "L'Opinione delle Libert\u00e0",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-la-discussione",
+   "source": "fp",
+   "id": "prima-pagina-la-discussione",
+   "name": "La Discussione",
    "country": "Italy",
    "state": null,
    "region": "weurope",
@@ -6464,6 +6654,26 @@
    "img": null
   },
   {
+   "uid": "fp:prima-pagina-la-notizia",
+   "source": "fp",
+   "id": "prima-pagina-la-notizia",
+   "name": "La Notizia",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-la-repubblica",
+   "source": "fp",
+   "id": "prima-pagina-la-repubblica",
+   "name": "La Repubblica",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "ff:ita_ls",
    "source": "ff",
    "id": "ita_ls",
@@ -6474,10 +6684,50 @@
    "img": null
   },
   {
+   "uid": "fp:prima-pagina-la-verita",
+   "source": "fp",
+   "id": "prima-pagina-la-verita",
+   "name": "La Verit\u00e0",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-leggo",
+   "source": "fp",
+   "id": "prima-pagina-leggo",
+   "name": "Leggo | Roma",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-libero",
+   "source": "fp",
+   "id": "prima-pagina-libero",
+   "name": "Libero",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
    "uid": "fp:quotidiani-lombardia",
    "source": "fp",
    "id": "quotidiani-lombardia",
    "name": "Lombardia",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-metro-today",
+   "source": "fp",
+   "id": "prima-pagina-metro-today",
+   "name": "Metro Today",
    "country": "Italy",
    "state": null,
    "region": "weurope",
@@ -6568,6 +6818,16 @@
    "source": "fp",
    "id": "riviste",
    "name": "Riviste",
+   "country": "Italy",
+   "state": null,
+   "region": "weurope",
+   "img": null
+  },
+  {
+   "uid": "fp:prima-pagina-secolo-d-italia",
+   "source": "fp",
+   "id": "prima-pagina-secolo-d-italia",
+   "name": "Secolo d'Italia",
    "country": "Italy",
    "state": null,
    "region": "weurope",
@@ -6921,7 +7181,7 @@
    "country": "Portugal",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/25/jornal-de-noticias-041438jfm.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/jornal-de-noticias-042316w2o.webp.jpg"
   },
   {
    "uid": "fp:nascer-do-sol",
@@ -7481,7 +7741,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/07/26/el-periodico-de-catalunya-041930tl5.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/el-periodico-de-catalunya-043415cjs.webp.jpg"
   },
   {
    "uid": "kk:es/elperiodico_extremadura",
@@ -10291,7 +10551,7 @@
    "country": "Turkey",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/07/25/hurriyet-043450w1d.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/07/26/hurriyet-042353jiw.webp.jpg"
   },
   {
    "uid": "ff:tur_sab",
