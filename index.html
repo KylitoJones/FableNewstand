@@ -60,7 +60,12 @@
   .card .cap .nm{font-size:14.5px;font-weight:600;line-height:1.25}
   .card .cap .loc{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);margin-top:2px}
   .card .stale{position:absolute;left:6px;top:6px;background:var(--ink);color:#fff;
-               font:10px var(--mono);padding:2px 5px;border-radius:2px;opacity:.85}
+               font:10px var(--mono);padding:2px 5px;border-radius:2px;opacity:.85;z-index:1}
+  /* editions older than today recede visually; hover or selection restores them */
+  .card.old-edition img{filter:grayscale(55%) opacity(.62);transition:filter .15s}
+  .card.old-edition .cap{opacity:.62}
+  .card.old-edition:hover img,.card.old-edition.picked img{filter:none}
+  .card.old-edition:hover .cap,.card.old-edition.picked .cap{opacity:1}
   .card.hidden-card{display:none}
   /* signature: grease-pencil pick number */
   .card.picked{outline:3px solid var(--marker);outline-offset:-1px}
@@ -221,13 +226,16 @@ const ffUrl = (id,date,size) => `${FF_CDN}/${id}/${date}/front-page-${size}.jpg`
 const kkUrl = (id,date) => { const [y,m,d]=date.split("-"); return `${KK_IMG}/${y}/${m}/${d}/${id}.750.jpg`; };
 const fpDate = url => { const m=/\/g\/(\d{4})\/(\d{2})\/(\d{2})\//.exec(url||""); return m?`${m[1]}-${m[2]}-${m[3]}`:null; };
 
+// Look back up to 3 days so papers without a Saturday edition (or with a
+// late-uploading Sunday page) show their most recent front page with a date
+// badge instead of disappearing.
+const LOOKBACK = [denverYMD(0), denverYMD(-1), denverYMD(-2), denverYMD(-3)];
+
 // ordered fallback list of {date,url} to try for a paper's grid image
 function gridChain(p){
-  if(p.source==="ff") return [
-    {date:TODAY,url:ffUrl(p.id,TODAY,"medium")},{date:TODAY,url:ffUrl(p.id,TODAY,"large")},
-    {date:YESTERDAY,url:ffUrl(p.id,YESTERDAY,"medium")},{date:YESTERDAY,url:ffUrl(p.id,YESTERDAY,"large")}];
-  if(p.source==="kk") return [
-    {date:TODAY,url:kkUrl(p.id,TODAY)},{date:YESTERDAY,url:kkUrl(p.id,YESTERDAY)}];
+  if(p.source==="ff") return LOOKBACK.flatMap(d=>[
+    {date:d,url:ffUrl(p.id,d,"medium")},{date:d,url:ffUrl(p.id,d,"large")}]);
+  if(p.source==="kk") return LOOKBACK.map(d=>({date:d,url:kkUrl(p.id,d)}));
   if(p.source==="fp" && p.img) return [{date:fpDate(p.img)||TODAY,url:p.img}];
   return [];
 }
@@ -254,6 +262,7 @@ window.imgFallback = function(img){
 };
 function setCardDate(card,date){
   card.dataset.date = date;
+  card.classList.toggle("old-edition", date !== TODAY);
   const b = card.querySelector(".stale");
   if(date === TODAY){ b.style.display = "none"; }
   else { b.style.display = "block"; b.textContent = (date===YESTERDAY) ? "yesterday" : shortDate(date); }
