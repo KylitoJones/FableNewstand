@@ -192,7 +192,7 @@ FF_COUNTRIES = {
     "isl": "Iceland", "ice": "Iceland", "grc": "Greece", "gre": "Greece",
     "mlt": "Malta", "mco": "Monaco", "and": "Andorra", "cyp": "Cyprus",
     "arg": "Argentina", "aus": "Australia", "bra": "Brazil", "bol": "Bolivia",
-    "chl": "Chile", "chi": "Chile", "chn": "China", "col": "Colombia",
+    "chl": "Chile", "chi": "China", "chn": "China", "col": "Colombia",
     "cri": "Costa Rica", "cze": "Czechia", "ecu": "Ecuador", "egy": "Egypt",
     "est": "Estonia", "hkg": "Hong Kong", "hun": "Hungary", "ind": "India",
     "idn": "Indonesia", "isr": "Israel", "jam": "Jamaica", "jpn": "Japan",
@@ -333,8 +333,7 @@ def scrape_freedomforum():
     except Exception:
         pass
     now = denver_now()
-    dates = [now.strftime("%Y-%m-%d"),
-             (now - timedelta(days=1)).strftime("%Y-%m-%d")]
+    dates = [(now - timedelta(days=n)).strftime("%Y-%m-%d") for n in (0, 1, 2)]
     validated, dropped, checked = {}, 0, 0
     for code, p in out.items():
         if code in known:
@@ -577,17 +576,40 @@ def scrape_kiosko():
             except Exception as exc:
                 note(f"  kk skip {gu}: {exc}")
         note(f"  kk {url}: running total {len(out)} ({fetched_geos} new geo pages)")
-    # validate: a paper only exists if its own country dir serves an image
+    # validate: a paper exists if its own country dir served an image in the
+    # last 3 days. Papers that fail get a GRACE period (weeklies, weekday-only
+    # papers, and late Sunday uploads shouldn't be purged on their off days).
+    GRACE_DAYS = 10
     now = denver_now()
-    dates = [(now - timedelta(days=n)).strftime("%Y/%m/%d") for n in (0, 1)]
-    alive, dropped = {}, 0
+    today = now.strftime("%Y-%m-%d")
+    dates = [(now - timedelta(days=n)).strftime("%Y/%m/%d") for n in (0, 1, 2)]
+    last_ok = {}
+    try:
+        for p in json.loads(DATA_FILE.read_text())["papers"]:
+            if p["uid"].startswith("kk:"):
+                last_ok[p["uid"]] = p.get("ok") or today
+    except Exception:
+        pass
+    alive, graced, dropped = {}, 0, 0
     for kid, p in out.items():
         if any(_exists(f"https://img.kiosko.net/{d}/{kid}.750.jpg") for d in dates):
+            p["ok"] = today
             alive[kid] = p
         else:
-            dropped += 1
+            prev = last_ok.get(p["uid"], today)   # new entries get the grace too
+            try:
+                age = (now.date() - datetime.strptime(prev, "%Y-%m-%d").date()).days
+            except Exception:
+                age = 0
+            if age <= GRACE_DAYS:
+                p["ok"] = prev
+                alive[kid] = p
+                graced += 1
+            else:
+                dropped += 1
         time.sleep(0.05)
-    note(f"  kk validation: {dropped} phantom/dead entries dropped")
+    note(f"  kk validation: {graced} kept on grace, {dropped} dropped "
+         f"(image-dead > {GRACE_DAYS} days)")
     print(f"kk: {len(alive)} papers")
     return list(alive.values())
 
@@ -612,7 +634,7 @@ def reclassify(p):
     return p
 
 def main():
-    print("update_papers v6")
+    print("update_papers v6.1")
     kk_list = scrape_kiosko()
     scraped = scrape_freedomforum() + scrape_frontpages() + kk_list
 
