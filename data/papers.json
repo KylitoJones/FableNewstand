@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-19T11:17:16-06:00",
- "date": "2026-09-19",
+ "generated": "2026-09-20T11:35:43-06:00",
+ "date": "2026-09-20",
  "count": 1095,
  "papers": [
   {
@@ -12,7 +12,7 @@
    "state": null,
    "region": "us",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:forbes",
@@ -63,7 +63,7 @@
    "state": null,
    "region": "us",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:sports-illustrated",
@@ -124,7 +124,7 @@
    "state": null,
    "region": "us",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:usat",
@@ -914,7 +914,7 @@
    "country": "United States",
    "state": "District of Columbia",
    "region": "us",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-washington-post-071105e8t.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-washington-post-0702376ha.webp.jpg"
   },
   {
    "uid": "ff:dc_wt",
@@ -2394,7 +2394,7 @@
    "country": "United States",
    "state": "Minnesota",
    "region": "us",
-   "img": "https://www.frontpages.com/g/2026/09/19/star-tribune-0959278xm.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/star-tribune-104751tn0.webp.jpg"
   },
   {
    "uid": "ff:ms_gc",
@@ -2964,7 +2964,7 @@
    "country": "United States",
    "state": "New York",
    "region": "us",
-   "img": "https://www.frontpages.com/g/2026/09/19/el-diario-ny-082348rpq.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/el-diario-ny-080430iw5.webp.jpg"
   },
   {
    "uid": "ff:ny_etts",
@@ -2994,7 +2994,7 @@
    "country": "United States",
    "state": "New York",
    "region": "us",
-   "img": "https://www.frontpages.com/g/2026/09/19/new-york-post-103831rbz.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/new-york-post-10332924y.webp.jpg"
   },
   {
    "uid": "ff:ny_nd",
@@ -3014,7 +3014,7 @@
    "country": "United States",
    "state": "New York",
    "region": "us",
-   "img": "https://www.frontpages.com/g/2026/09/19/new-york-daily-news-100003wwf.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/new-york-daily-news-104927inn.webp.jpg"
   },
   {
    "uid": "ff:ny_od",
@@ -4925,7 +4925,7 @@
    "state": null,
    "region": "canada",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:the-gazette-montreal",
@@ -5036,7 +5036,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:mex_ddy",
@@ -5057,7 +5057,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:mx/mx_debate_mochis",
@@ -5068,7 +5068,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-15"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:el-diario-de-juarez",
@@ -5078,7 +5078,7 @@
    "country": "Mexico",
    "state": null,
    "region": "mexico",
-   "img": "https://www.frontpages.com/g/2026/09/19/el-diario-de-juarez-09180845f.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/el-diario-de-juarez-092900co3.webp.jpg"
   },
   {
    "uid": "kk:mx/mx_eleconomista",
@@ -5089,7 +5089,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:el-economista-mexico",
@@ -5130,7 +5130,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:mex_inf",
@@ -5151,7 +5151,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:el-sol-de-mexico",
@@ -5161,7 +5161,7 @@
    "country": "Mexico",
    "state": null,
    "region": "mexico",
-   "img": "https://www.frontpages.com/g/2026/09/19/el-sol-de-mexico-093007plf.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/el-sol-de-mexico-09135342i.webp.jpg"
   },
   {
    "uid": "kk:mx/mx_sol_puebla",
@@ -5172,7 +5172,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:mx/mx_sol_sinaloa",
@@ -5203,7 +5203,7 @@
    "country": "Mexico",
    "state": null,
    "region": "mexico",
-   "img": "https://www.frontpages.com/g/2026/09/19/el-universal-mexico-120810dja.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/el-universal-mexico-103825v8v.webp.jpg"
   },
   {
    "uid": "fp:esto",
@@ -5213,7 +5213,7 @@
    "country": "Mexico",
    "state": null,
    "region": "mexico",
-   "img": "https://www.frontpages.com/g/2026/09/19/esto-103821nhw.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/esto-1009070ly.webp.jpg"
   },
   {
    "uid": "kk:mx/mx_expreso",
@@ -5224,7 +5224,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:mx/mx_frontera",
@@ -5235,7 +5235,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:mx/mx_cronica_baja_cal",
@@ -5246,7 +5246,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:la-jornada",
@@ -5256,7 +5256,7 @@
    "country": "Mexico",
    "state": null,
    "region": "mexico",
-   "img": "https://www.frontpages.com/g/2026/09/19/la-jornada-131835sdn.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/la-jornada-131317zmn.webp.jpg"
   },
   {
    "uid": "kk:mx/mx_laprensa",
@@ -5267,7 +5267,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:mx/mx_razon",
@@ -5278,7 +5278,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:mex_lrdm",
@@ -5309,7 +5309,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:mx/mx_milenio_leon",
@@ -5320,7 +5320,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:mx/mx_milenio_monterrey",
@@ -5331,7 +5331,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:mx/mx_milenio_puebla",
@@ -5342,7 +5342,7 @@
    "state": null,
    "region": "mexico",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:mex_mil",
@@ -5432,7 +5432,7 @@
    "country": "Mexico",
    "state": null,
    "region": "mexico",
-   "img": "https://www.frontpages.com/g/2026/09/19/noroeste-123026r2l.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/noroeste-123033yrl.webp.jpg"
   },
   {
    "uid": "fp:proceso",
@@ -5492,7 +5492,7 @@
    "country": "Austria",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/die-presse-0655014p5.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/die-presse-071205ei7.webp.jpg"
   },
   {
    "uid": "fp:kronen-zeitung",
@@ -5502,7 +5502,7 @@
    "country": "Austria",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/kronen-zeitung-001737b8f.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/kronen-zeitung-001725nc9.webp.jpg"
   },
   {
    "uid": "ff:aut_kur",
@@ -5592,7 +5592,7 @@
    "country": "Denmark",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/ekstra-bladet-02395366b.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/ekstra-bladet-0158139r2.webp.jpg"
   },
   {
    "uid": "ff:den_pol",
@@ -5612,7 +5612,7 @@
    "country": "Finland",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/hufvudstadsbladet-051543y8o.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/hufvudstadsbladet-04495195l.webp.jpg"
   },
   {
    "uid": "fp:actualite-juive",
@@ -5633,7 +5633,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/centre_presse",
@@ -5644,7 +5644,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/charentelibre",
@@ -5655,7 +5655,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:corse-matin",
@@ -5665,7 +5665,7 @@
    "country": "France",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/corse-matin-031138aum.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/corse-matin-030647jlq.webp.jpg"
   },
   {
    "uid": "kk:fr/courrierpicard",
@@ -5676,7 +5676,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/alsace",
@@ -5687,7 +5687,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/ardennais",
@@ -5698,7 +5698,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/echo",
@@ -5709,7 +5709,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/echorepublicain",
@@ -5720,7 +5720,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/eclairpyrenees",
@@ -5731,7 +5731,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:l-equipe",
@@ -5741,7 +5741,7 @@
    "country": "France",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/l-equipe-002649qmo.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/l-equipe-011906do3.webp.jpg"
   },
   {
    "uid": "kk:fr/esteclair",
@@ -5752,7 +5752,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/estrepublicain",
@@ -5763,7 +5763,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/l_express",
@@ -5785,7 +5785,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/lyonnerepublicaine",
@@ -5796,7 +5796,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:la-croix",
@@ -5817,7 +5817,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/marseillaise",
@@ -5828,7 +5828,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/montagne",
@@ -5839,7 +5839,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/nouvellerepublique",
@@ -5850,7 +5850,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/provence",
@@ -5861,7 +5861,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/republiquepyrenees",
@@ -5872,7 +5872,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:la-tribune",
@@ -5882,7 +5882,7 @@
    "country": "France",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/la-tribune-001616osr.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/la-tribune-0019531ys.webp.jpg"
   },
   {
    "uid": "kk:fr/voixdunord",
@@ -5893,7 +5893,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/bienpublic",
@@ -5904,7 +5904,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/courrierouest",
@@ -5915,7 +5915,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/dauphine",
@@ -5926,7 +5926,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:le-figaro",
@@ -5957,7 +5957,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/journal_centre",
@@ -5968,7 +5968,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/mainelibre",
@@ -5979,7 +5979,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:le-monde",
@@ -5989,7 +5989,7 @@
    "country": "France",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/18/le-monde-232129kbu.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/19/le-monde-233346m0x.webp.jpg"
   },
   {
    "uid": "fp:le-monde-des-livres",
@@ -6029,7 +6029,7 @@
    "country": "France",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/18/le-parisien-231726d9a.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/le-parisien-003533xoc.webp.jpg"
   },
   {
    "uid": "kk:fr/petitbleu",
@@ -6040,7 +6040,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:le-point",
@@ -6061,7 +6061,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/republicainlorrain",
@@ -6072,7 +6072,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/dna",
@@ -6083,7 +6083,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:les-echos",
@@ -6093,7 +6093,7 @@
    "country": "France",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/18/les-echos-072315roj.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/les-echos-072537uqo.webp.jpg"
   },
   {
    "uid": "fp:liberation",
@@ -6114,7 +6114,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/midilibre",
@@ -6125,7 +6125,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/nicematin",
@@ -6136,7 +6136,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/nordeclair",
@@ -6147,7 +6147,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:ouest-france",
@@ -6168,7 +6168,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/progresfecamp",
@@ -6179,7 +6179,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/sudouest",
@@ -6190,7 +6190,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/telegramme",
@@ -6201,7 +6201,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/varmatin",
@@ -6212,7 +6212,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:fr/vosges",
@@ -6223,7 +6223,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:economie-le-parisien",
@@ -6253,7 +6253,7 @@
    "country": "Germany",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/bild-0007247k7.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/bild-00171802y.webp.jpg"
   },
   {
    "uid": "fp:der-spiegel",
@@ -6273,7 +6273,7 @@
    "country": "Germany",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/der-tagesspiegel-0117125oo.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/der-tagesspiegel-011206jvz.webp.jpg"
   },
   {
    "uid": "ff:ger_taz",
@@ -6293,7 +6293,7 @@
    "country": "Germany",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/die-welt-001733u76.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/die-welt-0017206mb.webp.jpg"
   },
   {
    "uid": "ff:ger_faz",
@@ -6314,7 +6314,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:hamburger-morgenpost",
@@ -6344,7 +6344,7 @@
    "country": "Germany",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/13/kicker-065044zwo.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/kicker-070447rkh.webp.jpg"
   },
   {
    "uid": "ff:ger_mm",
@@ -6415,7 +6415,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:suddeutsche-zeitung",
@@ -6445,7 +6445,7 @@
    "country": "Greece",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/kathimerini-044212auj.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/kathimerini-04392628p.webp.jpg"
   },
   {
    "uid": "ff:gree_kn",
@@ -6505,7 +6505,7 @@
    "country": "Greece",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/06/to-vima-072406g8v.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/to-vima-0705353z9.webp.jpg"
   },
   {
    "uid": "fp:irish-daily-mail",
@@ -6515,7 +6515,7 @@
    "country": "Ireland",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/irish-daily-mail-023818yzy.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/irish-daily-mail-044522qe3.webp.jpg"
   },
   {
    "uid": "fp:irish-daily-mirror",
@@ -6525,7 +6525,7 @@
    "country": "Ireland",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/irish-daily-mirror-043541s9j.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/irish-daily-mirror-053027e1f.webp.jpg"
   },
   {
    "uid": "fp:irish-daily-star",
@@ -6566,7 +6566,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:irl_it",
@@ -6627,7 +6627,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:prima-pagina-domani",
@@ -6859,7 +6859,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:it/gazzetta_sport",
@@ -6870,7 +6870,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:prima-pagina-la-notizia",
@@ -6961,7 +6961,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:newsletter",
@@ -7101,7 +7101,7 @@
    "country": "Malta",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/13/illum-065239aur.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/illum-0706366sm.webp.jpg"
   },
   {
    "uid": "fp:malta-business-weekly",
@@ -7121,7 +7121,7 @@
    "country": "Malta",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/16/malta-today-070716ga4.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/malta-today-065535jg4.webp.jpg"
   },
   {
    "uid": "fp:the-malta-independent",
@@ -7131,7 +7131,7 @@
    "country": "Malta",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-malta-independent-0138422y3.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-malta-independent-02593988o.webp.jpg"
   },
   {
    "uid": "fp:times-of-malta",
@@ -7141,7 +7141,7 @@
    "country": "Malta",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/times-of-malta-064146j4j.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/times-of-malta-0222222mj.webp.jpg"
   },
   {
    "uid": "ff:net_ad2",
@@ -7261,7 +7261,7 @@
    "country": "Norway",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/aftenposten-010500rxy.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/aftenposten-000541ycv.webp.jpg"
   },
   {
    "uid": "fp:bergens-tidende",
@@ -7271,7 +7271,7 @@
    "country": "Norway",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/bergens-tidende-0758173cl.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/bergens-tidende-073826hbw.webp.jpg"
   },
   {
    "uid": "fp:dagbladet",
@@ -7291,7 +7291,7 @@
    "country": "Norway",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/dagens-naeringsliv-001722hjl.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/dagens-naeringsliv-001803doh.webp.jpg"
   },
   {
    "uid": "fp:dagsavisen",
@@ -7341,7 +7341,7 @@
    "country": "Norway",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/verdens-gang-023906wti.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/verdens-gang-022812a6n.webp.jpg"
   },
   {
    "uid": "fp:a-bola",
@@ -7351,7 +7351,7 @@
    "country": "Portugal",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/a-bola-041319zxv.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/a-bola-040820qfh.webp.jpg"
   },
   {
    "uid": "fp:correio-da-manha",
@@ -7391,7 +7391,7 @@
    "country": "Portugal",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/jornal-de-noticias-042421ip9.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/jornal-de-noticias-042810e49.webp.jpg"
   },
   {
    "uid": "fp:nascer-do-sol",
@@ -7411,7 +7411,7 @@
    "country": "Portugal",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/o-jogo-0414061m8.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/o-jogo-041914ar3.webp.jpg"
   },
   {
    "uid": "fp:o-jornal-economico",
@@ -7431,7 +7431,7 @@
    "country": "Portugal",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/publico-003821ypt.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/publico-003535rd7.webp.jpg"
   },
   {
    "uid": "fp:record-pt",
@@ -7441,7 +7441,7 @@
    "country": "Portugal",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/record-pt-045141a6u.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/record-pt-050041tsr.webp.jpg"
   },
   {
    "uid": "fp:l-informazione-di-san-marino",
@@ -7451,7 +7451,7 @@
    "country": "San Marino",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/l-informazione-di-san-marino-064835vzb.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/l-informazione-di-san-marino-063618gq2.webp.jpg"
   },
   {
    "uid": "kk:es/20minutos_sevilla",
@@ -7462,7 +7462,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/20minutos_valencia",
@@ -7473,7 +7473,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:20-minutos-barcelona",
@@ -7503,7 +7503,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/abc-es-034148po4.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/abc-es-033958k3o.webp.jpg"
   },
   {
    "uid": "kk:es/abc_sevilla",
@@ -7514,7 +7514,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:spa_ara",
@@ -7535,7 +7535,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:as",
@@ -7545,7 +7545,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/as-001422cdy.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/as-040815lhf.webp.jpg"
   },
   {
    "uid": "kk:es/atlantico_diario",
@@ -7556,7 +7556,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/canarias7",
@@ -7567,7 +7567,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/5dias",
@@ -7578,7 +7578,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/deia",
@@ -7589,7 +7589,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diari_girona",
@@ -7600,7 +7600,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diari_tarragona",
@@ -7611,7 +7611,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diario_burgos",
@@ -7622,7 +7622,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diario_cordoba",
@@ -7633,7 +7633,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:diario-de-ibiza",
@@ -7643,7 +7643,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/diario-de-ibiza-020446fhd.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/diario-de-ibiza-015731ic3.webp.jpg"
   },
   {
    "uid": "kk:es/diario_leon",
@@ -7654,7 +7654,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diario_mallorca",
@@ -7665,7 +7665,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diario_navarra",
@@ -7676,7 +7676,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diario_pontevedra",
@@ -7687,7 +7687,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diario_teruel",
@@ -7698,7 +7698,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diario_avila",
@@ -7709,7 +7709,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/altoaragon",
@@ -7720,7 +7720,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diariosur",
@@ -7731,7 +7731,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diario_informacion",
@@ -7742,7 +7742,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diario_jaen",
@@ -7753,7 +7753,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diario_palentino",
@@ -7764,7 +7764,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:diario-sur",
@@ -7774,7 +7774,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/diario-sur-023918ywo.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/diario-sur-0239263ri.webp.jpg"
   },
   {
    "uid": "kk:es/diario_vasco",
@@ -7785,7 +7785,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/adelantado_segovia",
@@ -7796,7 +7796,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/elcomercio_aviles",
@@ -7807,7 +7807,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/elcomercio_gijon",
@@ -7818,7 +7818,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:el-correo",
@@ -7828,7 +7828,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/el-correo-045245kvd.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/el-correo-0453586rg.webp.jpg"
   },
   {
    "uid": "kk:es/elcorreo_guipuzcoa",
@@ -7839,7 +7839,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/elcorreo_alava",
@@ -7850,7 +7850,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/correo_gallego",
@@ -7861,7 +7861,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/diario_montanes",
@@ -7872,7 +7872,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:el-diario-vasco",
@@ -7882,7 +7882,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/el-diario-vasco-051407vsu.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/el-diario-vasco-051913brm.webp.jpg"
   },
   {
    "uid": "kk:es/eldia",
@@ -7893,7 +7893,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/eldia_soria",
@@ -7904,7 +7904,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/eldia_valladolid",
@@ -7915,7 +7915,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:el-economista",
@@ -7936,7 +7936,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/elfaro_melilla",
@@ -7947,7 +7947,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/ideal_jaen",
@@ -7958,7 +7958,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:el-mundo",
@@ -7968,7 +7968,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/18/el-mundo-231300glz.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/19/el-mundo-2338257vu.webp.jpg"
   },
   {
    "uid": "kk:es/mundodeportivo",
@@ -7979,7 +7979,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:el-pais",
@@ -7989,7 +7989,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/el-pais-002009b82.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/el-pais-002247i9o.webp.jpg"
   },
   {
    "uid": "kk:es/elperiodico",
@@ -8000,7 +8000,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/elperiodico_aragon",
@@ -8011,7 +8011,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:el-periodico-de-catalunya",
@@ -8021,7 +8021,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/el-periodico-de-catalunya-16481060t.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/el-periodico-de-catalunya-1623203q0.webp.jpg"
   },
   {
    "uid": "kk:es/elperiodico_extremadura",
@@ -8032,7 +8032,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/elperiodico_mediterraneo",
@@ -8043,7 +8043,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/progreso",
@@ -8054,7 +8054,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/elpueblo_ceuta",
@@ -8065,7 +8065,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/elpunt_avui",
@@ -8097,7 +8097,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/gara",
@@ -8108,7 +8108,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/heraldo_aragon",
@@ -8119,7 +8119,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/hoy_badajoz",
@@ -8130,7 +8130,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/hoy_caceres",
@@ -8141,7 +8141,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/ideal_granada",
@@ -8152,7 +8152,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/ideal_almeria",
@@ -8163,7 +8163,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:l-esportiu",
@@ -8173,7 +8173,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/18/l-esportiu-233728ma2.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/19/l-esportiu-234810h8y.webp.jpg"
   },
   {
    "uid": "kk:es/nueva_cronica",
@@ -8184,7 +8184,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/lanuevaespana",
@@ -8195,7 +8195,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/opinion_zamora",
@@ -8206,7 +8206,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/opinion_coruna",
@@ -8217,7 +8217,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/opinion_murcia",
@@ -8228,7 +8228,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/opinion_malaga",
@@ -8239,7 +8239,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/laprovincia",
@@ -8250,7 +8250,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:la-razon",
@@ -8260,7 +8260,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/la-razon-023857wel.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/la-razon-022802a04.webp.jpg"
   },
   {
    "uid": "kk:es/laregion",
@@ -8271,7 +8271,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/larioja",
@@ -8282,7 +8282,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/latribuna_albacete",
@@ -8293,7 +8293,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/latribuna_ciudadreal",
@@ -8304,7 +8304,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/latribuna_cuenca",
@@ -8315,7 +8315,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/latribuna_toledo",
@@ -8326,7 +8326,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:spa_lv",
@@ -8347,7 +8347,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/laverdad_murcia",
@@ -8358,7 +8358,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/lavoz",
@@ -8369,7 +8369,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/vozgalicia",
@@ -8380,7 +8380,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/lasprovincias",
@@ -8391,7 +8391,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/levante",
@@ -8402,7 +8402,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:marca",
@@ -8412,7 +8412,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/marca-001908tfj.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/marca-002038w1p.webp.jpg"
   },
   {
    "uid": "kk:es/melilla_hoy",
@@ -8434,7 +8434,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/mundodeportivo_atletico",
@@ -8445,7 +8445,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:mundo-deportivo",
@@ -8455,7 +8455,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/mundo-deportivo-032310vuv.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/mundo-deportivo-032315103.webp.jpg"
   },
   {
    "uid": "kk:es/mundodeportivo_bizkaia",
@@ -8466,7 +8466,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/mundodeportivo_gipuzkoa",
@@ -8477,7 +8477,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/nortecastilla_palencia",
@@ -8488,7 +8488,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/nortecastilla_segovia",
@@ -8499,7 +8499,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/nortecastilla_valladolid",
@@ -8510,7 +8510,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/nos_diario",
@@ -8521,7 +8521,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/periodico_ibiza",
@@ -8532,7 +8532,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:es/regio7",
@@ -8543,7 +8543,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:spa_segre",
@@ -8564,7 +8564,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:sport-es",
@@ -8574,7 +8574,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/sport-es-0059355mr.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/sport-es-005300vah.webp.jpg"
   },
   {
    "uid": "fp:superdeporte",
@@ -8584,7 +8584,7 @@
    "country": "Spain",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/18/superdeporte-233119tyd.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/superdeporte-004541qy5.webp.jpg"
   },
   {
    "uid": "kk:es/ultima_hora",
@@ -8595,7 +8595,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:aftonbladet",
@@ -8605,7 +8605,7 @@
    "country": "Sweden",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/aftonbladet-0553363fc.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/aftonbladet-045446bel.webp.jpg"
   },
   {
    "uid": "fp:dagens-nyheter",
@@ -8615,7 +8615,7 @@
    "country": "Sweden",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/dagens-nyheter-0706401gt.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/dagens-nyheter-064228xyj.webp.jpg"
   },
   {
    "uid": "ff:swe_ex",
@@ -8655,7 +8655,7 @@
    "country": "Sweden",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/sportbladet-061340qov.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/sportbladet-0413543vq.webp.jpg"
   },
   {
    "uid": "fp:svd-naringsliv",
@@ -8675,7 +8675,7 @@
    "country": "Sweden",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/svenska-dagbladet-060847r2j.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/svenska-dagbladet-060940y9d.webp.jpg"
   },
   {
    "uid": "kk:ch/24_heures",
@@ -8686,7 +8686,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:blick",
@@ -8696,7 +8696,7 @@
    "country": "Switzerland",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/blick-001306ymr.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/blick-013935vjl.webp.jpg"
   },
   {
    "uid": "fp:corriere-del-ticino",
@@ -8717,7 +8717,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:la-regione-svizzera",
@@ -8738,7 +8738,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:le-temps",
@@ -8759,7 +8759,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:neue-zurcher-zeitung",
@@ -8769,7 +8769,7 @@
    "country": "Switzerland",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/18/neue-zurcher-zeitung-233104t4k.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/19/neue-zurcher-zeitung-233653mhp.webp.jpg"
   },
   {
    "uid": "kk:ch/tages_anzeiger",
@@ -8780,7 +8780,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:tages-anzeiger",
@@ -8871,7 +8871,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:uk/daily_mail",
@@ -8882,7 +8882,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:uk/daily_star",
@@ -8893,7 +8893,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:uk/daily_telegraph",
@@ -8904,7 +8904,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:derby-telegraph",
@@ -8985,7 +8985,7 @@
    "country": "United Kingdom",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/manchester-evening-news-07523381f.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/manchester-evening-news-065223v40.webp.jpg"
   },
   {
    "uid": "fp:morning-star",
@@ -9015,7 +9015,7 @@
    "country": "United Kingdom",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/13/sunday-mail-041503h03.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/sunday-mail-041525vso.webp.jpg"
   },
   {
    "uid": "kk:uk/economist",
@@ -9026,7 +9026,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:the-herald-scotland",
@@ -9036,7 +9036,7 @@
    "country": "United Kingdom",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-herald-scotland-051422eyl.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/19/the-herald-scotland-235005fdg.webp.jpg"
   },
   {
    "uid": "kk:uk/the_independent",
@@ -9047,7 +9047,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:the-irish-news",
@@ -9077,7 +9077,7 @@
    "country": "United Kingdom",
    "state": null,
    "region": "weurope",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-national-scotland-0001056s6.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/19/the-national-scotland-2348502cl.webp.jpg"
   },
   {
    "uid": "kk:uk/observer",
@@ -9088,7 +9088,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-15"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:uk/scotsman",
@@ -9099,7 +9099,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:uk/western_mail",
@@ -9110,7 +9110,7 @@
    "state": null,
    "region": "weurope",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:western-mail-wales",
@@ -9151,7 +9151,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:ar/ar_hoy",
@@ -9162,7 +9162,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:ar/la_capital",
@@ -9173,7 +9173,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:ar/ar_ancasti",
@@ -9184,7 +9184,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:ar/ar_chubut",
@@ -9195,7 +9195,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:ar/ar_cronista",
@@ -9206,7 +9206,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:arg_et",
@@ -9227,7 +9227,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:la-nacion",
@@ -9237,7 +9237,7 @@
    "country": "Argentina",
    "state": null,
    "region": "latam",
-   "img": "https://www.frontpages.com/g/2026/09/19/la-nacion-100332r7c.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/la-nacion-091845oix.webp.jpg"
   },
   {
    "uid": "kk:ar/voz_chaco",
@@ -9248,7 +9248,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:ar/ar_voz_interior",
@@ -9259,7 +9259,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:ole-ar",
@@ -9269,7 +9269,7 @@
    "country": "Argentina",
    "state": null,
    "region": "latam",
-   "img": "https://www.frontpages.com/g/2026/09/19/ole-ar-06151561s.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/ole-ar-063254a3h.webp.jpg"
   },
   {
    "uid": "kk:ar/ar_rio_negro",
@@ -9280,7 +9280,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:ar/tiempo_argentino",
@@ -9291,7 +9291,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-15"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:bra_atarde",
@@ -9322,7 +9322,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:bra_diar",
@@ -9343,7 +9343,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:bra_dt",
@@ -9374,7 +9374,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:br/o_dia",
@@ -9385,7 +9385,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:bra_oe",
@@ -9406,7 +9406,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:o-globo",
@@ -9416,7 +9416,7 @@
    "country": "Brazil",
    "state": null,
    "region": "latam",
-   "img": "https://www.frontpages.com/g/2026/09/19/o-globo-063831r6b.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/o-globo-064350gdw.webp.jpg"
   },
   {
    "uid": "fp:valor-economico",
@@ -9437,7 +9437,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:cl/diario_concepcion",
@@ -9448,7 +9448,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:chil_em",
@@ -9469,7 +9469,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:co/co_espectador",
@@ -9480,7 +9480,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:co/co_heraldo",
@@ -9491,7 +9491,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:col_eu",
@@ -9512,7 +9512,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:col_lr",
@@ -9543,7 +9543,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:pan_lep",
@@ -9564,7 +9564,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:pe/pe_comercio",
@@ -9575,7 +9575,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:pe/pe_republica",
@@ -9586,7 +9586,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:pe/pe_libero",
@@ -9597,7 +9597,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:uy/uy_elpais",
@@ -9608,7 +9608,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:uy/uy_telegrafo",
@@ -9619,7 +9619,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:ve/ve_2001",
@@ -9630,7 +9630,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:ve/ve_meridiano",
@@ -9641,7 +9641,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "kk:ve/ve_universal",
@@ -9652,7 +9652,7 @@
    "state": null,
    "region": "latam",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "fp:gazeta-panorama",
@@ -9682,7 +9682,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/herald-sun-005618ajt.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/herald-sun-012302s3c.webp.jpg"
   },
   {
    "uid": "fp:the-advertiser",
@@ -9692,7 +9692,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/18/the-advertiser-230829h3u.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/19/the-advertiser-23462865o.webp.jpg"
   },
   {
    "uid": "fp:the-age",
@@ -9702,7 +9702,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/18/the-age-230841iui.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-age-012105do4.webp.jpg"
   },
   {
    "uid": "fp:the-australian",
@@ -9732,7 +9732,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-canberra-times-0008569wc.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-canberra-times-000357g94.webp.jpg"
   },
   {
    "uid": "fp:the-courier-mail",
@@ -9742,7 +9742,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-courier-mail-005603da5.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-courier-mail-012238x64.webp.jpg"
   },
   {
    "uid": "fp:the-daily-telegraph-sydney",
@@ -9752,7 +9752,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-daily-telegraph-sydney-005653o8z.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-daily-telegraph-sydney-012216qr1.webp.jpg"
   },
   {
    "uid": "fp:the-guardian-australia",
@@ -9782,7 +9782,7 @@
    "country": "Australia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-sydney-morning-herald-005518wu1.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-sydney-morning-herald-012124xjt.webp.jpg"
   },
   {
    "uid": "ff:aus_wa",
@@ -9802,7 +9802,7 @@
    "country": "Bangladesh",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/jugantor-071009b1b.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/jugantor-065329bor.webp.jpg"
   },
   {
    "uid": "fp:prothom-alo",
@@ -9812,7 +9812,7 @@
    "country": "Bangladesh",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/prothom-alo-070929rqd.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/prothom-alo-064936xw8.webp.jpg"
   },
   {
    "uid": "fp:samakal",
@@ -9832,7 +9832,7 @@
    "country": "Bangladesh",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-business-standard-020442xef.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-business-standard-020934rby.webp.jpg"
   },
   {
    "uid": "fp:the-daily-ittefaq",
@@ -9842,7 +9842,7 @@
    "country": "Bangladesh",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-daily-ittefaq-065819skt.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-daily-ittefaq-064116l8p.webp.jpg"
   },
   {
    "uid": "ff:chi_cd",
@@ -9872,7 +9872,7 @@
    "country": "China",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/people-s-daily-020057w28.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/19/people-s-daily-234342au8.webp.jpg"
   },
   {
    "uid": "ff:chi_pd",
@@ -9892,7 +9892,7 @@
    "country": "China",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/south-china-morning-post-001629o8f.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/south-china-morning-post-000637ddd.webp.jpg"
   },
   {
    "uid": "fp:la-voce-del-popolo",
@@ -9962,7 +9962,7 @@
    "country": "Hong Kong",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/oriental-daily-news-010816drf.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/oriental-daily-news-012543ujf.webp.jpg"
   },
   {
    "uid": "fp:dainik-jagran",
@@ -9972,7 +9972,7 @@
    "country": "India",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/dainik-jagran-0948320cf.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/dainik-jagran-094318xmw.webp.jpg"
   },
   {
    "uid": "fp:hindustan-times",
@@ -9982,7 +9982,7 @@
    "country": "India",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/hindustan-times-020149pon.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/hindustan-times-030531vjw.webp.jpg"
   },
   {
    "uid": "fp:india-today",
@@ -10052,7 +10052,7 @@
    "country": "India",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-economic-times-065410hi5.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-economic-times-063823d2f.webp.jpg"
   },
   {
    "uid": "fp:the-hindu",
@@ -10062,7 +10062,7 @@
    "country": "India",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-hindu-015421obm.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-hindu-013523tv3.webp.jpg"
   },
   {
    "uid": "ff:ind_ss",
@@ -10082,7 +10082,7 @@
    "country": "India",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-times-of-india-113133gav.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-times-of-india-0644449vu.webp.jpg"
   },
   {
    "uid": "fp:kompas",
@@ -10092,7 +10092,7 @@
    "country": "Indonesia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/kompas-000910cd8.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/kompas-000410qiv.webp.jpg"
   },
   {
    "uid": "fp:the-jakarta-post",
@@ -10112,7 +10112,7 @@
    "country": "Israel",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/18/haaretz-001408s9r.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/haaretz-000913l4e.webp.jpg"
   },
   {
    "uid": "ff:isr_ha",
@@ -10193,7 +10193,7 @@
    "country": "Japan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/mainichi-shinbun-001719dvq.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/mainichi-shinbun-002034vhh.webp.jpg"
   },
   {
    "uid": "fp:the-japan-times",
@@ -10213,7 +10213,7 @@
    "country": "Japan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/yomiuri-shinbun-001011bry.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/yomiuri-shinbun-002109nx0.webp.jpg"
   },
   {
    "uid": "fp:the-jordan-times",
@@ -10223,7 +10223,7 @@
    "country": "Jordan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/18/the-jordan-times-001406w85.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-jordan-times-00041587x.webp.jpg"
   },
   {
    "uid": "fp:daily-nation-kenya",
@@ -10233,7 +10233,7 @@
    "country": "Kenya",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/daily-nation-kenya-000858iqi.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/daily-nation-kenya-000359i2u.webp.jpg"
   },
   {
    "uid": "ff:kos_kd",
@@ -10273,7 +10273,7 @@
    "country": "Malaysia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/berita-harian-malaysia-000843ibp.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/berita-harian-malaysia-000345fcf.webp.jpg"
   },
   {
    "uid": "fp:harian-metro",
@@ -10283,7 +10283,7 @@
    "country": "Malaysia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/harian-metro-000935mph.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/harian-metro-0004412ln.webp.jpg"
   },
   {
    "uid": "fp:new-straits-times",
@@ -10293,7 +10293,7 @@
    "country": "Malaysia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/new-straits-times-000924o4d.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/new-straits-times-0004295fh.webp.jpg"
   },
   {
    "uid": "fp:sin-chew-daily",
@@ -10303,7 +10303,7 @@
    "country": "Malaysia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/sin-chew-daily-000816411.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/sin-chew-daily-000320eis.webp.jpg"
   },
   {
    "uid": "ff:mal_star",
@@ -10323,7 +10323,7 @@
    "country": "Malaysia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-sun-malaysia-000928f0f.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-sun-malaysia-000434i3b.webp.jpg"
   },
   {
    "uid": "ff:mor_aa",
@@ -10403,7 +10403,7 @@
    "country": "Nigeria",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/businessday-070412b8k.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/businessday-083923onh.webp.jpg"
   },
   {
    "uid": "fp:daily-trust",
@@ -10443,7 +10443,7 @@
    "country": "Nigeria",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/nigerian-tribune-072726ujn.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/nigerian-tribune-081706a0g.webp.jpg"
   },
   {
    "uid": "fp:punch-sports-extra",
@@ -10453,7 +10453,7 @@
    "country": "Nigeria",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/punch-sports-extra-0730547fo.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/punch-sports-extra-081319igj.webp.jpg"
   },
   {
    "uid": "fp:the-daily-times-nigeria",
@@ -10463,7 +10463,7 @@
    "country": "Nigeria",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-daily-times-nigeria-095647tcv.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-daily-times-nigeria-081623lct.webp.jpg"
   },
   {
    "uid": "fp:the-guardian-nigeria",
@@ -10483,7 +10483,7 @@
    "country": "Nigeria",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-nation-nigeria-072631ngc.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-nation-nigeria-081603ig8.webp.jpg"
   },
   {
    "uid": "fp:the-punch",
@@ -10493,7 +10493,7 @@
    "country": "Nigeria",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-punch-070550wvo.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-punch-064653byb.webp.jpg"
   },
   {
    "uid": "fp:the-sun-nigeria",
@@ -10503,7 +10503,7 @@
    "country": "Nigeria",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-sun-nigeria-095807mb2.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-sun-nigeria-081646wkk.webp.jpg"
   },
   {
    "uid": "fp:thisday",
@@ -10513,7 +10513,7 @@
    "country": "Nigeria",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/thisday-09571971t.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/thisday-081741sks.webp.jpg"
   },
   {
    "uid": "fp:vanguard-nigeria",
@@ -10523,7 +10523,7 @@
    "country": "Nigeria",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/vanguard-nigeria-025703rpe.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/vanguard-nigeria-052933m4v.webp.jpg"
   },
   {
    "uid": "fp:daily-jang",
@@ -10533,7 +10533,7 @@
    "country": "Pakistan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/daily-jang-070829bj0.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/daily-jang-064754jxd.webp.jpg"
   },
   {
    "uid": "ff:pak_dawn",
@@ -10553,7 +10553,7 @@
    "country": "Palestine",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/al-quds-0950452br.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/al-quds-1045399uh.webp.jpg"
   },
   {
    "uid": "ff:phi_mb",
@@ -10573,7 +10573,7 @@
    "country": "Philippines",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/philippine-daily-inquirer-001756zqt.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/philippine-daily-inquirer-000529ie9.webp.jpg"
   },
   {
    "uid": "fp:the-philippine-star",
@@ -10583,7 +10583,7 @@
    "country": "Philippines",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-philippine-star-000941q0i.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-philippine-star-000446omz.webp.jpg"
   },
   {
    "uid": "fp:fakt",
@@ -10653,7 +10653,7 @@
    "country": "Qatar",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/gulf-times-063203z8m.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/gulf-times-061442j7b.webp.jpg"
   },
   {
    "uid": "fp:gulf-times-business",
@@ -10663,7 +10663,7 @@
    "country": "Qatar",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/gulf-times-business-165823kes.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/gulf-times-business-16483447k.webp.jpg"
   },
   {
    "uid": "fp:gulf-times-sport",
@@ -10743,7 +10743,7 @@
    "country": "Saudi Arabia",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/18/arab-news-231049svm.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/19/arab-news-235028qhn.webp.jpg"
   },
   {
    "uid": "ff:sing_lz",
@@ -10773,7 +10773,7 @@
    "country": "Singapore",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/the-straits-times-001740hwd.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/the-straits-times-000549u5g.webp.jpg"
   },
   {
    "uid": "ff:slk_den",
@@ -10844,7 +10844,7 @@
    "state": null,
    "region": "world",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:saf_tm",
@@ -10875,7 +10875,7 @@
    "state": null,
    "region": "world",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:skor_jai",
@@ -10945,7 +10945,7 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/china-times-000948bu1.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/china-times-000453eb2.webp.jpg"
   },
   {
    "uid": "fp:commercial-times",
@@ -10955,7 +10955,7 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/commercial-times-001651j00.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/commercial-times-000622zlk.webp.jpg"
   },
   {
    "uid": "fp:economic-daily-news",
@@ -10965,7 +10965,7 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/economic-daily-news-000952205.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/economic-daily-news-000457kth.webp.jpg"
   },
   {
    "uid": "fp:liberty-times",
@@ -10975,7 +10975,7 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/liberty-times-000827o3e.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/liberty-times-0003297wi.webp.jpg"
   },
   {
    "uid": "fp:taipei-times",
@@ -10985,7 +10985,7 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/taipei-times-00175179w.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/taipei-times-0005350sv.webp.jpg"
   },
   {
    "uid": "ff:taiw_tmt",
@@ -11005,7 +11005,7 @@
    "country": "Taiwan",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/united-daily-news-0009012l0.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/united-daily-news-000402hv5.webp.jpg"
   },
   {
    "uid": "fp:bangkok-post",
@@ -11015,7 +11015,7 @@
    "country": "Thailand",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/bangkok-post-000905a28.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/bangkok-post-0004063bf.webp.jpg"
   },
   {
    "uid": "ff:tur_ds",
@@ -11045,7 +11045,7 @@
    "country": "Turkey",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/hurriyet-04243535s.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/hurriyet-041436jbr.webp.jpg"
   },
   {
    "uid": "ff:tur_sab",
@@ -11076,7 +11076,7 @@
    "state": null,
    "region": "world",
    "img": null,
-   "ok": "2026-09-19"
+   "ok": "2026-09-20"
   },
   {
    "uid": "ff:tur_yen",
@@ -11136,7 +11136,7 @@
    "country": "Vietnam",
    "state": null,
    "region": "world",
-   "img": "https://www.frontpages.com/g/2026/09/19/nhan-dan-000839e63.webp.jpg"
+   "img": "https://www.frontpages.com/g/2026/09/20/nhan-dan-000341c6u.webp.jpg"
   },
   {
    "uid": "fp:viet-nam-news",
